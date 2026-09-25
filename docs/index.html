@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>True Value of Video Games (test)</title>
+<style>
+  :root { --ink:#1d2b24; --paper:#fbfcfa; --muted:#6a7a71; --line:#dfe6e1; --money:#1f6b45; --warn:#9a5b00; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e4ece7; --paper:#141a17; --muted:#94a39a; --line:#2a342f; --money:#6fd19c; --warn:#e3a54a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font: 16px/1.5 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  main { max-width: 1000px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  .meta { color: var(--muted); font-size: .9rem; margin: 0 0 20px; }
+  input { width: 100%; font: inherit; font-size: 1.15rem; padding: 12px 14px;
+          border: 2px solid var(--line); border-radius: 8px; background: transparent; color: inherit; }
+  input:focus { outline: none; border-color: var(--money); }
+  .scroll { overflow-x: auto; margin-top: 16px; }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  th, td { text-align: right; padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th:nth-child(2), td:nth-child(2), th:last-child, td:last-child { text-align: left; }
+  th { cursor: pointer; user-select: none; color: var(--muted); font-weight: 600; }
+  th:hover { color: var(--ink); }
+  td.tv { color: var(--money); font-weight: 700; font-size: 1.05rem; }
+  td.flags { color: var(--warn); font-size: .85rem; white-space: normal; min-width: 140px; }
+  td a { color: inherit; }
+  .status { color: var(--muted); padding: 24px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>True Value of Video Games</h1>
+  <p class="meta" id="meta">Loading data…</p>
+  <input id="q" type="search" placeholder="Search a Steam game" autocomplete="off" aria-label="Search a Steam game">
+  <div class="scroll">
+    <table>
+      <thead><tr>
+        <th data-k="n" title="Steam user reviews">#</th>
+        <th data-k="name">Game</th>
+        <th data-k="TV">True value</th>
+        <th data-k="C" title="Content score (C)">Content</th>
+        <th data-k="QM" title="Quality modifier (QM)">Quality ×</th>
+        <th data-k="H" title="Gameplay hours used (H)">Hours</th>
+        <th data-k="Pc" title="Metacritic critic score (Pc)">Critic</th>
+        <th data-k="Pu" title="Steam positive % (Pu)">User %</th>
+        <th data-k="n" title="Steam review count (n)">Reviews</th>
+        <th data-k="flags">Notes</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <p class="status" id="status"></p>
+</main>
+<script>
+let games = [], sortKey = "n", sortDir = -1;
+const $ = id => document.getElementById(id);
+const fmt = (v, d) => v === null || v === undefined || v === "" ? "–" : Number(v).toLocaleString(undefined, {maximumFractionDigits: d});
+
+fetch("games.json").then(r => { if (!r.ok) throw 0; return r.json(); }).then(data => {
+  const f = data.fields;
+  games = data.rows.map(r => Object.fromEntries(f.map((k, i) => [k, r[i]])));
+  games.forEach(g => g._s = g.name.toLowerCase());
+  const m = data.meta;
+  $("meta").textContent = `${m.scored.toLocaleString()} Steam games scored with formula v${m.algorithm_version}. ` +
+    `Critic scores checked for ${m.critic_checked.toLocaleString()} games so far. Updated ${m.updated}.`;
+  render();
+}).catch(() => {
+  $("meta").textContent = "No data yet. The first daily run hasn't finished.";
+});
+
+function render() {
+  const q = $("q").value.trim().toLowerCase();
+  let list = q ? games.filter(g => g._s.includes(q)) : games;
+  list = [...list].sort((a, b) => {
+    let x = a[sortKey], y = b[sortKey];
+    if (x === null) return 1; if (y === null) return -1;
+    return (typeof x === "string" ? x.localeCompare(y) : x - y) * sortDir;
+  });
+  const shown = list.slice(0, 100);
+  $("rows").innerHTML = shown.map((g, i) => `<tr>
+    <td>${i + 1}</td>
+    <td><a href="https://store.steampowered.com/app/${g.appid}" target="_blank" rel="noopener">${g.name.replace(/</g, "&lt;")}</a></td>
+    <td class="tv">$${fmt(g.TV, 2)}</td>
+    <td>${fmt(g.C, 1)}</td><td>${fmt(g.QM, 3)}</td><td>${fmt(g.H, 1)}</td>
+    <td>${fmt(g.Pc, 0)}</td><td>${fmt(g.Pu, 1)}</td><td>${fmt(g.n, 0)}</td>
+    <td class="flags">${g.flags || ""}</td></tr>`).join("");
+  $("status").textContent = list.length === 0 ? "No games match that search. Try part of the title."
+    : list.length > 100 ? `Showing 100 of ${list.length.toLocaleString()} matches. Type more of the title to narrow it down.` : "";
+}
+$("q").addEventListener("input", render);
+document.querySelectorAll("th").forEach(th => th.addEventListener("click", () => {
+  const k = th.dataset.k;
+  sortDir = k === sortKey ? -sortDir : (k === "name" || k === "flags" ? 1 : -1);
+  sortKey = k; render();
+}));
+</script>
+</body>
+</html>
