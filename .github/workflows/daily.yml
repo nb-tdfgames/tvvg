@@ -1,0 +1,55 @@
+name: Daily True Value update
+
+on:
+  schedule:
+    - cron: "0 7 * * *"      # every day at 07:00 UTC (2am Central)
+  workflow_dispatch:          # adds a "Run workflow" button for manual runs
+    inputs:
+      max_pages:
+        description: "SteamSpy pages (1 page = 1,000 games). Leave blank for all."
+        required: false
+        default: ""
+      critic_minutes:
+        description: "Minutes to spend fetching critic scores"
+        required: false
+        default: "180"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Check the formula still matches the spec
+        run: python -m pytest -q
+
+      - name: Build
+        run: |
+          ARGS="--critic-minutes ${{ github.event.inputs.critic_minutes || '180' }}"
+          if [ -n "${{ github.event.inputs.max_pages }}" ]; then
+            ARGS="$ARGS --max-pages ${{ github.event.inputs.max_pages }}"
+          fi
+          python -m tvvg.build $ARGS
+
+      - name: Save results
+        run: |
+          git config user.name "tvvg-bot"
+          git config user.email "tvvg-bot@users.noreply.github.com"
+          git add docs/games.json docs/games.csv data/critic_cache.json
+          git diff --cached --quiet || git commit -m "Daily data update $(date -u +%F)"
+          git push
