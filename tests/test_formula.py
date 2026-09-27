@@ -40,21 +40,34 @@ def test_worked_example():
 def test_score_game_rules():
     rec = {"name": "X", "positive": 0, "negative": 0}
     info = {"ok": True, "type": "game", "metacritic": 80, "pos": 900, "neg": 100,
-            "h_median_min": 600, "h_sample": 100, "checked": "2026-01-01T00:00:00+00:00"}
+            "h_median_min": 600, "h_sample": 100, "free": False,
+            "checked": "2026-01-01T00:00:00+00:00"}
     row, _ = build.score_game("1", rec, info)
+    expect = f.true_value(10, 80, 90, 1000)["TV"]
     assert row["H"] == 10.0 and row["Pc"] == 80 and row["n"] == 1000
-    # no critic score -> Q equals Pu under the "use_user" rule
+    assert close(row["fair"], round(expect, 2), 0.001)
+    assert row["price"] is None and 1 <= row["content"] <= 10 and 1 <= row["quality"] <= 10
+    # formula internals are never published
+    assert not {"TV", "C", "Q", "QM", "Cf"} & set(row)
+    # sale price is carried through
+    row, _ = build.score_game("1", rec, info, {"final": 1499, "initial": 2999, "discount": 50})
+    assert row["price"] == 14.99 and row["was"] == 29.99 and row["off"] == 50
+    # no critic score -> uses player reviews, with a note
     row, _ = build.score_game("1", rec, {**info, "metacritic": None})
-    assert close(row["Q"], 90.0, 0.01) and "no critic score" in row["flags"]
-    # small playtime sample is flagged
+    assert close(row["fair"], round(f.true_value(10, 90, 90, 1000)["TV"], 2), 0.001)
+    assert "No critic score" in row["notes"]
+    # small playtime sample gets a note
     row, _ = build.score_game("1", rec, {**info, "h_sample": 5})
-    assert "only 5 reviewers" in row["flags"]
-    # no playtime -> not scored
-    row, why = build.score_game("1", rec, {**info, "h_median_min": None, "h_sample": 0})
-    assert row is None and why == "no_playtime"
-    # not looked up yet -> not scored
-    row, why = build.score_game("1", rec, None)
-    assert row is None and why == "not_checked_yet"
-    # DLC -> not scored
-    row, why = build.score_game("1", rec, {**info, "type": "dlc"})
-    assert row is None and why == "not_a_game"
+    assert "only a few players" in row["notes"]
+    # can't score
+    assert build.score_game("1", rec, {**info, "h_median_min": None, "h_sample": 0}) == (None, "no_playtime")
+    assert build.score_game("1", rec, None) == (None, "not_checked_yet")
+    assert build.score_game("1", rec, {**info, "type": "dlc"}) == (None, "not_a_game")
+
+
+def test_price_parsing():
+    from tvvg.prices import parse
+    item = {"success": True, "data": {"price_overview": {"currency": "USD", "initial": 5999, "final": 3599, "discount_percent": 40}}}
+    assert parse(item) == {"final": 3599, "initial": 5999, "discount": 40}
+    assert parse({"success": True, "data": []}) is None      # free game in batch mode
+    assert parse({"success": False}) is None
