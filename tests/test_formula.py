@@ -51,7 +51,11 @@ def test_score_game_rules():
     assert not {"TV", "C", "Q", "QM", "Cf"} & set(row)
     # sale price is carried through
     row, _ = build.score_game("1", rec, info, {"final": 1499, "initial": 2999, "discount": 50})
-    assert row["price"] == 14.99 and row["was"] == 29.99 and row["off"] == 50
+    assert row["price"] == 14.99 and row["was"] == 29.99 and row["off"] == 50 and row["avail"] == "paid"
+    # price status when there's no price
+    assert build.score_game("1", rec, {**info, "free": True})[0]["avail"] == "free"
+    assert build.score_game("1", rec, info, None, True)[0]["avail"] == "none"
+    assert build.score_game("1", rec, info)[0]["avail"] == "unknown"
     # no critic score -> uses player reviews, with a note
     row, _ = build.score_game("1", rec, {**info, "metacritic": None})
     assert close(row["fair"], round(f.true_value(10, 90, 90, 1000)["TV"], 2), 0.001)
@@ -69,5 +73,43 @@ def test_price_parsing():
     from tvvg.prices import parse
     item = {"success": True, "data": {"price_overview": {"currency": "USD", "initial": 5999, "final": 3599, "discount_percent": 40}}}
     assert parse(item) == {"final": 3599, "initial": 5999, "discount": 40}
-    assert parse({"success": True, "data": []}) is None      # free game in batch mode
+    assert parse({"success": True, "data": []}) is None          # batch mode, no price
     assert parse({"success": False}) is None
+    assert parse({"success": True, "data": {"is_free": True}}) is None
+    # sold only as editions: cheapest paid edition, free licenses ignored
+    eds = {"success": True, "data": {"is_free": False, "package_groups": [{"subs": [
+        {"is_free_license": True, "price_in_cents_with_discount": 0},
+        {"is_free_license": False, "price_in_cents_with_discount": 4999, "percent_savings": 0},
+        {"is_free_license": False, "price_in_cents_with_discount": 1500, "percent_savings": 50}]}]}}
+    assert parse(eds) == {"final": 1500, "initial": 3000, "discount": 50}
+
+
+def test_failed_batches_are_split(monkeypatch):
+    from tvvg import prices
+    monkeypatch.setattr(prices, "SLEEP", 0)
+    bad = "13"   # one game that makes Steam reject any batch containing it
+    def fake_get(params):
+        ids = params["appids"].split(",")
+        if bad in ids:
+            return None, False
+        if "filters" in params:
+            return {a: {"success": True, "data": {"price_overview": {"currency": "USD", "initial": 999, "final": 999, "discount_percent": 0}}} for a in ids}, False
+        return {a: {"success": True, "data": {"is_free": False}} for a in ids}, False
+    monkeypatch.setattr(prices, "_get", fake_get)
+    ids = [str(i) for i in range(1, 121)]
+    got, nfs = prices.fetch_prices(ids, 5, {})
+    assert len(got) == 119 and bad not in got   # only the bad game loses its price
+
+
+def test_free_games_found_in_full_lookup(monkeypatch):
+    from tvvg import prices
+    monkeypatch.setattr(prices, "SLEEP", 0)
+    def fake_get(params):
+        a = params["appids"]
+        if "filters" in params:
+            return {x: {"success": True, "data": []} for x in a.split(",")}, False
+        return {a: {"success": True, "data": {"is_free": a == "1"}}}, False
+    monkeypatch.setattr(prices, "_get", fake_get)
+    cache = {"1": {}, "2": {}}
+    got, nfs = prices.fetch_prices(["1", "2"], 5, cache)
+    assert got == {} and cache["1"]["free"] is True and nfs == {"2"}
