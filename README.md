@@ -18,8 +18,10 @@ Every day at 2am Central, GitHub runs a script that:
    games in 3 hours. The most popular games are scored on day one; the full
    catalog of ~82,000 fills in over about three weeks. Results are refreshed
    every 30 days.
-3. Runs every game through the formula in `tvvg/formula.py`.
-4. Saves the results. Your search page updates automatically.
+3. Gets today's price for every scored game from the US Steam store,
+   including sale prices and discounts.
+4. Runs every game through the formula in `tvvg/formula.py`.
+5. Saves the results. Your search page updates automatically.
 
 ## One-time setup (about 20 minutes, all in your browser)
 
