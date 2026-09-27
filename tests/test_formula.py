@@ -38,16 +38,23 @@ def test_worked_example():
 
 
 def test_score_game_rules():
-    rec = {"name": "X", "positive": 900, "negative": 100,
-           "median_forever": 600, "average_forever": 900}
-    row, _ = build.score_game("1", rec, {"metacritic": 80, "type": "game"})
+    rec = {"name": "X", "positive": 0, "negative": 0}
+    info = {"ok": True, "type": "game", "metacritic": 80, "pos": 900, "neg": 100,
+            "h_median_min": 600, "h_sample": 100, "checked": "2026-01-01T00:00:00+00:00"}
+    row, _ = build.score_game("1", rec, info)
     assert row["H"] == 10.0 and row["Pc"] == 80 and row["n"] == 1000
     # no critic score -> Q equals Pu under the "use_user" rule
-    row, _ = build.score_game("1", rec, {"metacritic": None, "type": "game"})
+    row, _ = build.score_game("1", rec, {**info, "metacritic": None})
     assert close(row["Q"], 90.0, 0.01) and "no critic score" in row["flags"]
+    # small playtime sample is flagged
+    row, _ = build.score_game("1", rec, {**info, "h_sample": 5})
+    assert "only 5 reviewers" in row["flags"]
     # no playtime -> not scored
-    row, why = build.score_game("1", {**rec, "median_forever": 0}, None)
+    row, why = build.score_game("1", rec, {**info, "h_median_min": None, "h_sample": 0})
     assert row is None and why == "no_playtime"
+    # not looked up yet -> not scored
+    row, why = build.score_game("1", rec, None)
+    assert row is None and why == "not_checked_yet"
     # DLC -> not scored
-    row, why = build.score_game("1", rec, {"metacritic": None, "type": "dlc"})
+    row, why = build.score_game("1", rec, {**info, "type": "dlc"})
     assert row is None and why == "not_a_game"
