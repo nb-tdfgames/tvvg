@@ -74,7 +74,7 @@ def _details(appid):
     data = item.get("data") or {}
     mc = data.get("metacritic") or {}
     return {"ok": bool(item.get("success")), "type": data.get("type"),
-            "metacritic": mc.get("score")}, False
+            "metacritic": mc.get("score"), "img": data.get("header_image")}, False
 
 
 def _reviews(appid):

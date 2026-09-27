@@ -91,6 +91,7 @@ def score_game(appid, rec, info):
         "Pu": round(pu, 1) if n > 0 else None,
         "n": n,
         "flags": ", ".join(flags),
+        "img": info.get("img"),
     }, None
 
 
@@ -131,7 +132,7 @@ def main():
 def write_outputs(rows, skipped, catalog_size, cache):
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    fields = ["appid", "name", "TV", "C", "QM", "Q", "H", "Pc", "Pu", "n", "flags"]
+    fields = ["appid", "name", "TV", "C", "QM", "Q", "H", "Pc", "Pu", "n", "flags", "img"]
 
     meta = {
         "updated": now,
