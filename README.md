@@ -1,4 +1,7 @@
-# True Value of Video Games — test build
+# Demystify Price
+
+"Let's clear the air." Fair values for Steam games, calculated with the
+True Value of Video Games algorithm (v0.1, in `tvvg/formula.py`).
 
 Runs every Steam game through the frozen v0.1 formula once a day and
 publishes a searchable page. No servers, no cost, no AI running in the loop.
