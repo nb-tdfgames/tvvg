@@ -1,41 +1,194 @@
-appid,name,TV,C,QM,Q,H,Pc,Pu,n,flags
-271590,Grand Theft Auto V Legacy,67.79,63.09,1.0746,88.82,84.6,96,87.7,2079523,
-4000,Garry's Mod,57.78,51.26,1.1272,96.88,51.1,,96.9,1267252,no critic score
-553850,HELLDIVERS 2,82.49,81.5,1.0121,75.61,190.1,,75.6,1164354,no critic score
-1174180,Red Dead Redemption 2,68.13,62.06,1.0979,92.57,81.0,93,92.5,922133,
-739630,Phasmophobia,66.24,59.68,1.1098,94.37,73.3,,94.4,840088,no critic score
-242760,The Forest,39.84,36.04,1.1053,93.69,24.6,83,95.5,683204,
-322170,Geometry Dash,69.72,63.35,1.1005,92.97,85.5,,93.0,645743,no critic score
-1966720,Lethal Company,49.58,43.96,1.1278,96.96,36.7,,97.0,511087,no critic score
-108600,Project Zomboid,86.07,77.84,1.1057,93.76,159.7,,93.8,483982,no critic score
-3241660,R.E.P.O.,49.92,44.53,1.121,96.0,37.7,,96.0,425865,no critic score
-284160,BeamNG.drive,66.58,58.95,1.1295,97.2,71.1,,97.2,420215,no critic score
-648800,Raft,46.1,41.89,1.1006,92.99,33.2,,93.0,378980,no critic score
-1326470,Sons Of The Forest,44.37,41.37,1.0725,88.47,32.4,,88.5,321011,no critic score
-1118200,People Playground,80.45,70.93,1.1343,97.86,117.7,,97.9,319980,no critic score
-1063730,New World: Aeternum,76.41,76.8,0.9949,66.7,152.3,,66.7,297315,no critic score
-1222140,Detroit: Become Human,31.22,28.22,1.1061,93.81,15.6,80,96.4,263724,
-10,Counter-Strike,33.2,29.63,1.1206,95.94,17.0,88,97.4,261935,
-1229490,ULTRAKILL,44.67,39.51,1.1306,97.35,29.5,,97.3,244982,no critic score
-901583,Grand Theft Auto IV: Complete Edition,53.98,51.41,1.05,84.42,51.5,90,83.4,204697,
-240,Counter-Strike: Source,46.18,41.46,1.1139,94.97,32.5,88,96.3,193416,
-1593500,God of War,49.21,44.04,1.1173,95.47,36.8,93,95.9,185104,
-2881650,Content Warning,22.48,20.33,1.1059,93.79,8.7,,93.8,163604,no critic score
-3590,Plants vs. Zombies GOTY Edition,38.99,34.78,1.1208,95.97,23.0,87,97.7,156220,
-570940,DARK SOULS: REMASTERED,50.89,46.76,1.0884,91.08,41.8,84,92.4,155717,
-1782210,Crab Game,13.18,12.09,1.09,91.34,3.6,,91.3,150999,no critic score
-286690,Metro 2033 Redux,28.5,26.0,1.0961,92.3,13.4,,92.3,142277,no critic score
-1687950,Persona 5 Royal,83.06,74.03,1.122,96.14,134.6,95,96.4,140490,
-220240,Far Cry 3,36.21,33.9,1.0683,87.75,21.9,88,87.7,134182,
-335300,DARK SOULS II: Scholar of the First Sin,57.3,54.93,1.0432,83.09,59.9,79,83.9,132457,
-2835570,Buckshot Roulette,17.08,15.33,1.1147,95.09,5.4,,95.1,126558,no critic score
-222880,Insurgency,34.01,31.66,1.0743,88.78,19.2,74,91.7,124576,
-376210,The Isle,62.81,61.0,1.0296,80.17,77.5,,80.2,121419,no critic score
-516750,My Summer Car,56.15,50.42,1.1136,94.93,49.3,,94.9,117884,no critic score
-629520,Soundpad,82.4,73.52,1.1208,95.96,131.6,,96.0,104678,no critic score
-1222700,A Way Out,18.42,17.38,1.0599,86.27,6.7,78,87.9,103194,
-254700,Resident Evil 4 (2005),38.65,35.39,1.092,91.66,23.8,79,94.2,98594,
-1046930,Dota Underlords,47.91,46.11,1.0391,82.23,40.6,,82.2,90940,no critic score
-311690,Enter the Gungeon,51.63,46.85,1.1022,93.23,42.0,84,95.1,89905,
-235460,METAL GEAR RISING: REVENGEANCE,31.68,28.64,1.1063,93.85,16.0,83,96.0,89106,
-823130,Totally Accurate Battlegrounds,20.46,19.08,1.0725,88.47,7.8,,88.5,87794,no critic score
+appid,name,price,was,off,free,fair,content,quality,H,Pc,Pu,n,notes
+271590,Grand Theft Auto V Legacy,,,0,False,67.79,6,9,84.6,96,87.7,2079523,
+4000,Garry's Mod,9.99,,0,False,57.78,5,10,51.1,,96.9,1267252,"No critic score yet, so player reviews carry the quality rating."
+553850,HELLDIVERS 2,39.99,,0,False,82.49,8,8,190.1,,75.6,1164354,"No critic score yet, so player reviews carry the quality rating."
+1174180,Red Dead Redemption 2,59.99,,0,False,68.13,6,9,81.0,93,92.5,922133,
+739630,Phasmophobia,19.99,,0,False,66.24,6,9,73.3,,94.4,840088,"No critic score yet, so player reviews carry the quality rating."
+242760,The Forest,19.99,,0,False,39.84,4,9,24.6,83,95.5,683204,
+322170,Geometry Dash,4.99,,0,False,69.72,6,9,85.5,,93.0,645743,"No critic score yet, so player reviews carry the quality rating."
+1966720,Lethal Company,9.99,,0,False,49.58,4,10,36.7,,97.0,511087,"No critic score yet, so player reviews carry the quality rating."
+108600,Project Zomboid,24.99,,0,False,86.07,8,9,159.7,,93.8,483982,"No critic score yet, so player reviews carry the quality rating."
+3241660,R.E.P.O.,9.99,,0,False,49.92,4,10,37.7,,96.0,425865,"No critic score yet, so player reviews carry the quality rating."
+284160,BeamNG.drive,24.99,,0,False,66.58,6,10,71.1,,97.2,420215,"No critic score yet, so player reviews carry the quality rating."
+648800,Raft,19.99,,0,False,46.1,4,9,33.2,,93.0,378980,"No critic score yet, so player reviews carry the quality rating."
+1326470,Sons Of The Forest,29.99,,0,False,44.37,4,9,32.4,,88.5,321011,"No critic score yet, so player reviews carry the quality rating."
+1118200,People Playground,9.99,,0,False,80.45,7,10,117.7,,97.9,319980,"No critic score yet, so player reviews carry the quality rating."
+1063730,New World: Aeternum,,,0,False,76.41,8,7,152.3,,66.7,297315,"No critic score yet, so player reviews carry the quality rating."
+1222140,Detroit: Become Human,7.99,39.99,80,False,31.22,3,9,15.6,80,96.4,263724,
+10,Counter-Strike,9.99,,0,False,33.2,3,10,17.0,88,97.4,261935,
+1229490,ULTRAKILL,29.99,,0,False,44.67,4,10,29.5,,97.3,244982,"No critic score yet, so player reviews carry the quality rating."
+3240220,Grand Theft Auto V Enhanced,29.99,,0,False,45.84,4,8,36.6,,83.1,227508,"No critic score yet, so player reviews carry the quality rating."
+901583,Grand Theft Auto IV: Complete Edition,,,0,False,53.98,5,8,51.5,90,83.4,204697,
+240,Counter-Strike: Source,9.99,,0,False,46.18,4,9,32.5,88,96.3,193416,
+1593500,God of War,49.99,,0,False,49.21,4,10,36.8,93,95.9,185104,
+2881650,Content Warning,7.99,,0,False,22.48,2,9,8.7,,93.8,163604,"No critic score yet, so player reviews carry the quality rating."
+3590,Plants vs. Zombies GOTY Edition,4.99,,0,False,38.99,3,10,23.0,87,97.7,156220,
+570940,DARK SOULS: REMASTERED,19.99,39.99,50,False,50.89,5,9,41.8,84,92.4,155717,
+1782210,Crab Game,,,0,False,13.18,1,9,3.6,,91.3,150999,"No critic score yet, so player reviews carry the quality rating."
+286690,Metro 2033 Redux,19.99,,0,False,28.5,3,9,13.4,,92.3,142277,"No critic score yet, so player reviews carry the quality rating."
+1687950,Persona 5 Royal,17.99,59.99,70,False,83.06,7,10,134.6,95,96.4,140490,
+220240,Far Cry 3,4.99,19.99,75,False,36.21,3,9,21.9,88,87.7,134182,
+335300,DARK SOULS II: Scholar of the First Sin,19.99,39.99,50,False,57.3,5,8,59.9,79,83.9,132457,
+2835570,Buckshot Roulette,2.99,,0,False,17.08,2,10,5.4,,95.1,126558,"No critic score yet, so player reviews carry the quality rating."
+222880,Insurgency,14.99,,0,False,34.01,3,9,19.2,74,91.7,124576,
+376210,The Isle,19.99,,0,False,62.81,6,8,77.5,,80.2,121419,"No critic score yet, so player reviews carry the quality rating."
+516750,My Summer Car,14.99,,0,False,56.15,5,9,49.3,,94.9,117884,"No critic score yet, so player reviews carry the quality rating."
+629520,Soundpad,4.99,,0,False,82.4,7,10,131.6,,96.0,104678,"No critic score yet, so player reviews carry the quality rating."
+1222700,A Way Out,8.99,29.99,70,False,18.42,2,9,6.7,78,87.9,103194,
+1237950,STAR WARS Battlefront II,9.99,39.99,75,False,40.07,4,9,26.5,,88.3,100192,"No critic score yet, so player reviews carry the quality rating."
+254700,Resident Evil 4 (2005),19.99,,0,False,38.65,4,9,23.8,79,94.2,98594,
+1363080,Manor Lords,39.99,,0,False,46.75,4,8,37.8,,84.1,92026,"No critic score yet, so player reviews carry the quality rating."
+365670,Blender,,,0,True,52.42,5,10,41.8,,96.0,92015,"No critic score yet, so player reviews carry the quality rating."
+1046930,Dota Underlords,,,0,False,47.91,5,8,40.6,,82.2,90940,"No critic score yet, so player reviews carry the quality rating."
+311690,Enter the Gungeon,14.99,,0,False,51.63,5,9,42.0,84,95.1,89905,
+235460,METAL GEAR RISING: REVENGEANCE,29.99,,0,False,31.68,3,9,16.0,83,96.0,89106,
+750920,Shadow of the Tomb Raider: Definitive Edition,39.99,,0,False,32.52,3,8,18.6,77,84.6,88558,
+35140,Batman: Arkham Asylum Game of the Year Edition,19.99,,0,False,32.32,3,10,16.3,91,96.4,87828,
+823130,Totally Accurate Battlegrounds,,,0,False,20.46,2,9,7.8,,88.5,87794,"No critic score yet, so player reviews carry the quality rating."
+223710,Cry of Fear,,,0,True,27.12,3,9,12.7,,88.7,87658,"No critic score yet, so player reviews carry the quality rating."
+1113000,Persona 4 Golden,9.99,19.99,50,False,69.8,6,10,82.6,87,97.0,87594,
+250820,SteamVR,,,0,True,70.1,7,9,95.4,,86.7,87117,"No critic score yet, so player reviews carry the quality rating."
+1888160,ARMORED CORE VI FIRES OF RUBICON,59.99,,0,False,55.75,5,9,51.3,86,91.7,86122,
+471710,Rec Room,,,0,False,28.3,3,9,13.5,,90.1,83562,"No critic score yet, so player reviews carry the quality rating."
+588430,Fallout Shelter,,,0,True,39.85,4,8,27.4,63,87.8,82880,
+240720,Getting Over It with Bennett Foddy,7.99,,0,False,24.18,2,8,11.0,,82.3,82598,"No critic score yet, so player reviews carry the quality rating."
+287390,Metro: Last Light Redux,19.99,,0,False,28.55,3,9,14.0,76,91.3,82065,
+239030,"Papers, Please",9.99,,0,False,27.39,2,10,12.1,85,97.3,80622,
+636480,Ravenfield,17.99,,0,False,43.53,4,10,28.2,,96.7,80223,"No critic score yet, so player reviews carry the quality rating."
+307690,Sleeping Dogs: Definitive Edition,19.99,,0,False,41.03,4,9,25.9,,94.1,79823,"No critic score yet, so player reviews carry the quality rating."
+200260,Batman: Arkham City - Game of the Year Edition,19.99,,0,False,39.72,4,10,24.0,91,96.2,78440,
+331470,Everlasting Summer,,,0,True,31.06,3,9,15.3,,94.4,78187,"No critic score yet, so player reviews carry the quality rating."
+638970,Yakuza 0,,,0,False,56.73,5,9,51.2,86,95.4,77769,
+304430,INSIDE,24.99,,0,False,16.58,1,10,5.1,87,97.0,76023,
+218230,PlanetSide 2,,,0,True,33.58,3,8,20.2,84,80.4,74892,
+238460,BattleBlock Theater,14.99,,0,False,24.99,2,10,10.3,85,97.2,72914,
+17390,SPORE,19.99,,0,False,35.02,3,9,19.8,84,92.6,72821,
+3146520,WEBFISHING,4.99,,0,False,32.91,3,10,16.5,,97.3,70470,"No critic score yet, so player reviews carry the quality rating."
+34330,Total War: SHOGUN 2,,,0,False,69.01,6,9,85.3,90,91.7,67994,
+1328670,Mass Effect Legendary Edition,14.99,59.99,75,False,74.21,7,9,106.0,86,91.2,67525,
+493520,GTFO,39.99,,0,False,32.53,3,8,18.7,78,83.9,66903,
+2406770,Bodycam,33.32,,0,False,26.2,3,8,12.9,,80.5,66717,"No critic score yet, so player reviews carry the quality rating."
+409710,BioShock Remastered,19.99,,0,False,28.66,3,8,14.9,80,83.2,65220,
+870780,CONTROL Ultimate Edition,39.99,,0,False,39.92,4,9,26.9,85,86.1,64936,
+414700,Outlast 2,19.99,,0,False,21.66,2,9,8.6,75,90.8,64663,
+360430,Mafia III: Definitive Edition,29.99,,0,False,42.72,4,6,37.5,,57.4,64434,"No critic score yet, so player reviews carry the quality rating."
+203140,Hitman: Absolution,1.99,19.99,90,False,28.54,3,9,13.7,79,93.2,63864,
+871720,Ultimate Custom Night,,,0,True,14.88,1,9,4.3,,94.8,62864,"No critic score yet, so player reviews carry the quality rating."
+48000,LIMBO,12.49,,0,False,16.09,1,9,5.0,88,92.2,62148,
+33230,Assassin's Creed 2,4.99,19.99,75,False,38.32,4,9,24.1,86,89.5,61670,
+1089350,NBA 2K20,,,0,False,34.48,4,5,25.2,74,49.8,60397,Playtime is based on only a few players.
+552100,Brick Rigs,19.99,,0,False,65.48,6,9,70.7,,94.9,59847,"No critic score yet, so player reviews carry the quality rating."
+1089980,The Henry Stickmin Collection,14.99,,0,False,21.91,2,10,7.9,,98.7,59790,"No critic score yet, so player reviews carry the quality rating."
+760160,Vampire: The Masquerade - Bloodhunt,,,0,False,30.38,3,8,17.2,,77.2,59445,"No critic score yet, so player reviews carry the quality rating."
+319510,Five Nights at Freddy's,4.99,,0,False,12.31,1,9,3.3,78,93.8,59413,
+50130,Mafia II (Classic),29.99,,0,False,29.06,3,9,14.1,77,93.8,58785,
+880940,Pummel Party,14.99,,0,False,27.46,3,9,13.0,,88.6,57914,"No critic score yet, so player reviews carry the quality rating."
+1206560,WorldBox - God Simulator,19.99,,0,False,45.5,4,10,31.4,,95.3,56939,"No critic score yet, so player reviews carry the quality rating."
+1017180,The Long Drive,15.99,,0,False,36.32,3,9,21.9,,88.3,56479,"No critic score yet, so player reviews carry the quality rating."
+50300,Spec Ops: The Line,,,0,False,22.96,2,9,9.3,76,93.4,56393,
+3097560,Liar's Bar,6.99,,0,False,17.88,2,9,6.1,,89.5,56374,"No critic score yet, so player reviews carry the quality rating."
+22370,Fallout 3: Game of the Year Edition,19.99,,0,False,39.43,4,8,27.0,91,81.7,56259,
+6060,"STAR WARS Battlefront II (Classic, 2005)",9.99,,0,False,22.97,2,9,9.2,78,94.6,54326,
+2551020,One-armed robber,,,0,True,23.84,2,9,9.9,,91.3,53572,"No critic score yet, so player reviews carry the quality rating."
+10090,Call of Duty: World at War,19.99,,0,False,22.29,2,9,8.8,83,92.4,53396,
+282140,SOMA,29.99,,0,False,26.97,2,9,12.0,84,95.8,53081,
+1922560,Plants vs. Zombies Garden Warfare 2: Deluxe Edition,8.99,29.99,70,False,41.15,4,9,27.8,82,90.0,50763,
+1325200,Nioh 2 – The Complete Edition,19.99,49.99,60,False,64.13,6,9,75.0,86,87.4,50676,
+3070070,TCG Card Shop Simulator,16.99,19.99,15,False,57.47,5,10,50.9,,96.4,50237,"No critic score yet, so player reviews carry the quality rating."
+200210,Realm of the Mad God Exalt,,,0,True,76.32,7,8,130.4,82,82.8,47725,
+1449690,The Walking Dead: The Telltale Definitive Series,49.99,,0,False,55.23,5,10,46.5,,96.5,47373,"No critic score yet, so player reviews carry the quality rating."
+1987080,Inside the Backrooms,6.99,,0,False,25.05,2,8,11.9,,79.7,46821,"No critic score yet, so player reviews carry the quality rating."
+412220,DDraceNetwork,,,0,True,41.63,4,9,28.6,,87.9,46750,"No critic score yet, so player reviews carry the quality rating."
+1366800,Crosshair X,9.99,,0,False,100.89,9,9,339.7,,93.4,45879,"No critic score yet, so player reviews carry the quality rating."
+221910,The Stanley Parable,14.99,,0,False,13.57,1,9,3.8,88,92.5,45835,
+2212330,Your Only Move Is HUSTLE,4.99,,0,False,36.66,3,10,20.3,,96.5,45512,"No critic score yet, so player reviews carry the quality rating."
+868270,The Cycle: Frontier,,,0,False,37.88,4,6,27.8,,64.2,45262,"No critic score yet, so player reviews carry the quality rating."
+239820,Game Dev Tycoon,9.99,,0,False,26.48,2,9,12.0,68,95.2,45135,
+601510,Yu-Gi-Oh! Duel Links,,,0,True,67.77,7,8,91.7,,82.8,45013,"No critic score yet, so player reviews carry the quality rating."
+1210320,Potion Craft: Alchemist Simulator,7.99,19.99,60,False,37.06,3,9,21.6,,93.0,44822,"No critic score yet, so player reviews carry the quality rating."
+204450,Call of Juarez: Gunslinger,14.99,,0,False,19.9,2,9,7.2,79,95.0,44358,
+751780,Forager,19.99,,0,False,43.4,4,9,31.3,78,89.5,44123,
+1659420,UNCHARTED: Legacy of Thieves Collection,49.99,,0,False,38.34,4,9,23.7,,90.6,44110,"No critic score yet, so player reviews carry the quality rating."
+960990,Beyond: Two Souls,1.99,19.99,90,False,25.61,2,9,11.8,76,87.6,43635,
+242920,Banished,19.99,,0,False,49.86,5,9,41.8,73,90.4,43352,
+32470,STAR WARS Empire at War - Gold Pack,19.99,,0,False,68.41,6,10,75.5,,97.7,43252,"No critic score yet, so player reviews carry the quality rating."
+967050,Pacify,4.99,,0,False,13.81,1,9,4.1,,86.0,42799,"No critic score yet, so player reviews carry the quality rating."
+225080,Brothers - A Tale of Two Sons,14.99,,0,False,15.37,1,9,4.6,90,94.4,41286,
+2420510,HoloCure - Save the Fans!,,,0,True,39.13,3,10,22.3,,99.0,40798,"No critic score yet, so player reviews carry the quality rating."
+322500,SUPERHOT,7.49,24.99,70,False,14.87,1,9,4.5,82,91.5,40781,
+555160,Pavlov,24.99,,0,False,33.38,3,9,18.6,,88.6,40536,"No critic score yet, so player reviews carry the quality rating."
+250320,The Wolf Among Us,12.74,14.99,15,False,25.98,2,10,11.0,85,97.9,40304,
+310560,DiRT Rally,,,0,False,25.68,2,9,11.7,86,88.0,40181,
+115300,Call of Duty: Modern Warfare 3 (2011),39.99,,0,False,22.57,2,9,9.2,,89.0,39883,"No critic score yet, so player reviews carry the quality rating."
+42680,Call of Duty: Modern Warfare 3 (2011),39.99,,0,False,22.61,2,9,9.2,,89.0,39883,"No critic score yet, so player reviews carry the quality rating."
+2378900,The Coffin of Andy and Leyley,11.99,,0,False,30.34,3,10,14.4,,95.9,39567,"No critic score yet, so player reviews carry the quality rating."
+17410,Mirror's Edge,19.99,,0,False,18.45,2,9,6.7,81,87.7,39386,
+993090,Lossless Scaling,6.99,,0,False,50.09,5,9,40.7,,90.5,39308,"No critic score yet, so player reviews carry the quality rating."
+611500,Quake Champions,9.99,,0,False,22.89,2,7,10.6,,73.9,39151,"No critic score yet, so player reviews carry the quality rating."
+485510,Nioh: Complete Edition,7.49,49.99,85,False,51.75,5,8,49.1,84,78.9,39087,
+312530,Duck Game,12.99,,0,False,32.09,3,9,16.3,82,96.6,39067,
+1030830,Mafia II: Definitive Edition,29.99,,0,False,28.29,3,7,15.4,,74.2,38986,"No critic score yet, so player reviews carry the quality rating."
+413410,Danganronpa: Trigger Happy Havoc,19.99,,0,False,41.1,4,9,26.2,82,96.0,38921,
+1225330,NBA 2K21,,,0,False,72.08,8,4,203.2,,41.5,38792,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+447530,VA-11 Hall-A: Cyberpunk Bartender Action,14.99,,0,False,29.28,3,9,13.9,77,97.3,38764,
+10500,Total War: EMPIRE – Definitive Edition,19.99,,0,False,63.83,6,9,70.8,90,90.6,38171,
+35450,Red Orchestra 2: Heroes of Stalingrad with Rising Storm,19.99,,0,False,39.87,4,9,25.8,76,92.6,38135,
+655500,MX Bikes,34.99,,0,False,52.75,5,9,43.3,,94.3,37425,"No critic score yet, so player reviews carry the quality rating."
+1241100,POLYGON: Multiplayer Shooter,,,0,True,18.56,2,8,7.3,,75.2,37016,"No critic score yet, so player reviews carry the quality rating."
+438040,Shakes and Fidget,,,0,True,54.96,5,9,48.8,,92.0,36845,"No critic score yet, so player reviews carry the quality rating."
+434570,Blood and Bacon,0.99,,0,False,15.62,1,10,4.6,,95.3,36613,"No critic score yet, so player reviews carry the quality rating."
+4700,Total War: MEDIEVAL II – Definitive Edition,19.99,,0,False,72.06,6,10,89.4,,95.6,36529,"No critic score yet, so player reviews carry the quality rating."
+657200,Hand Simulator,2.99,,0,False,9.25,1,8,2.2,,83.8,36206,"No critic score yet, so player reviews carry the quality rating."
+57300,Amnesia: The Dark Descent,19.99,,0,False,23.72,2,9,9.6,85,94.6,35783,
+326460,ShellShock Live,9.99,,0,False,51.41,5,9,41.7,,92.9,35622,"No critic score yet, so player reviews carry the quality rating."
+1483870,Draw & Guess,4.99,,0,False,25.83,2,8,12.2,,83.9,35225,"No critic score yet, so player reviews carry the quality rating."
+1213210,Command & Conquer Remastered Collection,4.99,19.99,75,False,37.37,3,9,22.9,82,90.7,35061,
+1262350,SIGNALIS,19.99,,0,False,27.74,2,10,12.2,,96.6,34708,"No critic score yet, so player reviews carry the quality rating."
+997070,Marvel's Avengers - The Definitive Edition,,,0,False,32.64,3,7,20.6,,66.6,34536,"No critic score yet, so player reviews carry the quality rating."
+261030,The Walking Dead: Season Two,14.99,,0,False,24.95,2,9,10.4,80,96.6,34035,
+32370,STAR WARS Knights of the Old Republic,9.99,,0,False,48.52,4,9,37.8,,91.1,34033,"No critic score yet, so player reviews carry the quality rating."
+555570,Infestation: The New Z,,,0,True,42.6,5,5,38.6,,54.1,33888,"No critic score yet, so player reviews carry the quality rating."
+738060,Freddy Fazbear's Pizzeria Simulator,,,0,True,13.9,1,9,3.9,,93.7,33354,"No critic score yet, so player reviews carry the quality rating."
+955050,Bright Memory,7.99,,0,False,8.12,1,9,1.7,,89.8,33118,"No critic score yet, so player reviews carry the quality rating."
+413420,Danganronpa 2: Goodbye Despair,19.99,,0,False,50.23,5,9,39.5,83,95.8,32945,
+460790,Bayonetta,19.99,,0,False,27.41,3,9,12.6,90,92.4,32707,
+225840,Sven Co-op,,,0,True,25.96,2,9,11.2,,93.6,32505,"No critic score yet, so player reviews carry the quality rating."
+417860,Emily is Away,,,0,True,5.38,1,9,0.9,,88.6,32333,"No critic score yet, so player reviews carry the quality rating."
+105450,Age of Empires III (2007),,,0,False,71.75,7,9,98.2,81,90.9,32267,
+7670,BioShock,19.99,,0,False,29.13,3,9,13.7,96,94.0,32233,
+8980,Borderlands Game of the Year,5.99,29.99,80,False,46.67,4,9,36.0,81,89.7,31907,
+288160,The Room,4.99,,0,False,13.55,1,9,3.7,73,97.7,31823,
+47810,Dragon Age: Origins - Ultimate Edition,7.49,29.99,75,False,53.43,5,9,49.1,91,85.6,31499,
+41700,S.T.A.L.K.E.R.: Call of Pripyat,19.99,,0,False,35.03,3,9,19.5,80,95.7,31436,
+19680,Alice: Madness Returns,9.99,,0,False,32.67,3,9,18.0,75,90.8,31058,
+393420,Hurtworld,24.99,,0,False,57.5,6,8,64.7,,76.1,30955,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+39140,FINAL FANTASY VII,,,0,False,60.55,6,9,60.3,,92.8,30412,"No critic score yet, so player reviews carry the quality rating."
+47780,Dead Space 2,3.99,19.99,80,False,26.15,2,9,11.5,87,94.0,30018,
+238010,Deus Ex: Human Revolution - Director's Cut,1.99,19.99,90,False,43.85,4,9,30.4,91,91.9,30015,
+1262540,Need for Speed,7.49,29.99,75,False,31.98,3,7,19.6,,69.1,29766,"No critic score yet, so player reviews carry the quality rating."
+17470,Dead Space (2008),7.99,19.99,60,False,27.98,3,9,13.2,87,91.9,29262,
+278360,A Story About My Uncle,2.99,14.99,80,False,14.96,1,9,4.6,73,91.5,29241,
+1966900,20 Minutes Till Dawn,4.99,,0,False,30.23,3,9,15.2,,90.3,29161,"No critic score yet, so player reviews carry the quality rating."
+2280,DOOM + DOOM II,9.99,,0,False,33.06,3,10,16.7,,96.6,29154,"No critic score yet, so player reviews carry the quality rating."
+50,Half-Life: Opposing Force,4.99,,0,False,19.66,2,10,6.8,,95.4,29055,"No critic score yet, so player reviews carry the quality rating."
+335240,Transformice,,,0,True,48.34,5,9,38.8,,88.1,28966,"No critic score yet, so player reviews carry the quality rating."
+744900,Dead Frontier 2,,,0,True,29.17,3,7,16.5,,69.8,28452,"No critic score yet, so player reviews carry the quality rating."
+80,Counter-Strike: Condition Zero,9.99,,0,False,17.67,2,9,6.2,65,91.5,28426,
+383150,Dead Island Definitive Edition,19.99,,0,False,32.56,3,8,18.9,,81.9,28357,"No critic score yet, so player reviews carry the quality rating."
+1222730,STAR WARS: Squadrons,3.99,39.99,90,False,16.82,2,7,6.3,79,64.8,28202,
+977400,Cell to Singularity - Evolution Never Ends,,,0,True,56.82,5,9,54.5,,89.3,28185,"No critic score yet, so player reviews carry the quality rating."
+1520470,封灵档案,,,0,True,23.57,2,8,10.6,,82.0,27936,"No critic score yet, so player reviews carry the quality rating."
+729040,Borderlands Game of the Year Enhanced,5.99,29.99,80,False,37.94,4,8,25.5,,81.0,27918,"No critic score yet, so player reviews carry the quality rating."
+384190,ABZU,19.99,,0,False,13.86,1,9,4.0,83,92.9,27677,
+34030,Total War: NAPOLEON – Definitive Edition,19.99,,0,False,52.34,5,9,45.2,81,91.7,27675,
+260230,Valiant Hearts: The Great War / Soldats Inconnus : Mémoires de la Grande Guerre,3.74,14.99,75,False,20.82,2,10,7.5,,95.6,27624,"No critic score yet, so player reviews carry the quality rating."
+7940,Call of Duty 4: Modern Warfare (2007),19.99,,0,False,20.19,2,9,7.3,92,93.7,27266,
+1408720,Krunker,,,0,False,12.33,1,8,3.6,,79.2,26196,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+208580,STAR WARS Knights of the Old Republic II - The Sith Lords,9.99,,0,False,58.66,5,9,55.4,,93.6,26113,"No critic score yet, so player reviews carry the quality rating."
+32440,LEGO Star Wars - The Complete Saga,19.99,,0,False,32.42,3,9,16.8,77,96.7,25542,
+221640,Super Hexagon,2.99,,0,False,17.13,2,10,5.4,88,96.9,25135,
+583950,Artifact,,,0,True,4.05,1,5,0.7,76,47.1,24758,Playtime is based on only a few players.
+11020,TrackMania Nations Forever,,,0,True,25.47,2,9,11.2,,90.2,24423,"No critic score yet, so player reviews carry the quality rating."
+316010,Magic Duels,,,0,False,96.21,10,7,521.1,,71.0,23757,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+1372880,The Day Before,,,0,False,17.75,3,2,14.3,,15.7,23172,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+682990,Drug Dealer Simulator,19.99,,0,False,38.85,4,8,26.7,59,86.1,21049,
