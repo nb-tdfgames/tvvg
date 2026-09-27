@@ -45,7 +45,7 @@ LOW_REVIEW_FLAG = 50
 EXCLUDED_TYPES = {"dlc", "demo", "music", "video", "episode", "series",
                   "mod", "advertising", "hardware"}
 
-FIELDS = ["appid", "name", "fair", "price", "was", "off", "free",
+FIELDS = ["appid", "name", "fair", "price", "was", "off", "avail",
           "content", "quality", "H", "Pc", "Pu", "n", "notes", "img"]
 
 
@@ -54,7 +54,7 @@ def scoreable(info) -> bool:
                 and info.get("type") not in EXCLUDED_TYPES)
 
 
-def score_game(appid, rec, info, price=None):
+def score_game(appid, rec, info, price=None, not_for_sale=False):
     """Return (row, None) or (None, reason) if the game can't be scored."""
     if info is None or "h_sample" not in info:
         return None, "not_checked_yet"
@@ -91,7 +91,8 @@ def score_game(appid, rec, info, price=None):
         "name": rec["name"],
         "fair": round(r["TV"], 2),
         "price": None, "was": None, "off": 0,
-        "free": bool(info.get("free")),
+        # paid | free | none (not for sale) | unknown (no answer from Steam today)
+        "avail": "free" if info.get("free") else "none" if not_for_sale else "unknown",
         # plain 1-10 ratings for display only
         "content": max(1, min(10, round(r["C"] / 10))),
         "quality": max(1, min(10, round(r["Q"] / 10))),
@@ -105,9 +106,9 @@ def score_game(appid, rec, info, price=None):
     if price and price["final"] > 0:
         row["price"] = round(price["final"] / 100, 2)
         row["off"] = price["discount"]
-        if price["discount"] > 0:
+        if price["discount"] > 0 and price["initial"] > price["final"]:
             row["was"] = round(price["initial"] / 100, 2)
-        row["free"] = False
+        row["avail"] = "paid"
     return row, None
 
 
@@ -130,7 +131,7 @@ def main():
 
     print("Step 2/5: getting today's Steam prices")
     priceable = [a for a in by_reviews if scoreable(cache.get(a))]
-    todays = prices.fetch_prices(priceable, args.price_minutes)
+    todays, not_for_sale = prices.fetch_prices(priceable, args.price_minutes, cache)
 
     print("Step 3/5: looking up playtime, reviews and critic scores on Steam")
     steamstore.update_cache(by_reviews, cache, args.critic_minutes, CRITIC_CACHE, EXCLUDED_TYPES)
@@ -143,7 +144,7 @@ def main():
         price = todays.get(appid)
         if price is None and info and info.get("checked", "").startswith(today):
             price = info.get("price")  # looked up today in step 3
-        row, reason = score_game(appid, rec, info, price)
+        row, reason = score_game(appid, rec, info, price, appid in not_for_sale)
         if row:
             rows.append(row)
         else:
@@ -167,7 +168,7 @@ def write_outputs(rows, catalog_size):
     (OUT_DIR / "games.json").write_text(
         json.dumps(payload, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
 
-    cols = ["appid", "name", "price", "was", "off", "free", "fair",
+    cols = ["appid", "name", "price", "was", "off", "avail", "fair",
             "content", "quality", "H", "Pc", "Pu", "n", "notes"]
     with open(OUT_DIR / "games.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
