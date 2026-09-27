@@ -22,6 +22,8 @@ from pathlib import Path
 
 import requests
 
+from .prices import parse as parse_price
+
 DETAILS_URL = "https://store.steampowered.com/api/appdetails"
 REVIEWS_URL = "https://store.steampowered.com/appreviews/{appid}"
 HEADERS = {"User-Agent": "TVVG-TrueValueBot/0.1 (personal research project)"}
@@ -74,7 +76,8 @@ def _details(appid):
     data = item.get("data") or {}
     mc = data.get("metacritic") or {}
     return {"ok": bool(item.get("success")), "type": data.get("type"),
-            "metacritic": mc.get("score"), "img": data.get("header_image")}, False
+            "metacritic": mc.get("score"), "img": data.get("header_image"),
+            "free": bool(data.get("is_free")), "price": parse_price(item)}, False
 
 
 def _reviews(appid):
