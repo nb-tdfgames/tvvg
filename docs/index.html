@@ -4,144 +4,161 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Demystify Price: Let's clear the air</title>
-<meta name="description" content="What Steam games are actually worth, based on how much there is to play and how good it is.">
+<meta name="description" content="See what Steam games are actually worth, and whether today's price is a good deal.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --night: #0e1822; --deep: #152331; --haze: #243646; --mist: #8ea3b3;
-    --clear: #eef4f8; --sky: #86d3f5; --amber: #f0a868; --mint: #8fe3b0;
+    --bg: #f2f5f3; --card: #ffffff; --ink: #17231d; --muted: #5f6d65; --line: #dde5e0;
+    --green: #1e9b68; --green-ink: #12744c; --green-soft: #e1f3e9;
+    --red: #d65a50;   --red-ink: #b43f36;   --red-soft: #fbe8e6;
+    --even: #6f7a74;  --even-soft: #eaeeec;
     --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
     --body: "Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
-    --r-img: 6px; --r-panel: 14px;
   }
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { margin: 0; background: var(--night); color: var(--clear);
-         font: 16px/1.55 var(--body); -webkit-font-smoothing: antialiased; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--body); -webkit-font-smoothing: antialiased; }
   body.locked { overflow: hidden; }
-  a { color: var(--sky); }
+  a { color: inherit; }
   button { font: inherit; color: inherit; cursor: pointer; }
-  :focus-visible { outline: 2px solid var(--sky); outline-offset: 3px; }
+  :focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
   .wrap { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
 
-  /* Header */
-  header.hero { padding: 56px 0 32px;
-    background: radial-gradient(1200px 300px at 20% -60px, #1d3346 0%, transparent 70%); }
-  .brand { font: 700 1rem/1 var(--display); letter-spacing: .01em; color: var(--mist); margin: 0 0 18px; }
-  .brand b { color: var(--clear); }
-  h1.motto { font: 800 clamp(2.6rem, 7vw, 5.2rem)/0.95 var(--display); letter-spacing: -0.03em;
-             margin: 0 0 16px; max-width: 12ch; animation: clear 1.6s ease-out both; }
-  @keyframes clear { from { filter: blur(14px); opacity: .25; letter-spacing: 0.02em; }
-                     to   { filter: blur(0); opacity: 1; letter-spacing: -0.03em; } }
-  .lede { color: var(--mist); font-size: 1.1rem; max-width: 56ch; margin: 0 0 28px; }
-  .search { position: relative; max-width: 640px; }
-  .search input { width: 100%; font: 500 1.1rem var(--body); padding: 15px 18px 15px 48px;
-    border-radius: 999px; border: 1px solid var(--haze); background: var(--deep); color: var(--clear); }
-  .search input::placeholder { color: var(--mist); }
-  .search input:focus { outline: none; border-color: var(--sky); box-shadow: 0 0 0 4px #86d3f522; }
-  .search svg { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--mist); }
+  /* Hero */
+  header.hero { padding: 48px 0 36px; }
+  .brand { font: 800 1.05rem/1 var(--display); margin: 0 0 22px; display: flex; align-items: center; gap: 10px; }
+  .brand-mark { width: 26px; height: 26px; border-radius: 8px; background: linear-gradient(135deg, var(--green) 50%, var(--red) 50%); }
+  h1.motto { font: 800 clamp(2.6rem, 7vw, 5rem)/0.95 var(--display); letter-spacing: -0.035em;
+             margin: 0 0 16px; animation: clear 1.6s ease-out both; }
+  @keyframes clear { from { filter: blur(14px); opacity: .2; } to { filter: blur(0); opacity: 1; } }
+  .lede { color: var(--muted); font-size: 1.12rem; max-width: 54ch; margin: 0 0 26px; }
+  .search { position: relative; max-width: 620px; }
+  .search input { width: 100%; font: 500 1.08rem var(--body); padding: 15px 18px 15px 48px; border-radius: 999px;
+                  border: 1.5px solid var(--line); background: var(--card); color: var(--ink); }
+  .search input:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 4px var(--green-soft); }
+  .search svg { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--muted); }
 
-  /* Tabs */
-  .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 22px; }
-  .tabs button { background: transparent; border: 1px solid var(--haze); color: var(--mist);
-                 padding: 8px 16px; border-radius: 999px; font-weight: 600; font-size: .95rem; }
-  .tabs button:hover { color: var(--clear); border-color: var(--mist); }
-  .tabs button[aria-pressed="true"] { background: var(--clear); color: var(--night); border-color: var(--clear); }
-  .count { color: var(--mist); font-size: .92rem; margin: 0 0 16px; min-height: 1.4em; }
+  h2.sec { font: 800 1.7rem/1.1 var(--display); letter-spacing: -0.02em; margin: 0 0 4px; }
+  .sec-sub { color: var(--muted); margin: 0 0 20px; }
 
-  /* Grid */
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(236px, 1fr)); gap: 22px 18px; }
-  .card { display: block; text-decoration: none; color: inherit; border-radius: var(--r-img); }
-  .art { aspect-ratio: 460 / 215; width: 100%; border-radius: var(--r-img); overflow: hidden;
-         background: var(--deep); position: relative; }
+  /* Shared bits */
+  .art { aspect-ratio: 460 / 215; width: 100%; overflow: hidden; background: var(--even-soft); position: relative; }
   .art img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s ease; }
-  .card:hover .art img { transform: scale(1.04); }
   .ph { position: absolute; inset: 0; display: grid; place-items: center; padding: 12px; text-align: center;
-        font: 700 1.05rem/1.2 var(--display); color: var(--mist);
-        background: linear-gradient(135deg, #1b2c3c, #13202c); }
-  .card h3 { font: 600 1rem/1.3 var(--body); margin: 10px 0 4px;
-             display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .card-foot { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
-  .fv { font: 800 1.45rem/1 var(--display); color: var(--sky); letter-spacing: -0.01em; }
-  .adj { font-size: .82rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
-  .adj.up { color: var(--mint); background: #8fe3b01a; }
-  .adj.down { color: var(--amber); background: #f0a8681a; }
-  .adj.flat { color: var(--mist); background: #8ea3b31a; }
-  .more { display: block; margin: 36px auto 0; background: var(--deep); border: 1px solid var(--haze);
-          padding: 12px 28px; border-radius: 999px; font-weight: 600; }
-  .more:hover { border-color: var(--mist); }
-  .empty { color: var(--mist); padding: 40px 0; font-size: 1.05rem; }
+        font: 700 1rem/1.2 var(--display); color: var(--muted); background: linear-gradient(135deg, #e6ece8, #dfe6e2); }
+  .sale { position: absolute; top: 10px; left: 10px; background: var(--green); color: #fff; font-weight: 700;
+          font-size: .85rem; padding: 3px 9px; border-radius: 6px; }
+  .verdict { display: inline-block; font-weight: 700; font-size: .82rem; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+  .v-great { background: var(--green); color: #fff; }
+  .v-good  { background: var(--green-soft); color: var(--green-ink); }
+  .v-fair  { background: var(--even-soft); color: var(--even); }
+  .v-over  { background: var(--red-soft); color: var(--red-ink); }
+  .v-way   { background: var(--red); color: #fff; }
+  .v-free  { background: var(--green-soft); color: var(--green-ink); }
+  .v-none  { background: var(--even-soft); color: var(--even); }
+  .t-good { color: var(--green-ink); } .t-bad { color: var(--red-ink); } .t-even { color: var(--ink); }
 
-  footer { color: var(--mist); font-size: .88rem; padding: 64px 0 48px; }
-  footer p { margin: 4px 0; max-width: 72ch; }
+  /* Compare block used on cards */
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0 12px; }
+  .compare .lbl { font-size: .78rem; color: var(--muted); font-weight: 600; }
+  .compare .amt { font: 800 1.3rem/1.1 var(--display); letter-spacing: -0.01em; }
+  .compare s { color: var(--muted); font-size: .85rem; margin-left: 4px; font-weight: 500; }
 
-  /* Detail sheet */
-  .sheet { position: fixed; inset: 0; z-index: 10; background: #070d13cc; backdrop-filter: blur(6px);
-           overflow-y: auto; display: none; padding: 32px 16px; }
+  /* Featured */
+  .featured { padding: 8px 0 48px; }
+  .f-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .f-card { background: var(--card); border-radius: 16px; overflow: hidden; text-decoration: none; display: flex; flex-direction: column;
+            border: 1px solid var(--line); transition: border-color .15s, transform .15s; }
+  .f-card:hover { border-color: var(--green); transform: translateY(-2px); }
+  .f-card:hover .art img { transform: scale(1.03); }
+  .f-body { padding: 14px 18px 18px; display: flex; flex-direction: column; flex: 1; }
+  .f-card h3 { font: 700 1.1rem/1.25 var(--body); margin: 0; }
+  .f-card .compare .amt { font-size: 1.6rem; }
+  .savings { margin-top: auto; padding: 10px 12px; border-radius: 10px; background: var(--green-soft); color: var(--green-ink); font-weight: 600; font-size: .95rem; }
+  .savings b { font-family: var(--display); font-size: 1.1rem; }
+
+  /* Browse */
+  .browse { padding: 8px 0 24px; }
+  .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 14px; }
+  .tabs button { background: var(--card); border: 1.5px solid var(--line); color: var(--muted); padding: 8px 16px; border-radius: 999px; font-weight: 600; font-size: .95rem; }
+  .tabs button:hover { color: var(--ink); border-color: var(--muted); }
+  .tabs button[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .count { color: var(--muted); font-size: .92rem; margin: 0 0 16px; min-height: 1.4em; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; }
+  .card { background: var(--card); border-radius: 12px; overflow: hidden; text-decoration: none; border: 1px solid var(--line); display: flex; flex-direction: column; transition: border-color .15s; }
+  .card:hover { border-color: var(--muted); }
+  .card:hover .art img { transform: scale(1.04); }
+  .c-body { padding: 10px 14px 14px; display: flex; flex-direction: column; flex: 1; }
+  .card h3 { font: 600 .98rem/1.3 var(--body); margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card .verdict { align-self: flex-start; margin-top: auto; }
+  .more { display: block; margin: 32px auto 0; background: var(--card); border: 1.5px solid var(--line); padding: 12px 28px; border-radius: 999px; font-weight: 600; }
+  .more:hover { border-color: var(--muted); }
+
+  footer { color: var(--muted); font-size: .88rem; padding: 56px 0 48px; }
+  footer p { margin: 4px 0; max-width: 76ch; }
+
+  /* Game page */
+  .sheet { position: fixed; inset: 0; z-index: 10; background: #17231d99; backdrop-filter: blur(4px); overflow-y: auto; display: none; padding: 32px 16px; }
   .sheet.open { display: block; }
-  .panel { max-width: 880px; margin: 0 auto; background: var(--deep); border-radius: var(--r-panel);
-           overflow: hidden; position: relative; animation: rise .22s ease-out; }
+  .panel { max-width: 860px; margin: 0 auto; background: var(--card); border-radius: 18px; overflow: hidden; position: relative; animation: rise .22s ease-out; }
   @keyframes rise { from { transform: translateY(14px); opacity: 0; } to { transform: none; opacity: 1; } }
-  .close { position: absolute; top: 12px; right: 12px; z-index: 2; width: 40px; height: 40px;
-           border-radius: 50%; border: 0; background: #0e1822cc; font-size: 1.3rem; line-height: 1; }
-  .close:hover { background: var(--night); }
-  .d-art { aspect-ratio: 460 / 215; position: relative; background: var(--night); }
-  .d-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .d-body { padding: 28px 32px 36px; }
-  .d-title { font: 800 clamp(1.7rem, 4vw, 2.4rem)/1.05 var(--display); letter-spacing: -0.02em; margin: 0 0 20px; }
-  .d-top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px 32px;
-           padding-bottom: 24px; border-bottom: 1px solid var(--haze); }
-  .d-fv-label { color: var(--mist); font-size: .95rem; margin: 0 0 2px; }
-  .d-fv { font: 800 clamp(3rem, 9vw, 4.6rem)/0.9 var(--display); color: var(--sky); letter-spacing: -0.03em; }
-  .steam-link { display: inline-block; padding: 11px 20px; border-radius: 999px; background: var(--clear);
-                color: var(--night); font-weight: 600; text-decoration: none; }
-  .steam-link:hover { background: var(--sky); }
-  .notes { margin: 18px 0 0; padding: 12px 16px; border-radius: 10px; background: #f0a86814;
-           color: var(--amber); font-size: .92rem; }
-  h2.how { font: 700 1.25rem var(--display); margin: 30px 0 4px; }
-  .how-sub { color: var(--mist); margin: 0 0 18px; font-size: .95rem; }
-  .steps { list-style: none; margin: 0; padding: 0; counter-reset: s; }
-  .step { counter-increment: s; display: grid; grid-template-columns: 34px 1fr; gap: 0 14px;
-          padding: 18px 0; border-top: 1px solid var(--haze); }
-  .step::before { content: counter(s); grid-row: span 3; width: 30px; height: 30px; border-radius: 50%;
-                  display: grid; place-items: center; background: var(--haze); font-weight: 700; font-size: .9rem; }
-  .step h4 { margin: 2px 0 4px; font: 700 1.05rem var(--body); display: flex; justify-content: space-between; gap: 12px; }
-  .step h4 span { font-family: var(--display); color: var(--clear); white-space: nowrap; }
-  .step p { margin: 0; color: var(--mist); font-size: .95rem; max-width: 62ch; }
-  .step p strong { color: var(--clear); font-weight: 600; }
-  .bar { height: 8px; border-radius: 99px; background: var(--night); margin-top: 12px; position: relative; overflow: hidden; }
-  .bar i { position: absolute; inset: 0 auto 0 0; background: var(--sky); border-radius: 99px; }
-  .scale { position: relative; height: 8px; margin-top: 14px; border-radius: 99px;
-           background: linear-gradient(90deg, var(--amber) 0%, #3a4b5a 76.9%, var(--mint) 100%); }
-  .scale .base { position: absolute; left: 76.9%; top: -4px; bottom: -4px; width: 2px; background: var(--clear); opacity: .5; }
-  .scale .dot { position: absolute; top: 50%; width: 16px; height: 16px; border-radius: 50%; background: var(--clear);
-                border: 3px solid var(--night); transform: translate(-50%, -50%); }
-  .scale-lbl { display: flex; justify-content: space-between; font-size: .78rem; color: var(--mist); margin-top: 6px; }
-  .eq { font: 700 1.1rem var(--display); color: var(--clear); margin-top: 6px; }
-  .formula { font-size: .82rem; color: var(--mist); margin-top: 8px; opacity: .85; }
+  .close { position: absolute; top: 12px; right: 12px; z-index: 2; width: 40px; height: 40px; border-radius: 50%; border: 0; background: #ffffffe6; font-size: 1.2rem; line-height: 1; }
+  .close:hover { background: #fff; }
+  .d-body { padding: 26px 32px 34px; }
+  .d-title { font: 800 clamp(1.7rem, 4vw, 2.3rem)/1.05 var(--display); letter-spacing: -0.02em; margin: 0 0 22px; }
+  .d-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .d-box { border-radius: 14px; padding: 16px 20px; background: var(--bg); }
+  .d-box .lbl { font-weight: 600; color: var(--muted); font-size: .95rem; }
+  .d-box .amt { font: 800 clamp(2.2rem, 7vw, 3.4rem)/1 var(--display); letter-spacing: -0.03em; margin-top: 4px; }
+  .d-box .sub { margin-top: 6px; font-size: .92rem; color: var(--muted); min-height: 1.4em; }
+  .d-box .sub s { margin-right: 6px; }
+  .d-box .sub .pill { background: var(--green); color: #fff; font-weight: 700; padding: 1px 8px; border-radius: 6px; font-size: .82rem; }
+  .bars { margin: 18px 0 0; display: grid; gap: 8px; }
+  .bar-row { display: grid; grid-template-columns: 86px 1fr; align-items: center; gap: 12px; font-size: .85rem; color: var(--muted); font-weight: 600; }
+  .bar-track { height: 12px; border-radius: 99px; background: var(--even-soft); overflow: hidden; }
+  .bar-track i { display: block; height: 100%; border-radius: 99px; }
+  .band { margin-top: 18px; border-radius: 14px; padding: 16px 20px; font-size: 1.05rem; }
+  .band strong { font: 800 1.2rem var(--display); display: block; margin-bottom: 2px; }
+  .band.v-great, .band.v-way { color: #fff; }
+  .actions { margin-top: 20px; }
+  .steam-link { display: inline-block; padding: 11px 20px; border-radius: 999px; background: var(--ink); color: #fff; font-weight: 600; text-decoration: none; }
+  .steam-link:hover { background: var(--green-ink); }
+  h3.bd { font: 800 1.3rem var(--display); margin: 30px 0 12px; }
+  .facts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .fact { border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .fact .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .fact h4 { margin: 0; font-size: 1rem; }
+  .fact .rating { font: 800 1.35rem var(--display); }
+  .fact .rating small { font: 600 .85rem var(--body); color: var(--muted); }
+  .fact .word { font-weight: 700; color: var(--green-ink); margin: 2px 0 10px; }
+  .fact .word.low { color: var(--red-ink); } .fact .word.mid { color: var(--even); }
+  .segs { display: grid; grid-template-columns: repeat(10, 1fr); gap: 3px; margin-bottom: 10px; }
+  .segs i { height: 8px; border-radius: 2px; background: var(--even-soft); }
+  .segs i.on { background: var(--green); } .segs.low i.on { background: var(--red); } .segs.mid i.on { background: var(--even); }
+  .fact p { margin: 0; color: var(--muted); font-size: .93rem; }
+  .notes { margin: 16px 0 0; color: var(--muted); font-size: .9rem; }
 
+  @media (max-width: 900px) { .f-grid { grid-template-columns: 1fr 1fr; } }
   @media (max-width: 600px) {
     .wrap { padding: 0 16px; }
-    header.hero { padding-top: 36px; }
-    .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 18px 12px; }
-    .fv { font-size: 1.2rem; }
-    .d-body { padding: 22px 20px 28px; }
-    .sheet { padding: 0; }
-    .panel { border-radius: 0; min-height: 100%; }
+    header.hero { padding-top: 32px; }
+    .f-grid { grid-template-columns: 1fr; }
+    .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+    .compare .amt { font-size: 1.1rem; }
+    .d-body { padding: 22px 18px 28px; }
+    .facts { grid-template-columns: 1fr; }
+    .sheet { padding: 0; } .panel { border-radius: 0; min-height: 100%; }
   }
-  @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after { animation: none !important; transition: none !important; }
-  }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
 </style>
 </head>
 <body>
 <header class="hero">
   <div class="wrap">
-    <p class="brand"><b>Demystify Price</b></p>
+    <p class="brand"><span class="brand-mark" aria-hidden="true"></span>Demystify Price</p>
     <h1 class="motto">Let's clear the air.</h1>
-    <p class="lede">What a Steam game is actually worth, based on how much there is to play and how good it is. Not what it's selling for.</p>
+    <p class="lede">What every Steam game is actually worth, next to what it's selling for today. Green means you're getting more than you pay for.</p>
     <div class="search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <input id="q" type="search" placeholder="Search a Steam game" autocomplete="off" aria-label="Search a Steam game">
@@ -149,22 +166,30 @@
   </div>
 </header>
 
-<main class="wrap">
+<section class="featured wrap" id="featured" hidden>
+  <h2 class="sec">Best deals right now</h2>
+  <p class="sec-sub">Games on sale for far less than they're worth. This list changes as sales come and go.</p>
+  <div class="f-grid" id="f-grid"></div>
+</section>
+
+<section class="browse wrap">
+  <h2 class="sec" id="browse-title">Browse games</h2>
   <div class="tabs" role="group" aria-label="Sort games">
     <button data-sort="popular" aria-pressed="true">Most reviewed</button>
+    <button data-sort="deals" aria-pressed="false">Best deals</button>
+    <button data-sort="sale" aria-pressed="false">On sale</button>
     <button data-sort="value" aria-pressed="false">Highest fair value</button>
-    <button data-sort="quality" aria-pressed="false">Best reviewed</button>
-    <button data-sort="content" aria-pressed="false">Most to play</button>
+    <button data-sort="over" aria-pressed="false">Most overpriced</button>
   </div>
   <p class="count" id="count" aria-live="polite">Loading games…</p>
   <div class="grid" id="grid"></div>
   <button class="more" id="more" hidden>Show more games</button>
-</main>
+</section>
 
 <footer class="wrap">
   <p id="updated"></p>
-  <p>Fair value is based on typical hours played and on critic and player reviews. It doesn't use a game's price, sales, or popularity.</p>
-  <p>Game data and images from Steam and SteamSpy. Critic scores are Metacritic's, as listed on Steam. Not affiliated with Valve.</p>
+  <p>Fair value is our estimate of what a game is worth, based on how much there is to play and how well it's reviewed. It never looks at the game's price, sales or popularity.</p>
+  <p>Prices are from the US Steam store and update daily. Game data and images from Steam and SteamSpy. Critic scores are Metacritic's, as listed on Steam. Not affiliated with Valve.</p>
 </footer>
 
 <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="d-title">
@@ -172,74 +197,118 @@
 </div>
 
 <script>
-const PAGE = 48, MIN_REVIEWS_FOR_RANKINGS = 500;
+const PAGE = 48, RANK_MIN_REVIEWS = 500, FEATURED_MIN_REVIEWS = 1000, FEATURED_COUNT = 6;
 const $ = id => document.getElementById(id);
 let games = [], byId = new Map(), sortMode = "popular", shown = PAGE, lastFocus = null;
 
 const money = v => "$" + Number(v).toFixed(2);
 const num = v => Number(v).toLocaleString();
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const pct = qm => Math.round((qm - 1) * 100);
-const adjClass = p => p > 0 ? "up" : p < 0 ? "down" : "flat";
-const adjText = p => p > 0 ? `+${p}% quality` : p < 0 ? `−${Math.abs(p)}% quality` : "no adjustment";
+
+/* The deal verdict: fair value compared with today's price. */
+function verdict(g) {
+  if (g.price == null) return g.free ? {cls: "v-free", label: "Free to play", tone: "good"} : {cls: "v-none", label: "Not for sale", tone: "even"};
+  const r = g.fair / g.price;
+  if (r >= 1.5) return {cls: "v-great", label: "Great deal", tone: "good", r};
+  if (r >= 1.1) return {cls: "v-good",  label: "Good deal", tone: "good", r};
+  if (r >= 0.9) return {cls: "v-fair",  label: "Fair price", tone: "even", r};
+  if (r >= 0.6) return {cls: "v-over",  label: "Overpriced", tone: "bad", r};
+  return             {cls: "v-way",   label: "Way overpriced", tone: "bad", r};
+}
+const toneClass = t => t === "good" ? "t-good" : t === "bad" ? "t-bad" : "t-even";
+const gap = g => g.price == null ? null : g.fair - g.price;
 
 /* Cover art: Steam's own URL if we have it, then the two public Steam image paths, then a placeholder. */
 function artSources(g) {
-  const a = `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${g.appid}/header.jpg`;
-  const b = `https://cdn.akamai.steamstatic.com/steam/apps/${g.appid}/header.jpg`;
-  return [...new Set([g.img, a, b].filter(Boolean))];
+  return [...new Set([g.img,
+    `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${g.appid}/header.jpg`,
+    `https://cdn.akamai.steamstatic.com/steam/apps/${g.appid}/header.jpg`].filter(Boolean))];
 }
 function artHTML(g, eager) {
   const src = artSources(g);
-  return `<img src="${esc(src[0])}" data-next="${esc(src.slice(1).join("|"))}" alt="" ${eager ? "" : 'loading="lazy"'} onerror="nextArt(this)">`;
+  const sale = g.off > 0 && g.price != null ? `<span class="sale">−${g.off}%</span>` : "";
+  return `<div class="art" data-name="${esc(g.name)}"><img src="${esc(src[0])}" data-next="${esc(src.slice(1).join("|"))}" alt="" ${eager ? "" : 'loading="lazy"'} onerror="nextArt(this)">${sale}</div>`;
 }
 function nextArt(img) {
   const rest = img.dataset.next ? img.dataset.next.split("|") : [];
   if (rest.length) { img.dataset.next = rest.slice(1).join("|"); img.src = rest[0]; return; }
-  const box = img.parentElement, name = box.closest("[data-name]")?.dataset.name || "";
-  img.remove();
-  box.insertAdjacentHTML("beforeend", `<div class="ph">${esc(name)}</div>`);
+  const box = img.parentElement; img.remove();
+  box.insertAdjacentHTML("afterbegin", `<div class="ph">${esc(box.dataset.name || "")}</div>`);
+}
+function priceHTML(g) {
+  if (g.price == null) return g.free ? "Free" : "–";
+  return money(g.price) + (g.was ? `<s>${money(g.was)}</s>` : "");
+}
+function compareHTML(g) {
+  const v = verdict(g);
+  return `<div class="compare">
+    <div><div class="lbl">${g.off > 0 ? "On sale" : "Listed"}</div><div class="amt">${priceHTML(g)}</div></div>
+    <div><div class="lbl">Fair value</div><div class="amt ${toneClass(v.tone)}">${money(g.fair)}</div></div>
+  </div>`;
 }
 
 /* Data */
 fetch("games.json").then(r => { if (!r.ok) throw 0; return r.json(); }).then(data => {
   games = data.rows.map(r => Object.fromEntries(data.fields.map((k, i) => [k, r[i]])));
   games.forEach(g => { g._s = g.name.toLowerCase(); byId.set(String(g.appid), g); });
-  const m = data.meta;
-  $("updated").textContent = `${num(m.scored)} games priced so far. Updated ${m.updated}.`;
-  render(); route();
-}).catch(() => {
-  $("count").textContent = "No games yet. Check back after the next daily update.";
-});
+  $("updated").textContent = `${num(data.meta.scored)} games priced so far. Updated ${data.meta.updated}.`;
+  renderFeatured(); render(); route();
+}).catch(() => { $("count").textContent = "No games yet. Check back after the next daily update."; });
 
-/* Home grid */
+/* Featured: biggest gap between fair value and sale price, among well-reviewed games on sale. */
+function renderFeatured() {
+  const eligible = games.filter(g => g.price > 0 && g.n >= FEATURED_MIN_REVIEWS && g.fair >= g.price * 1.1);
+  const onSale = eligible.filter(g => g.off > 0).sort((a, b) => gap(b) - gap(a));
+  const rest = eligible.filter(g => !(g.off > 0)).sort((a, b) => gap(b) - gap(a));
+  const picks = [...onSale, ...rest].slice(0, FEATURED_COUNT);
+  if (!picks.length) return;
+  $("f-grid").innerHTML = picks.map(g => {
+    const v = verdict(g);
+    return `<a class="f-card" href="#/game/${g.appid}">
+      ${artHTML(g)}
+      <div class="f-body">
+        <h3>${esc(g.name)}</h3>
+        ${compareHTML(g)}
+        <div class="savings"><b>${money(gap(g))}</b> less than it's worth. ${v.label}.</div>
+      </div></a>`;
+  }).join("");
+  $("featured").hidden = false;
+}
+
+/* Browse grid */
 function sorted(list) {
-  const ranked = f => list.filter(g => g.n >= MIN_REVIEWS_FOR_RANKINGS).sort(f);
+  const ranked = (filter, f) => list.filter(g => g.n >= RANK_MIN_REVIEWS && filter(g)).sort(f);
+  const priced = g => g.price > 0;
   switch (sortMode) {
-    case "value":   return ranked((a, b) => b.TV - a.TV);
-    case "quality": return ranked((a, b) => b.Q - a.Q);
-    case "content": return ranked((a, b) => b.H - a.H);
-    default:        return [...list].sort((a, b) => b.n - a.n);
+    case "deals": return ranked(priced, (a, b) => gap(b) - gap(a));
+    case "sale":  return list.filter(g => g.off > 0 && priced(g)).sort((a, b) => b.off - a.off || b.n - a.n);
+    case "value": return ranked(() => true, (a, b) => b.fair - a.fair);
+    case "over":  return ranked(g => priced(g) && g.fair < g.price * 0.9, (a, b) => gap(a) - gap(b));
+    default:      return [...list].sort((a, b) => b.n - a.n);
   }
 }
+const blurbs = {
+  popular: "The most-reviewed games on Steam.",
+  deals: `Biggest gap between fair value and today's price, among games with ${num(RANK_MIN_REVIEWS)}+ reviews.`,
+  sale: "Everything on sale today, biggest discounts first.",
+  value: `Worth the most, among games with ${num(RANK_MIN_REVIEWS)}+ reviews.`,
+  over: `Priced furthest above what they're worth, among games with ${num(RANK_MIN_REVIEWS)}+ reviews.`,
+};
 function render() {
   const q = $("q").value.trim().toLowerCase();
   const list = q ? games.filter(g => g._s.includes(q)).sort((a, b) => b.n - a.n) : sorted(games);
-  const page = list.slice(0, shown);
-  $("grid").innerHTML = page.map(g => {
-    const p = pct(g.QM);
-    return `<a class="card" href="#/game/${g.appid}" data-name="${esc(g.name)}">
-      <div class="art">${artHTML(g)}</div>
-      <h3>${esc(g.name)}</h3>
-      <div class="card-foot"><span class="fv">${money(g.TV)}</span><span class="adj ${adjClass(p)}">${adjText(p)}</span></div>
-    </a>`;
+  $("grid").innerHTML = list.slice(0, shown).map(g => {
+    const v = verdict(g);
+    return `<a class="card" href="#/game/${g.appid}">${artHTML(g)}
+      <div class="c-body"><h3>${esc(g.name)}</h3>${compareHTML(g)}<span class="verdict ${v.cls}">${v.label}</span></div></a>`;
   }).join("");
   $("more").hidden = list.length <= shown;
+  $("featured").hidden = !!q || !$("f-grid").children.length;
+  $("browse-title").textContent = q ? "Search results" : "Browse games";
   if (!games.length) return;
   $("count").textContent = list.length === 0
-    ? `No games match "${$("q").value.trim()}". Try part of the title, or check back later: new games are added every day.`
-    : q ? `${num(list.length)} ${list.length === 1 ? "game matches" : "games match"} your search.`
-        : sortMode === "popular" ? "The most-reviewed games on Steam." : `Ranked among games with at least ${num(MIN_REVIEWS_FOR_RANKINGS)} reviews.`;
+    ? (q ? `No games match "${$("q").value.trim()}". Try part of the title, or check back later: new games are added every day.` : "No games here yet. Check back after the next daily update.")
+    : q ? `${num(list.length)} ${list.length === 1 ? "game matches" : "games match"} your search.` : blurbs[sortMode];
 }
 $("q").addEventListener("input", () => { shown = PAGE; render(); });
 $("more").addEventListener("click", () => { shown += PAGE; render(); });
@@ -250,52 +319,60 @@ document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click
 }));
 
 /* Game page */
+const contentWord = c => c >= 9 ? "Huge" : c >= 7 ? "Long" : c >= 5 ? "Medium length" : c >= 3 ? "Short" : "Very short";
+const qualityWord = q => q >= 9 ? "Outstanding" : q >= 8 ? "Great" : q >= 7 ? "Good" : q >= 5 ? "Mixed" : "Poor";
+const level = (x, lo, hi) => x <= lo ? "low" : x < hi ? "mid" : "";
+const segs = (x, lvl) => `<div class="segs ${lvl}" aria-hidden="true">${Array.from({length: 10}, (_, i) => `<i class="${i < x ? "on" : ""}"></i>`).join("")}</div>`;
+function hoursText(h) { return h < 1 ? "under an hour" : h < 2 ? "about an hour" : `about ${num(Math.round(h))} hours`; }
+
 function detailHTML(g) {
-  const p = pct(g.QM);
-  const n = Math.max(g.n, 1), cf = 1 - 1 / (1 + Math.log10(n));
-  const userW = Math.round(cf * 100), criticW = 100 - userW;
-  const critic = g.Pc === null
-    ? `This game has no critic score, so its player score of <strong>${g.Pu}%</strong> stands in for one.`
-    : `Critics gave it <strong>${g.Pc}</strong>, and <strong>${g.Pu}%</strong> of ${num(g.n)} Steam reviews are positive.`;
-  const weight = g.Pc === null ? "" : ` With ${num(g.n)} reviews, players count for ${userW}% of the result and critics for ${criticW}%.`;
-  const dotPos = Math.min(100, Math.max(0, ((g.QM - 0.5) / 0.65) * 100));
-  const an = x => [8, 11, 18].includes(x) ? "an" : "a";
-  const effect = p > 0 ? `${an(p)} <strong>${p}% premium</strong>` : p < 0 ? `${an(-p)} <strong>${-p}% penalty</strong>` : "<strong>no adjustment</strong>";
+  const v = verdict(g), d = gap(g);
+  const max = Math.max(g.fair, g.price || 0) || 1;
+  let band;
+  if (g.price == null) band = g.free
+    ? `<strong>Free to play</strong>It costs nothing, and it's worth ${money(g.fair)}.`
+    : `<strong>Not for sale right now</strong>There's no current price on Steam to compare against.`;
+  else if (v.tone === "good") band = `<strong>${v.label}</strong>You'd pay ${money(g.price)} for a game worth ${money(g.fair)}. That's ${money(d)} of value you're not paying for.`;
+  else if (v.tone === "bad") band = `<strong>${v.label}</strong>It's listed ${money(-d)} above what it's worth.${g.off > 0 ? " Even on sale." : " Worth waiting for a sale."}`;
+  else band = `<strong>${v.label}</strong>Today's price is about what this game is worth.`;
+
+  const qLvl = level(g.quality, 4, 7), cLvl = level(g.content, 2, 5);
+  const reviews = g.n ? `${g.Pu}% of ${num(g.n)} Steam reviews are positive.` : "No Steam reviews yet.";
+  const critics = g.Pc != null ? `Critics scored it ${g.Pc} out of 100. ` : "";
   return `
     <button class="close" id="close" aria-label="Close">✕</button>
-    <div class="d-art" data-name="${esc(g.name)}">${artHTML(g, true)}</div>
+    ${artHTML(g, true)}
     <div class="d-body">
       <h2 class="d-title" id="d-title">${esc(g.name)}</h2>
-      <div class="d-top">
-        <div><p class="d-fv-label">Fair value</p><div class="d-fv">${money(g.TV)}</div></div>
-        <a class="steam-link" href="https://store.steampowered.com/app/${g.appid}" target="_blank" rel="noopener">See it on Steam</a>
+      <div class="d-compare">
+        <div class="d-box"><div class="lbl">${g.off > 0 ? "On sale on Steam" : "Price on Steam"}</div>
+          <div class="amt">${priceHTML(g).replace(/<s>.*<\/s>/, "")}</div>
+          <div class="sub">${g.was ? `<s>${money(g.was)}</s><span class="pill">−${g.off}%</span>` : ""}</div></div>
+        <div class="d-box"><div class="lbl">Fair value</div>
+          <div class="amt ${toneClass(v.tone)}">${money(g.fair)}</div>
+          <div class="sub">What it's actually worth</div></div>
       </div>
-      ${g.flags ? `<p class="notes">Keep in mind: ${esc(g.flags)}.</p>` : ""}
-      <h2 class="how">How we got ${money(g.TV)}</h2>
-      <p class="how-sub">Every game is priced the same way: how much there is to play, adjusted up or down by how good it is.</p>
-      <ol class="steps">
-        <li class="step">
-          <h4>How much there is to play <span>${g.C.toFixed(1)} / 100</span></h4>
-          <p>Steam reviewers typically played <strong>${g.H} hours</strong>. More hours raise the score, but each extra hour counts a little less than the last, so length alone can't make a game expensive.</p>
-          <div class="bar" aria-hidden="true"><i style="width:${g.C}%"></i></div>
-          <p class="formula">Content = 100 × (1 − e^−(${g.H} ÷ 85)^0.65)</p>
-        </li>
-        <li class="step">
-          <h4>How good it is <span>${g.Q.toFixed(1)} / 100</span></h4>
-          <p>${critic}${weight} The more reviews a game has, the more player opinion counts.</p>
-        </li>
-        <li class="step">
-          <h4>Quality adjustment <span>${p > 0 ? "+" : p < 0 ? "−" : ""}${Math.abs(p)}%</span></h4>
-          <p>A quality score of 70 is neutral. This game's ${g.Q.toFixed(1)} gets ${effect}. Great games can gain up to 15%; poor ones can lose up to 50%.</p>
-          <div class="scale" aria-hidden="true"><span class="base"></span><span class="dot" style="left:${dotPos}%"></span></div>
-          <div class="scale-lbl" aria-hidden="true"><span>−50%</span><span>+15%</span></div>
-        </li>
-        <li class="step">
-          <h4>Fair value <span>${money(g.TV)}</span></h4>
-          <p>The content score, in dollars, times the quality adjustment.</p>
-          <p class="eq">${g.C.toFixed(2)} × ${g.QM.toFixed(3)} = ${money(g.TV)}</p>
-        </li>
-      </ol>
+      ${g.price != null ? `<div class="bars" aria-hidden="true">
+        <div class="bar-row">Price<div class="bar-track"><i style="width:${g.price / max * 100}%;background:var(--ink)"></i></div></div>
+        <div class="bar-row">Fair value<div class="bar-track"><i style="width:${g.fair / max * 100}%;background:var(${v.tone === "bad" ? "--red" : v.tone === "good" ? "--green" : "--even"})"></i></div></div>
+      </div>` : ""}
+      <div class="band ${v.cls}">${band}</div>
+      <div class="actions"><a class="steam-link" href="https://store.steampowered.com/app/${g.appid}" target="_blank" rel="noopener">See it on Steam</a></div>
+
+      <h3 class="bd">The breakdown</h3>
+      <div class="facts">
+        <div class="fact">
+          <div class="top"><h4>How much there is to play</h4><span class="rating">${g.content}<small> / 10</small></span></div>
+          <div class="word ${cLvl}">${contentWord(g.content)}</div>${segs(g.content, cLvl)}
+          <p>Players typically spend ${hoursText(g.H)} with it.</p>
+        </div>
+        <div class="fact">
+          <div class="top"><h4>How good it is</h4><span class="rating">${g.quality}<small> / 10</small></span></div>
+          <div class="word ${qLvl}">${qualityWord(g.quality)}</div>${segs(g.quality, qLvl)}
+          <p>${critics}${reviews}</p>
+        </div>
+      </div>
+      ${g.notes ? `<p class="notes">${esc(g.notes)}</p>` : ""}
     </div>`;
 }
 function openGame(g) {
@@ -303,7 +380,7 @@ function openGame(g) {
   $("panel").innerHTML = detailHTML(g);
   $("sheet").classList.add("open"); $("sheet").scrollTop = 0;
   document.body.classList.add("locked");
-  document.title = `${g.name}: ${money(g.TV)} fair value | Demystify Price`;
+  document.title = `${g.name}: worth ${money(g.fair)} | Demystify Price`;
   $("close").addEventListener("click", closeGame);
   $("close").focus();
 }
