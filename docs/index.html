@@ -10,15 +10,25 @@
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f2f5f3; --card: #ffffff; --ink: #17231d; --muted: #5f6d65; --line: #dde5e0;
-    --green: #1e9b68; --green-ink: #12744c; --green-soft: #e1f3e9;
-    --red: #d65a50;   --red-ink: #b43f36;   --red-soft: #fbe8e6;
-    --even: #6f7a74;  --even-soft: #eaeeec;
+    --bg: #11161d; --card: #18202a; --well: #11161d; --ink: #e9eef2; --muted: #93a1ae; --line: #253140;
+    --green: #3ecf8e; --green-ink: #6ee3ad; --green-soft: #3ecf8e24;
+    --red: #f0716a;   --red-ink: #ff948d;   --red-soft: #f0716a24;
+    --even: #a3aeb8;  --even-soft: #a3aeb81f;
+    --on-color: #0c1116;
     --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
     --body: "Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--body); -webkit-font-smoothing: antialiased; }
+  [hidden] { display: none !important; }
+  html { background: var(--bg); }
+  body { margin: 0; color: var(--ink); font: 16px/1.55 var(--body); -webkit-font-smoothing: antialiased; }
+  /* Green glows in from the top, red rises from the bottom */
+  body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+    background:
+      radial-gradient(140% 58% at 50% -10%, #3ecf8e5c 0%, #3ecf8e1f 40%, transparent 68%),
+      radial-gradient(140% 50% at 50% 110%, #f0716a4d 0%, #f0716a1a 40%, transparent 68%);
+    animation: glow 1.8s ease-out both; }
+  @keyframes glow { from { opacity: 0; } to { opacity: 1; } }
   body.locked { overflow: hidden; }
   a { color: inherit; }
   button { font: inherit; color: inherit; cursor: pointer; }
@@ -27,8 +37,7 @@
 
   /* Hero */
   header.hero { padding: 48px 0 36px; }
-  .brand { font: 800 1.05rem/1 var(--display); margin: 0 0 22px; display: flex; align-items: center; gap: 10px; }
-  .brand-mark { width: 26px; height: 26px; border-radius: 8px; background: linear-gradient(135deg, var(--green) 50%, var(--red) 50%); }
+  .brand { font: 800 1.05rem/1 var(--display); margin: 0 0 22px; letter-spacing: .01em; }
   h1.motto { font: 800 clamp(2.6rem, 7vw, 5rem)/0.95 var(--display); letter-spacing: -0.035em;
              margin: 0 0 16px; animation: clear 1.6s ease-out both; }
   @keyframes clear { from { filter: blur(14px); opacity: .2; } to { filter: blur(0); opacity: 1; } }
@@ -37,6 +46,7 @@
   .search input { width: 100%; font: 500 1.08rem var(--body); padding: 15px 18px 15px 48px; border-radius: 999px;
                   border: 1.5px solid var(--line); background: var(--card); color: var(--ink); }
   .search input:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 4px var(--green-soft); }
+  .search input::placeholder { color: var(--muted); }
   .search svg { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--muted); }
 
   h2.sec { font: 800 1.7rem/1.1 var(--display); letter-spacing: -0.02em; margin: 0 0 4px; }
@@ -46,15 +56,15 @@
   .art { aspect-ratio: 460 / 215; width: 100%; overflow: hidden; background: var(--even-soft); position: relative; }
   .art img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s ease; }
   .ph { position: absolute; inset: 0; display: grid; place-items: center; padding: 12px; text-align: center;
-        font: 700 1rem/1.2 var(--display); color: var(--muted); background: linear-gradient(135deg, #e6ece8, #dfe6e2); }
-  .sale { position: absolute; top: 10px; left: 10px; background: var(--green); color: #fff; font-weight: 700;
+        font: 700 1rem/1.2 var(--display); color: var(--muted); background: linear-gradient(135deg, #1f2935, #161e27); }
+  .sale { position: absolute; top: 10px; left: 10px; background: var(--green); color: var(--on-color); font-weight: 700;
           font-size: .85rem; padding: 3px 9px; border-radius: 6px; }
   .verdict { display: inline-block; font-weight: 700; font-size: .82rem; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
-  .v-great { background: var(--green); color: #fff; }
+  .v-great { background: var(--green); color: var(--on-color); }
   .v-good  { background: var(--green-soft); color: var(--green-ink); }
   .v-fair  { background: var(--even-soft); color: var(--even); }
   .v-over  { background: var(--red-soft); color: var(--red-ink); }
-  .v-way   { background: var(--red); color: #fff; }
+  .v-way   { background: var(--red); color: var(--on-color); }
   .v-free  { background: var(--green-soft); color: var(--green-ink); }
   .v-none  { background: var(--even-soft); color: var(--even); }
   .t-good { color: var(--green-ink); } .t-bad { color: var(--red-ink); } .t-even { color: var(--ink); }
@@ -66,7 +76,7 @@
   .compare s { color: var(--muted); font-size: .85rem; margin-left: 4px; font-weight: 500; }
 
   /* Featured */
-  .featured { padding: 8px 0 48px; }
+  .featured { padding-top: 8px; padding-bottom: 48px; }
   .f-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
   .f-card { background: var(--card); border-radius: 16px; overflow: hidden; text-decoration: none; display: flex; flex-direction: column;
             border: 1px solid var(--line); transition: border-color .15s, transform .15s; }
@@ -79,11 +89,11 @@
   .savings b { font-family: var(--display); font-size: 1.1rem; }
 
   /* Browse */
-  .browse { padding: 8px 0 24px; }
+  .browse { padding-top: 8px; padding-bottom: 24px; }
   .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 14px; }
-  .tabs button { background: var(--card); border: 1.5px solid var(--line); color: var(--muted); padding: 8px 16px; border-radius: 999px; font-weight: 600; font-size: .95rem; }
+  .tabs button { background: transparent; border: 1.5px solid var(--line); color: var(--muted); padding: 8px 16px; border-radius: 999px; font-weight: 600; font-size: .95rem; }
   .tabs button:hover { color: var(--ink); border-color: var(--muted); }
-  .tabs button[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .tabs button[aria-pressed="true"] { background: var(--ink); color: var(--on-color); border-color: var(--ink); }
   .count { color: var(--muted); font-size: .92rem; margin: 0 0 16px; min-height: 1.4em; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; }
   .card { background: var(--card); border-radius: 12px; overflow: hidden; text-decoration: none; border: 1px solid var(--line); display: flex; flex-direction: column; transition: border-color .15s; }
@@ -92,38 +102,38 @@
   .c-body { padding: 10px 14px 14px; display: flex; flex-direction: column; flex: 1; }
   .card h3 { font: 600 .98rem/1.3 var(--body); margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .card .verdict { align-self: flex-start; margin-top: auto; }
-  .more { display: block; margin: 32px auto 0; background: var(--card); border: 1.5px solid var(--line); padding: 12px 28px; border-radius: 999px; font-weight: 600; }
+  .more { display: block; margin: 32px auto 0; background: transparent; border: 1.5px solid var(--line); padding: 12px 28px; border-radius: 999px; font-weight: 600; }
   .more:hover { border-color: var(--muted); }
 
-  footer { color: var(--muted); font-size: .88rem; padding: 56px 0 48px; }
+  footer { color: var(--muted); font-size: .88rem; padding-top: 56px; padding-bottom: 48px; }
   footer p { margin: 4px 0; max-width: 76ch; }
 
   /* Game page */
-  .sheet { position: fixed; inset: 0; z-index: 10; background: #17231d99; backdrop-filter: blur(4px); overflow-y: auto; display: none; padding: 32px 16px; }
+  .sheet { position: fixed; inset: 0; z-index: 10; background: #06090cc7; backdrop-filter: blur(4px); overflow-y: auto; display: none; padding: 32px 16px; }
   .sheet.open { display: block; }
-  .panel { max-width: 860px; margin: 0 auto; background: var(--card); border-radius: 18px; overflow: hidden; position: relative; animation: rise .22s ease-out; }
+  .panel { max-width: 860px; margin: 0 auto; background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; position: relative; animation: rise .22s ease-out; }
   @keyframes rise { from { transform: translateY(14px); opacity: 0; } to { transform: none; opacity: 1; } }
-  .close { position: absolute; top: 12px; right: 12px; z-index: 2; width: 40px; height: 40px; border-radius: 50%; border: 0; background: #ffffffe6; font-size: 1.2rem; line-height: 1; }
-  .close:hover { background: #fff; }
+  .close { position: absolute; top: 12px; right: 12px; z-index: 2; width: 40px; height: 40px; border-radius: 50%; border: 0; background: #11161de6; font-size: 1.2rem; line-height: 1; }
+  .close:hover { background: var(--bg); }
   .d-body { padding: 26px 32px 34px; }
   .d-title { font: 800 clamp(1.7rem, 4vw, 2.3rem)/1.05 var(--display); letter-spacing: -0.02em; margin: 0 0 22px; }
   .d-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  .d-box { border-radius: 14px; padding: 16px 20px; background: var(--bg); }
+  .d-box { border-radius: 14px; padding: 16px 20px; background: var(--well); }
   .d-box .lbl { font-weight: 600; color: var(--muted); font-size: .95rem; }
   .d-box .amt { font: 800 clamp(2.2rem, 7vw, 3.4rem)/1 var(--display); letter-spacing: -0.03em; margin-top: 4px; }
   .d-box .sub { margin-top: 6px; font-size: .92rem; color: var(--muted); min-height: 1.4em; }
   .d-box .sub s { margin-right: 6px; }
-  .d-box .sub .pill { background: var(--green); color: #fff; font-weight: 700; padding: 1px 8px; border-radius: 6px; font-size: .82rem; }
+  .d-box .sub .pill { background: var(--green); color: var(--on-color); font-weight: 700; padding: 1px 8px; border-radius: 6px; font-size: .82rem; }
   .bars { margin: 18px 0 0; display: grid; gap: 8px; }
   .bar-row { display: grid; grid-template-columns: 86px 1fr; align-items: center; gap: 12px; font-size: .85rem; color: var(--muted); font-weight: 600; }
-  .bar-track { height: 12px; border-radius: 99px; background: var(--even-soft); overflow: hidden; }
+  .bar-track { height: 12px; border-radius: 99px; background: #ffffff10; overflow: hidden; }
   .bar-track i { display: block; height: 100%; border-radius: 99px; }
   .band { margin-top: 18px; border-radius: 14px; padding: 16px 20px; font-size: 1.05rem; }
   .band strong { font: 800 1.2rem var(--display); display: block; margin-bottom: 2px; }
-  .band.v-great, .band.v-way { color: #fff; }
+  .band.v-great, .band.v-way { color: var(--on-color); }
   .actions { margin-top: 20px; }
-  .steam-link { display: inline-block; padding: 11px 20px; border-radius: 999px; background: var(--ink); color: #fff; font-weight: 600; text-decoration: none; }
-  .steam-link:hover { background: var(--green-ink); }
+  .steam-link { display: inline-block; padding: 11px 20px; border-radius: 999px; background: var(--ink); color: var(--on-color); font-weight: 600; text-decoration: none; }
+  .steam-link:hover { background: var(--green); }
   h3.bd { font: 800 1.3rem var(--display); margin: 30px 0 12px; }
   .facts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   .fact { border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
@@ -134,7 +144,7 @@
   .fact .word { font-weight: 700; color: var(--green-ink); margin: 2px 0 10px; }
   .fact .word.low { color: var(--red-ink); } .fact .word.mid { color: var(--even); }
   .segs { display: grid; grid-template-columns: repeat(10, 1fr); gap: 3px; margin-bottom: 10px; }
-  .segs i { height: 8px; border-radius: 2px; background: var(--even-soft); }
+  .segs i { height: 8px; border-radius: 2px; background: #ffffff14; }
   .segs i.on { background: var(--green); } .segs.low i.on { background: var(--red); } .segs.mid i.on { background: var(--even); }
   .fact p { margin: 0; color: var(--muted); font-size: .93rem; }
   .notes { margin: 16px 0 0; color: var(--muted); font-size: .9rem; }
@@ -156,7 +166,7 @@
 <body>
 <header class="hero">
   <div class="wrap">
-    <p class="brand"><span class="brand-mark" aria-hidden="true"></span>Demystify Price</p>
+    <p class="brand">Demystify Price</p>
     <h1 class="motto">Let's clear the air.</h1>
     <p class="lede">What every Steam game is actually worth, next to what it's selling for today. Green means you're getting more than you pay for.</p>
     <div class="search">
@@ -207,7 +217,9 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":
 
 /* The deal verdict: fair value compared with today's price. */
 function verdict(g) {
-  if (g.price == null) return g.free ? {cls: "v-free", label: "Free to play", tone: "good"} : {cls: "v-none", label: "Not for sale", tone: "even"};
+  if (g.price == null) return g.avail === "free" ? {cls: "v-free", label: "Free to play", tone: "good"}
+    : g.avail === "none" ? {cls: "v-none", label: "Not for sale", tone: "even"}
+    : {cls: "v-none", label: "Price unavailable", tone: "even"};
   const r = g.fair / g.price;
   if (r >= 1.5) return {cls: "v-great", label: "Great deal", tone: "good", r};
   if (r >= 1.1) return {cls: "v-good",  label: "Good deal", tone: "good", r};
@@ -236,7 +248,7 @@ function nextArt(img) {
   box.insertAdjacentHTML("afterbegin", `<div class="ph">${esc(box.dataset.name || "")}</div>`);
 }
 function priceHTML(g) {
-  if (g.price == null) return g.free ? "Free" : "–";
+  if (g.price == null) return g.avail === "free" ? "Free" : "–";
   return money(g.price) + (g.was ? `<s>${money(g.was)}</s>` : "");
 }
 function compareHTML(g) {
@@ -329,9 +341,11 @@ function detailHTML(g) {
   const v = verdict(g), d = gap(g);
   const max = Math.max(g.fair, g.price || 0) || 1;
   let band;
-  if (g.price == null) band = g.free
+  if (g.price == null) band = g.avail === "free"
     ? `<strong>Free to play</strong>It costs nothing, and it's worth ${money(g.fair)}.`
-    : `<strong>Not for sale right now</strong>There's no current price on Steam to compare against.`;
+    : g.avail === "none"
+    ? `<strong>Not for sale right now</strong>Steam isn't currently selling this game, so there's no price to compare.`
+    : `<strong>Price unavailable</strong>Steam didn't give us a price for this game today. We'll check again in the next daily update.`;
   else if (v.tone === "good") band = `<strong>${v.label}</strong>You'd pay ${money(g.price)} for a game worth ${money(g.fair)}. That's ${money(d)} of value you're not paying for.`;
   else if (v.tone === "bad") band = `<strong>${v.label}</strong>It's listed ${money(-d)} above what it's worth.${g.off > 0 ? " Even on sale." : " Worth waiting for a sale."}`;
   else band = `<strong>${v.label}</strong>Today's price is about what this game is worth.`;
