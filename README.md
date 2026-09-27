@@ -7,12 +7,14 @@ publishes a searchable page. No servers, no cost, no AI running in the loop.
 
 Every day at 2am Central, GitHub runs a script that:
 
-1. Downloads the full Steam catalog from SteamSpy: user reviews and playtime
-   for every game (about 1–2 hours, SteamSpy only allows one page per minute).
-2. Looks up critic scores from the Steam store for games it hasn't checked yet,
-   most-reviewed first (3 hours per day; Steam only allows ~200 lookups per
-   5 minutes, so the full catalog takes about two weeks to fill in, then it's
-   quick after that).
+1. Downloads the list of every Steam game from SteamSpy (about 1.5 hours;
+   SteamSpy only allows one page per minute).
+2. Looks up each game on the Steam store, most-reviewed first: gameplay hours
+   (median hours played by up to 100 reviewers), review totals, and critic
+   score. Steam limits how fast this can go, so each run checks about 4,000
+   games in 3 hours. The most popular games are scored on day one; the full
+   catalog of ~82,000 fills in over about three weeks. Results are refreshed
+   every 30 days.
 3. Runs every game through the formula in `tvvg/formula.py`.
 4. Saves the results. Your search page updates automatically.
 
@@ -41,9 +43,12 @@ Every day at 2am Central, GitHub runs a script that:
 
 ## Reading the results
 
-- **Notes column:** `critic not checked yet` goes away as critic lookups fill
-  in over the first two weeks. `no critic score` means the game has no
-  Metacritic score. `low reviews` means fewer than 50 Steam reviews.
+- **Games appear gradually.** A game shows up once it's been looked up. If a
+  game is missing, it probably hasn't been reached yet. You can speed this
+  up by clicking *Run workflow* more often; each run adds about 4,000 games.
+- **Notes column:** `no critic score` means the game has no Metacritic score.
+  `low reviews` means fewer than 50 Steam reviews. `hours from only N
+  reviewers` means H is based on a small sample and may be unreliable.
 - **Spreadsheet:** `docs/games.csv` in the repo has every game. Click it →
   *Download raw file* to open in Excel and sort however you like.
 - Games with no playtime data aren't scored at all (they can't be; H would
@@ -56,14 +61,15 @@ the formula.
 
 | Setting | Current | What it means |
 |---|---|---|
-| `H_SOURCE` | `median` | H = median hours Steam owners have played. `average` is the alternative. |
+| `SMALL_SAMPLE_FLAG` | `20` | H from fewer reviewers than this gets flagged. |
 | `MISSING_CRITIC_RULE` | `use_user` | No critic score → use the user % in its place. `skip` = don't score those games. |
 | `LOW_REVIEW_FLAG` | `50` | Review count below which a game is flagged. |
 
 ## Data sources
 
-- SteamSpy (steamspy.com/api.php): public, no key.
-- Steam Store appdetails (store.steampowered.com/api/appdetails): public,
-  no key. Critic scores are Metacritic's, as shown on Steam.
+- SteamSpy (steamspy.com/api.php): list of Steam games. Public, no key.
+- Steam Store (store.steampowered.com): playtime and review totals from
+  appreviews, critic scores (Metacritic's, as shown on Steam) from
+  appdetails. Public, no key.
 
 Credit both on the page before going public.
