@@ -2,13 +2,13 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 4000,Garry's Mod,4.99,9.99,50,paid,57.78,5,10,51.1,,96.9,1267252,"No critic score yet, so player reviews carry the quality rating."
 553850,HELLDIVERS 2,29.99,39.99,25,paid,82.49,8,8,190.1,,75.6,1164354,"No critic score yet, so player reviews carry the quality rating."
 1174180,Red Dead Redemption 2,14.99,59.99,75,paid,68.13,6,9,81.0,93,92.5,922133,
+739630,Phasmophobia,19.99,,0,paid,66.24,6,9,73.3,,94.4,840088,"No critic score yet, so player reviews carry the quality rating."
 242760,The Forest,19.99,,0,paid,39.84,4,9,24.6,83,95.5,683204,
 322170,Geometry Dash,4.99,,0,paid,69.72,6,9,85.5,,93.0,645743,"No critic score yet, so player reviews carry the quality rating."
 1966720,Lethal Company,9.99,,0,paid,49.58,4,10,36.7,,97.0,511087,"No critic score yet, so player reviews carry the quality rating."
 108600,Project Zomboid,24.99,,0,paid,86.07,8,9,159.7,,93.8,483982,"No critic score yet, so player reviews carry the quality rating."
 3241660,R.E.P.O.,9.99,,0,paid,49.92,4,10,37.7,,96.0,425865,"No critic score yet, so player reviews carry the quality rating."
 284160,BeamNG.drive,24.99,,0,paid,66.58,6,10,71.1,,97.2,420215,"No critic score yet, so player reviews carry the quality rating."
-648800,Raft,19.99,,0,paid,46.1,4,9,33.2,,93.0,378980,"No critic score yet, so player reviews carry the quality rating."
 1326470,Sons Of The Forest,29.99,,0,paid,44.37,4,9,32.4,,88.5,321011,"No critic score yet, so player reviews carry the quality rating."
 1118200,People Playground,9.99,,0,paid,80.45,7,10,117.7,,97.9,319980,"No critic score yet, so player reviews carry the quality rating."
 1222140,Detroit: Become Human,3.99,39.99,90,paid,31.22,3,9,15.6,80,96.4,263724,
@@ -29,7 +29,6 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 222880,Insurgency,14.99,,0,paid,34.01,3,9,19.2,74,91.7,124576,
 376210,The Isle,19.99,,0,paid,62.81,6,8,77.5,,80.2,121419,"No critic score yet, so player reviews carry the quality rating."
 516750,My Summer Car,14.99,,0,paid,56.15,5,9,49.3,,94.9,117884,"No critic score yet, so player reviews carry the quality rating."
-629520,Soundpad,4.99,,0,paid,82.4,7,10,131.6,,96.0,104678,"No critic score yet, so player reviews carry the quality rating."
 1222700,A Way Out,5.99,29.99,80,paid,18.42,2,9,6.7,78,87.9,103194,
 1237950,STAR WARS Battlefront II,7.99,39.99,80,paid,40.07,4,9,26.5,,88.3,100192,"No critic score yet, so player reviews carry the quality rating."
 254700,Resident Evil 4 (2005),19.99,,0,paid,38.65,4,9,23.8,79,94.2,98594,
@@ -38,15 +37,15 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 1046930,Dota Underlords,,,0,free,47.91,5,8,40.6,,82.2,90940,"No critic score yet, so player reviews carry the quality rating."
 311690,Enter the Gungeon,2.99,14.99,80,paid,51.63,5,9,42.0,84,95.1,89905,
 235460,METAL GEAR RISING: REVENGEANCE,29.99,,0,paid,31.68,3,9,16.0,83,96.0,89106,
+750920,Shadow of the Tomb Raider: Definitive Edition,39.99,,0,paid,32.52,3,8,18.6,77,84.6,88558,
 35140,Batman: Arkham Asylum Game of the Year Edition,2.99,19.99,85,paid,32.32,3,10,16.3,91,96.4,87828,
+823130,Totally Accurate Battlegrounds,,,0,free,20.46,2,9,7.8,,88.5,87794,"No critic score yet, so player reviews carry the quality rating."
 223710,Cry of Fear,,,0,free,27.12,3,9,12.7,,88.7,87658,"No critic score yet, so player reviews carry the quality rating."
 1113000,Persona 4 Golden,9.99,19.99,50,paid,69.8,6,10,82.6,87,97.0,87594,
 1888160,ARMORED CORE VI FIRES OF RUBICON,59.99,,0,paid,55.75,5,9,51.3,86,91.7,86122,
-588430,Fallout Shelter,,,0,free,39.85,4,8,27.4,63,87.8,82880,
 240720,Getting Over It with Bennett Foddy,7.99,,0,paid,24.18,2,8,11.0,,82.3,82598,"No critic score yet, so player reviews carry the quality rating."
 287390,METRO Last Light Redux,19.99,,0,paid,28.55,3,9,14.0,76,91.3,82065,
 239030,"Papers, Please",9.99,,0,paid,27.39,2,10,12.1,85,97.3,80622,
-636480,Ravenfield,17.99,,0,paid,43.53,4,10,28.2,,96.7,80223,"No critic score yet, so player reviews carry the quality rating."
 307690,Sleeping Dogs: Definitive Edition,2.99,19.99,85,paid,41.03,4,9,25.9,,94.1,79823,"No critic score yet, so player reviews carry the quality rating."
 200260,Batman: Arkham City - Game of the Year Edition,3.99,19.99,80,paid,39.72,4,10,24.0,91,96.2,78440,
 331470,Everlasting Summer,,,0,free,31.06,3,9,15.3,,94.4,78187,"No critic score yet, so player reviews carry the quality rating."
@@ -100,22 +99,25 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 2212330,Your Only Move Is HUSTLE,4.99,,0,paid,36.66,3,10,20.3,,96.5,45512,"No critic score yet, so player reviews carry the quality rating."
 1562700,SANABI,14.99,,0,paid,27.55,2,10,12.0,,97.2,45280,"No critic score yet, so player reviews carry the quality rating."
 239820,Game Dev Tycoon,3.99,9.99,60,paid,26.48,2,9,12.0,68,95.2,45135,
-601510,Yu-Gi-Oh! Duel Links,,,0,free,67.77,7,8,91.7,,82.8,45013,"No critic score yet, so player reviews carry the quality rating."
 1210320,Potion Craft: Alchemist Simulator,19.99,,0,paid,37.06,3,9,21.6,,93.0,44822,"No critic score yet, so player reviews carry the quality rating."
 204450,Call of Juarez: Gunslinger,14.99,,0,paid,19.9,2,9,7.2,79,95.0,44358,
+751780,Forager,5.99,19.99,70,paid,43.4,4,9,31.3,78,89.5,44123,
 1659420,UNCHARTED: Legacy of Thieves Collection,16.49,49.99,67,paid,38.34,4,9,23.7,,90.6,44110,"No critic score yet, so player reviews carry the quality rating."
 960990,Beyond: Two Souls,1.99,19.99,90,paid,25.61,2,9,11.8,76,87.6,43635,
 242920,Banished,19.99,,0,paid,49.86,5,9,41.8,73,90.4,43352,
 32470,STAR WARS Empire at War - Gold Pack,19.99,,0,paid,68.41,6,10,75.5,,97.7,43252,"No critic score yet, so player reviews carry the quality rating."
 967050,Pacify,4.99,,0,paid,13.81,1,9,4.1,,86.0,42799,"No critic score yet, so player reviews carry the quality rating."
+824270,KovaaK's,9.99,,0,paid,38.82,4,9,23.6,,93.0,42031,"No critic score yet, so player reviews carry the quality rating."
 225080,Brothers - A Tale of Two Sons,14.99,,0,paid,15.37,1,9,4.6,90,94.4,41286,
 2420510,HoloCure - Save the Fans!,,,0,free,39.13,3,10,22.3,,99.0,40798,"No critic score yet, so player reviews carry the quality rating."
 322500,SUPERHOT,7.49,24.99,70,paid,14.87,1,9,4.5,82,91.5,40781,
 555160,Pavlov,24.99,,0,paid,33.38,3,9,18.6,,88.6,40536,"No critic score yet, so player reviews carry the quality rating."
 250320,The Wolf Among Us,14.99,,0,paid,25.98,2,10,11.0,85,97.9,40304,
 42680,Call of Duty: Modern Warfare 3 (2011),19.99,39.99,50,paid,22.61,2,9,9.2,,89.0,39883,"No critic score yet, so player reviews carry the quality rating."
+701160,Kingdom Two Crowns,3.99,19.99,80,paid,39.68,4,9,25.4,,90.2,39875,"No critic score yet, so player reviews carry the quality rating."
 2378900,The Coffin of Andy and Leyley,11.99,,0,paid,30.34,3,10,14.4,,95.9,39567,"No critic score yet, so player reviews carry the quality rating."
 17410,Mirror's Edge,6.99,19.99,65,paid,18.45,2,9,6.7,81,87.7,39386,
+745920,Temtem,44.99,,0,paid,56.32,5,8,58.9,79,81.3,39322,
 993090,Lossless Scaling,6.99,,0,paid,50.09,5,9,40.7,,90.5,39308,"No critic score yet, so player reviews carry the quality rating."
 485510,Nioh: Complete Edition,7.49,49.99,85,paid,51.75,5,8,49.1,84,78.9,39087,
 312530,Duck Game,12.99,,0,paid,32.09,3,9,16.3,82,96.6,39067,
@@ -127,9 +129,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 35450,Red Orchestra 2: Heroes of Stalingrad with Rising Storm,19.99,,0,paid,39.87,4,9,25.8,76,92.6,38135,
 1235140,Yakuza: Like a Dragon,6.99,19.99,65,paid,63.16,6,9,67.5,83,94.0,37654,
 1681430,RoboCop: Rogue City,4.49,44.99,90,paid,31.04,3,9,16.8,76,87.0,37578,
-655500,MX Bikes,34.99,,0,paid,52.75,5,9,43.3,,94.3,37425,"No critic score yet, so player reviews carry the quality rating."
 1144400,Senren＊Banka,34.99,,0,paid,43.31,4,10,27.4,,98.5,37212,"No critic score yet, so player reviews carry the quality rating."
-622650,Bendy and the Ink Machine,19.99,,0,paid,20.84,2,9,8.0,,89.0,37210,"No critic score yet, so player reviews carry the quality rating."
 2407270,AI LIMIT,22.74,34.99,35,paid,41.81,4,9,28.6,75,91.8,37091,
 1241100,POLYGON: Multiplayer Shooter,,,0,free,18.56,2,8,7.3,,75.2,37016,"No critic score yet, so player reviews carry the quality rating."
 438040,Shakes and Fidget,,,0,free,54.96,5,9,48.8,,92.0,36845,"No critic score yet, so player reviews carry the quality rating."
@@ -137,7 +137,6 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 2273430,BlazBlue Entropy Effect,11.99,19.99,40,paid,39.02,4,9,24.1,83,94.3,36592,
 2221490,Tom Clancy’s The Division 2,29.99,,0,paid,45.86,4,8,37.9,84,78.6,36551,
 4700,Total War: MEDIEVAL II – Definitive Edition,4.99,19.99,75,paid,72.06,6,10,89.4,,95.6,36529,"No critic score yet, so player reviews carry the quality rating."
-657200,Hand Simulator,2.99,,0,paid,9.25,1,8,2.2,,83.8,36206,"No critic score yet, so player reviews carry the quality rating."
 2909400,FINAL FANTASY VII REBIRTH,7.49,49.99,85,paid,56.06,6,7,61.6,,74.7,36014,"No critic score yet, so player reviews carry the quality rating."
 57300,Amnesia: The Dark Descent,19.99,,0,paid,23.72,2,9,9.6,85,94.6,35783,
 1466060,Tainted Grail: The Fall of Avalon,44.99,,0,paid,56.02,5,9,54.8,80,87.7,35761,
@@ -146,7 +145,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 3117820,Sultan's Game,24.99,,0,paid,56.04,5,9,51.1,83,93.8,35259,
 1483870,Draw & Guess,4.99,,0,paid,25.83,2,8,12.2,,83.9,35225,"No critic score yet, so player reviews carry the quality rating."
 1213210,Command & Conquer Remastered Collection,2.99,19.99,85,paid,37.37,3,9,22.9,82,90.7,35061,
-1931770,Chants of Sennaar,19.99,,0,paid,26.72,2,10,11.5,86,98.2,35009,
+1931770,Chants of Sennaar,9.99,19.99,50,paid,26.72,2,10,11.5,86,98.2,35009,
 1262350,SIGNALIS,19.99,,0,paid,27.74,2,10,12.2,,96.6,34708,"No critic score yet, so player reviews carry the quality rating."
 1040200,Crime Scene Cleaner,20.99,29.99,30,paid,51.94,5,10,39.8,,98.1,34535,"No critic score yet, so player reviews carry the quality rating."
 1392820,Milk inside a bag of milk inside a bag of milk,1.49,,0,paid,3.58,1,10,0.4,,96.4,34366,"No critic score yet, so player reviews carry the quality rating."
@@ -154,6 +153,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 32370,STAR WARS Knights of the Old Republic,9.99,,0,paid,48.52,4,9,37.8,,91.1,34033,"No critic score yet, so player reviews carry the quality rating."
 555570,Infestation: The New Z,,,0,free,42.6,5,5,38.6,,54.1,33888,"No critic score yet, so player reviews carry the quality rating."
 2515020,FINAL FANTASY XVI,19.99,49.99,60,paid,50.64,5,8,47.4,,78.5,33845,"No critic score yet, so player reviews carry the quality rating."
+738060,Freddy Fazbear's Pizzeria Simulator,,,0,free,13.9,1,9,3.9,,93.7,33354,"No critic score yet, so player reviews carry the quality rating."
 521890,Hello Neighbor,29.99,,0,paid,24.36,2,9,10.8,,86.2,33220,"No critic score yet, so player reviews carry the quality rating."
 2456740,inZOI,39.99,,0,paid,44.84,4,8,36.8,,77.4,33165,"No critic score yet, so player reviews carry the quality rating."
 955050,Bright Memory,7.99,,0,paid,8.12,1,9,1.7,,89.8,33118,"No critic score yet, so player reviews carry the quality rating."
@@ -196,6 +196,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 2138710,Sifu,9.99,39.99,75,paid,32.89,3,9,17.9,81,91.9,28925,
 292000,No More Room in Hell 2,29.99,,0,paid,41.22,4,6,33.7,79,57.1,28642,
 1237320,Sonic Frontiers,9.99,39.99,75,paid,35.66,3,9,21.0,,89.1,28593,"No critic score yet, so player reviews carry the quality rating."
+744900,Dead Frontier 2,,,0,free,29.17,3,7,16.5,,69.8,28452,"No critic score yet, so player reviews carry the quality rating."
 80,Counter-Strike: Condition Zero,9.99,,0,paid,17.67,2,9,6.2,65,91.5,28426,
 383150,Dead Island Definitive Edition,19.99,,0,paid,32.56,3,8,18.9,,81.9,28357,"No critic score yet, so player reviews carry the quality rating."
 1127400,Mindustry,9.99,,0,paid,62.57,6,10,62.5,,95.7,28231,"No critic score yet, so player reviews carry the quality rating."
@@ -203,6 +204,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 1262560,Need for Speed Most Wanted,3.99,19.99,80,paid,25.58,3,8,12.6,78,77.1,28190,
 977400,Cell to Singularity - Evolution Never Ends,,,0,free,56.82,5,9,54.5,,89.3,28185,"No critic score yet, so player reviews carry the quality rating."
 1520470,封灵档案,,,0,free,23.57,2,8,10.6,,82.0,27936,"No critic score yet, so player reviews carry the quality rating."
+729040,Borderlands Game of the Year Enhanced,29.99,,0,paid,37.94,4,8,25.5,,81.0,27918,"No critic score yet, so player reviews carry the quality rating."
 1158160,Coral Island,29.99,,0,paid,76.03,7,9,116.5,,89.0,27708,"No critic score yet, so player reviews carry the quality rating."
 384190,ABZU,19.99,,0,paid,13.86,1,9,4.0,83,92.9,27677,
 34030,Total War: NAPOLEON – Definitive Edition,4.99,19.99,75,paid,52.34,5,9,45.2,81,91.7,27675,
@@ -216,13 +218,12 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 1599600,PlateUp!,4.99,19.99,75,paid,47.55,4,9,34.6,,94.8,27217,"No critic score yet, so player reviews carry the quality rating."
 1601580,Frostpunk 2,44.99,,0,paid,34.75,3,8,22.3,85,74.8,27202,
 412830,STEINS;GATE,29.99,,0,paid,50.54,5,10,39.1,87,97.1,27152,
+774181,Rhythm Doctor,19.99,,0,paid,23.85,2,10,9.4,89,98.1,27058,
 1940340,Darkest Dungeon II,12.39,39.99,69,paid,50.93,5,8,49.0,81,74.6,27050,
 431730,Aseprite,19.99,,0,paid,65.94,6,10,67.5,,98.9,27015,"No critic score yet, so player reviews carry the quality rating."
 1458140,Pacific Drive,17.99,44.99,60,paid,43.28,4,8,32.5,,83.2,26977,"No critic score yet, so player reviews carry the quality rating."
-629820,Maneater,5.99,39.99,85,paid,29.56,3,8,15.5,70,87.3,26956,
 2066020,Soulstone Survivors,14.99,,0,paid,46.0,4,9,33.7,,91.3,26862,"No critic score yet, so player reviews carry the quality rating."
 48190,Assassin’s Creed Brotherhood,19.99,,0,paid,37.62,4,9,23.4,88,88.2,26825,
-609320,FAR: Lone Sails,2.24,14.99,85,paid,15.81,1,9,4.9,80,95.3,26496,
 1466640,Road 96 ,19.96,,0,paid,23.07,2,9,9.5,79,91.6,26357,
 332800,Five Nights at Freddy's 2,7.99,,0,paid,12.33,1,9,3.4,62,93.7,26233,
 531510,Just Shapes & Beats,11.99,19.99,40,paid,30.64,3,10,14.4,,97.6,26146,"No critic score yet, so player reviews carry the quality rating."
@@ -230,7 +231,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 208580,STAR WARS Knights of the Old Republic II - The Sith Lords,9.99,,0,paid,58.66,5,9,55.4,,93.6,26113,"No critic score yet, so player reviews carry the quality rating."
 420290,Blackwake,,,0,free,4.66,1,8,0.8,,80.7,26053,"No critic score yet, so player reviews carry the quality rating."
 1686940,Bopl Battle,9.99,,0,paid,39.92,4,10,23.7,,97.2,25933,"No critic score yet, so player reviews carry the quality rating."
-631510,Devil May Cry HD Collection,9.89,29.99,67,paid,41.72,4,9,27.1,,93.4,25866,"No critic score yet, so player reviews carry the quality rating."
+756800,Contraband Police,29.99,,0,paid,31.51,3,9,16.2,77,95.0,25820,
 1583230,High On Life,9.99,39.99,75,paid,26.33,2,9,12.0,,89.0,25780,"No critic score yet, so player reviews carry the quality rating."
 1044720,Farthest Frontier,24.49,34.99,30,paid,53.04,5,9,48.9,83,86.0,25594,
 1432860,Sun Haven,24.99,,0,paid,53.56,5,8,52.7,,80.5,25580,"No critic score yet, so player reviews carry the quality rating."
@@ -242,6 +243,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 1097840,Gears 5,7.49,29.99,75,paid,32.24,3,7,19.7,82,70.8,25322,
 1496790,Gotham Knights,8.99,59.99,85,paid,33.38,3,7,21.4,,67.3,25306,"No critic score yet, so player reviews carry the quality rating."
 1577120,The Quarry,6.99,69.99,90,paid,23.97,2,8,10.9,,82.0,25281,"No critic score yet, so player reviews carry the quality rating."
+837470,Untitled Goose Game,7.99,19.99,60,paid,19.15,2,9,6.7,79,95.9,25274,
 38400,Fallout: A Post Nuclear Role Playing Game,2.49,9.99,75,paid,37.74,3,9,22.3,89,94.3,25266,
 1227890,Summer Memories,19.99,,0,paid,23.7,2,9,9.7,,92.6,25201,"No critic score yet, so player reviews carry the quality rating."
 221640,Super Hexagon,2.99,,0,paid,17.13,2,10,5.4,88,96.9,25135,
@@ -250,25 +252,21 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 297000,Heroes of Might & Magic III - HD Edition,12.49,49.99,75,paid,36.69,4,8,24.7,65,79.4,25034,
 274520,Darkwood,1.99,19.99,90,paid,38.84,4,9,23.9,80,94.9,25033,
 285920,TerraTech,6.24,24.99,75,paid,49.91,5,9,40.0,,91.4,25029,"No critic score yet, so player reviews carry the quality rating."
+780310,The Riftbreaker,29.99,,0,paid,57.43,5,9,56.1,83,90.3,24980,
 979690,The Ascent,29.99,,0,paid,29.4,3,7,16.6,,73.6,24980,"No critic score yet, so player reviews carry the quality rating."
 2828860,The Forever Winter,29.99,,0,paid,44.7,4,7,38.1,,68.2,24972,"No critic score yet, so player reviews carry the quality rating."
 1401590,Disney Dreamlight Valley,23.99,39.99,40,paid,88.28,8,9,182.0,,92.2,24920,"No critic score yet, so player reviews carry the quality rating."
 2198150,Tiny Glade,14.99,,0,paid,23.96,2,10,9.3,,97.3,24798,"No critic score yet, so player reviews carry the quality rating."
 1286680,Tiny Tina's Wonderlands,29.99,,0,paid,38.48,4,7,28.0,,70.6,24788,"No critic score yet, so player reviews carry the quality rating."
-583950,Artifact,,,0,free,4.05,1,5,0.7,76,47.1,24758,Playtime is based on only a few players.
 1948980,Hero's Adventure: Road to Passion,17.99,,0,paid,64.48,6,8,79.2,,84.0,24694,"No critic score yet, so player reviews carry the quality rating."
 813230,ANIMAL WELL,24.99,,0,paid,31.26,3,9,15.4,90,95.7,24658,
-627270,Injustice 2,4.99,49.99,90,paid,24.59,2,9,11.0,86,86.3,24591,
-606150,Moonlighter,19.99,,0,paid,27.91,3,8,14.5,74,81.4,24589,
+736260,Baba Is You,14.99,,0,paid,36.02,3,10,19.8,87,97.7,24641,
 368260,Marvel's Midnight Suns,15.99,79.99,80,paid,57.21,6,8,60.7,,81.6,24534,"No critic score yet, so player reviews carry the quality rating."
 1127500,Mini Motorways,9.99,,0,paid,37.3,3,9,21.5,87,96.3,24477,
-692890,Roboquest,24.99,,0,paid,40.81,4,9,25.9,85,95.3,24454,
 332950,Dark Deception,,,0,free,23.7,2,9,10.1,,88.3,24368,"No critic score yet, so player reviews carry the quality rating."
-690830,Foundation,20.99,34.99,40,paid,59.98,6,9,64.4,84,86.7,24285,
 1929610,Demonologist,19.99,,0,paid,36.44,3,9,22.7,,85.2,24251,"No critic score yet, so player reviews carry the quality rating."
-302670,Call to Arms,1.49,14.99,90,paid,33.83,3,8,20.8,,79.3,24164,"No critic score yet, so player reviews carry the quality rating."
+302670,Call to Arms,14.99,,0,paid,33.83,3,8,20.8,,79.3,24164,"No critic score yet, so player reviews carry the quality rating."
 2072450,Like a Dragon: Infinite Wealth,13.99,69.99,80,paid,68.93,6,9,86.6,89,90.5,24117,
-681280,Descenders,24.99,,0,paid,40.33,4,9,25.9,78,94.4,24104,
 239160,Thief,2.99,19.99,85,paid,27.91,3,7,15.1,70,74.6,24051,
 2080690,Sunkenland,19.99,,0,paid,57.38,6,8,61.9,,80.4,24003,"No critic score yet, so player reviews carry the quality rating."
 1082430,Before Your Eyes,9.99,,0,paid,10.84,1,10,2.5,,97.9,23996,"No critic score yet, so player reviews carry the quality rating."
@@ -295,6 +293,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 2784470,9 Kings,19.99,,0,paid,43.92,4,9,30.3,,92.4,23366,"No critic score yet, so player reviews carry the quality rating."
 323850,Move or Die,14.99,,0,paid,10.79,1,9,2.7,80,89.2,23308,
 212500,The Lord of the Rings Online,,,0,free,42.47,4,8,31.8,,81.5,23283,"No critic score yet, so player reviews carry the quality rating."
+858820,Tribes of Midgard,19.99,,0,paid,35.43,3,8,23.2,,76.4,23275,"No critic score yet, so player reviews carry the quality rating."
 1669000,Age of Wonders 4,49.99,,0,paid,55.35,5,8,56.7,,80.8,23260,"No critic score yet, so player reviews carry the quality rating."
 997010,Police Simulator: Patrol Officers,5.99,29.99,80,paid,32.82,3,7,20.3,,74.4,23120,"No critic score yet, so player reviews carry the quality rating."
 392110,ENDLESS Space 2,9.99,39.99,75,paid,53.54,5,8,51.5,80,83.3,23108,
@@ -314,13 +313,14 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 2646460,Soulmask,29.99,,0,paid,61.52,6,8,75.9,,77.0,22496,"No critic score yet, so player reviews carry the quality rating."
 1637320,Dome Keeper,4.49,17.99,75,paid,33.86,3,9,18.4,,92.4,22491,"No critic score yet, so player reviews carry the quality rating."
 311560,Assassin’s Creed Rogue,19.99,,0,paid,37.4,4,8,24.1,74,86.5,22459,
+719040,Wasteland 3,11.99,39.99,70,paid,49.53,5,8,42.5,85,84.6,22444,
 1161580,Hardspace: Shipbreaker,34.99,,0,paid,46.38,4,9,35.6,83,89.3,22437,
-590380,Into the Breach,14.99,,0,paid,34.07,3,9,18.4,90,94.2,22434,
 996580,Spyro Reignited Trilogy,39.99,,0,paid,41.72,4,9,27.0,,93.5,22418,"No critic score yet, so player reviews carry the quality rating."
 1604000,Milk outside a bag of milk outside a bag of milk,8.99,,0,paid,12.39,1,10,3.1,,96.6,22399,"No critic score yet, so player reviews carry the quality rating."
 374040,Portal Knights,2.99,19.99,85,paid,30.15,3,8,16.5,72,83.4,22393,
 895870,Project Wingman,12.49,24.99,50,paid,30.79,3,9,15.8,75,93.8,22383,
 509980,BIGFOOT,19.99,,0,paid,26.23,3,8,12.7,,82.1,22378,"No critic score yet, so player reviews carry the quality rating."
+731490,Crash Bandicoot N. Sane Trilogy,15.99,39.99,60,paid,29.13,3,9,14.0,,92.0,22354,"No critic score yet, so player reviews carry the quality rating."
 527430,"Warhammer 40,000: Inquisitor - Martyr",4.99,49.99,90,paid,44.15,4,7,36.4,67,76.0,22327,
 323470,DRAGON BALL XENOVERSE,39.99,,0,paid,34.37,3,9,19.4,,89.9,22304,"No critic score yet, so player reviews carry the quality rating."
 33930,Arma 2: Operation Arrowhead,19.99,,0,paid,34.15,3,9,19.4,73,92.4,22253,Playtime is based on only a few players.
@@ -328,16 +328,13 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 2990,FlatOut 2,9.99,,0,paid,27.5,3,9,12.6,76,95.9,22244,
 22300,Fallout 3,2.49,9.99,75,paid,22.2,2,8,9.4,91,81.5,22195,
 236110,Dungeon Defenders II,,,0,free,52.38,5,8,51.6,,77.2,22184,"No critic score yet, so player reviews carry the quality rating."
-673950,Farm Together,6.79,19.99,66,paid,49.88,5,9,38.6,,94.1,22122,"No critic score yet, so player reviews carry the quality rating."
 447820,Day of Infamy,14.99,,0,paid,26.48,3,8,13.1,77,82.1,22084,Playtime is based on only a few players.
 35720,Trine 2: Complete Story,19.99,,0,paid,26.98,2,9,12.1,84,95.3,22064,
-606880,GreedFall,3.49,34.99,90,paid,38.02,4,8,26.8,72,76.0,22064,
 24200,DC Universe Online,,,0,free,37.2,4,8,25.0,72,80.6,22016,
 1089090,ONE PIECE: PIRATE WARRIORS 4,39.99,,0,paid,38.07,4,9,23.9,75,91.6,21993,
 418530,Spelunky 2,19.99,,0,paid,70.13,6,9,87.5,91,92.8,21989,
-1887840,Another Crab's Treasure,29.99,,0,paid,37.9,3,9,22.7,,92.5,21983,"No critic score yet, so player reviews carry the quality rating."
+1887840,Another Crab's Treasure,11.99,29.99,60,paid,37.9,3,9,22.7,,92.5,21983,"No critic score yet, so player reviews carry the quality rating."
 283640,Salt and Sanctuary,17.99,,0,paid,35.06,3,9,20.4,84,89.4,21931,
-667970,VTOL VR,29.99,,0,paid,41.61,4,10,25.4,,98.0,21884,"No critic score yet, so player reviews carry the quality rating."
 425580,The Room Two,4.99,,0,paid,14.1,1,10,3.8,,97.5,21824,"No critic score yet, so player reviews carry the quality rating."
 394690,Tower Unite,19.99,,0,paid,57.47,5,9,55.7,,89.7,21810,"No critic score yet, so player reviews carry the quality rating."
 429050,Feed and Grow: Fish,14.99,,0,paid,25.57,3,8,12.5,,78.2,21790,"No critic score yet, so player reviews carry the quality rating."
@@ -357,9 +354,8 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 130,Half-Life: Blue Shift,4.99,,0,paid,13.59,1,9,3.9,71,92.6,21286,
 2248760,Car For Sale Simulator,13.59,16.99,20,paid,24.78,2,8,11.8,,78.5,21218,"No critic score yet, so player reviews carry the quality rating."
 1475810,Ghostwire: Tokyo,26.39,79.99,67,paid,37.84,4,8,25.2,77,82.9,21214,
-40970,Stronghold Crusader HD (2012),9.99,,0,paid,49.79,5,9,38.5,78,97.5,21122,
+40970,Stronghold Crusader HD (2012),1.99,9.99,80,paid,49.79,5,9,38.5,78,97.5,21122,
 445980,Wizard of Legend,4.79,15.99,70,paid,24.99,2,9,11.1,79,90.5,21074,
-682990,Drug Dealer Simulator,19.99,,0,paid,38.85,4,8,26.7,59,86.1,21049,
 1533420,Neon White,9.99,24.99,60,paid,35.29,3,10,19.0,89,97.9,20897,
 201870,Assassin's Creed Revelations,19.99,,0,paid,33.15,3,8,19.3,80,84.2,20877,
 40700,Machinarium,2.99,19.99,85,paid,17.22,2,9,5.5,85,95.3,20861,
@@ -368,11 +364,13 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 42960,Victoria II,4.99,19.99,75,paid,24.77,2,9,11.1,75,88.3,20835,
 557600,Gorogoa,3.74,14.99,75,paid,9.94,1,9,2.2,84,97.5,20827,
 388410,Darksiders II Deathinitive Edition,29.99,,0,paid,38.95,4,8,27.4,,78.7,20806,"No critic score yet, so player reviews carry the quality rating."
+736590,Operation: Harsh Doorstop,,,0,free,18.32,2,8,7.0,,77.6,20806,"No critic score yet, so player reviews carry the quality rating."
 2677660,Indiana Jones and the Great Circle,41.99,69.99,40,paid,45.91,4,9,34.3,87,90.1,20780,
 990630,The Last Campfire,14.99,,0,paid,19.38,2,9,6.7,80,97.5,20763,
 2427700,Backpack Battles,14.99,,0,paid,49.29,5,9,39.0,,91.2,20739,"No critic score yet, so player reviews carry the quality rating."
 265550,Dead Rising 3 Apocalypse Edition,29.99,,0,paid,30.96,3,8,17.9,,77.0,20658,"No critic score yet, so player reviews carry the quality rating."
 1178490,港詭實錄ParanormalHK,12.99,,0,paid,14.96,1,9,4.6,,89.3,20574,"No critic score yet, so player reviews carry the quality rating."
+760060,Mutant Year Zero: Road to Eden,10.49,34.99,70,paid,38.17,4,9,24.2,78,90.2,20571,
 1592190,BONELAB,39.99,,0,paid,33.74,3,8,20.1,,82.4,20522,"No critic score yet, so player reviews carry the quality rating."
 372000,Tree of Savior (English Ver.),,,0,free,55.7,6,6,63.9,,63.9,20497,"No critic score yet, so player reviews carry the quality rating."
 225260,Brutal Legend,14.99,,0,paid,27.1,2,9,12.5,80,93.2,20483,
@@ -385,10 +383,8 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 1190970,House Flipper 2,39.99,,0,paid,56.41,5,9,56.0,79,87.4,20117,
 1241510,The Test,1.99,,0,paid,4.57,1,10,0.6,,96.7,20111,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 560130,Pillars of Eternity II: Deadfire,4.99,19.99,75,paid,64.63,6,9,75.6,88,88.0,20096,
-670290,Real Pool 3D - Poolians,,,0,free,22.22,2,8,9.9,,75.8,20026,"No critic score yet, so player reviews carry the quality rating."
 292120,FINAL FANTASY XIII,6.39,15.99,60,paid,50.42,5,7,48.2,,75.0,20015,"No critic score yet, so player reviews carry the quality rating."
 2780980,LOCKDOWN Protocol,9.99,,0,paid,36.51,3,9,22.6,,86.0,19985,"No critic score yet, so player reviews carry the quality rating."
-698670,Scorn,39.99,,0,paid,17.32,2,8,6.4,,76.7,19889,"No critic score yet, so player reviews carry the quality rating."
 339340,Resident Evil 0,19.99,,0,paid,27.32,3,8,13.9,,80.0,19877,"No critic score yet, so player reviews carry the quality rating."
 262410,World of Guns: Gun Disassembly,,,0,free,20.89,2,8,8.4,,83.9,19869,"No critic score yet, so player reviews carry the quality rating."
 233270,Far Cry 3 - Blood Dragon,3.74,14.99,75,paid,20.46,2,9,8.0,81,87.4,19867,
@@ -399,17 +395,14 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 251060,Wargame: Red Dragon,29.99,,0,paid,42.95,4,9,30.9,78,88.6,19765,
 985890,Streets of Rage 4,24.99,,0,paid,18.87,2,9,6.6,84,92.4,19764,
 1672970,Minecraft Dungeons,19.99,,0,paid,40.78,4,9,26.8,,90.3,19743,"No critic score yet, so player reviews carry the quality rating."
-641320,Cooking Simulator,4.99,19.99,75,paid,21.22,2,8,8.9,64,84.7,19722,
 1164940,Trepang2,5.99,29.99,80,paid,25.09,2,9,10.9,79,92.7,19694,
 368070,Sniper Ghost Warrior 3,1.99,19.99,90,paid,33.18,3,7,21.2,,66.9,19679,"No critic score yet, so player reviews carry the quality rating."
-669330,Mechabellum,7.49,14.99,50,paid,60.32,6,8,67.4,,83.6,19677,"No critic score yet, so player reviews carry the quality rating."
-1012880,60 Seconds! Reatomized,4.99,9.99,50,paid,18.98,2,9,6.5,,94.4,19660,"No critic score yet, so player reviews carry the quality rating."
+1012880,60 Seconds! Reatomized,9.99,,0,paid,18.98,2,9,6.5,,94.4,19660,"No critic score yet, so player reviews carry the quality rating."
 201790,Orcs Must Die! 2,14.99,,0,paid,32.76,3,9,17.6,83,92.2,19640,
 1490890,Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles,19.99,39.99,50,paid,28.67,3,9,14.3,,87.1,19621,"No critic score yet, so player reviews carry the quality rating."
 330830,Tales from the Borderlands,19.99,,0,paid,27.19,2,9,12.1,,94.3,19597,"No critic score yet, so player reviews carry the quality rating."
 21090,F.E.A.R.,1.99,9.99,80,paid,23.44,2,9,9.5,88,93.7,19588,
 962730,Skater XL - The Ultimate Skateboarding Game,39.99,,0,paid,39.15,4,8,27.3,56,85.8,19568,Playtime is based on only a few players.
-626690,Sword Art Online: Fatal Bullet,9.99,39.99,75,paid,41.52,4,8,31.9,61,78.9,19498,Playtime is based on only a few players.
 1238820,Battlefield 3,1.99,39.99,95,paid,16.75,2,8,6.1,89,72.1,19461,
 1335200,Action Taimanin,,,0,free,36.21,3,8,22.9,,82.8,19425,"No critic score yet, so player reviews carry the quality rating."
 1435790,Escape Simulator,19.99,,0,paid,25.31,2,9,10.9,82,93.9,19410,
@@ -419,6 +412,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 257850,Hyper Light Drifter,4.99,19.99,75,paid,26.88,2,9,12.2,84,92.9,19204,
 289130,ENDLESS Legend,7.49,29.99,75,paid,49.17,5,8,42.5,82,83.5,19087,
 236090,Dust: An Elysian Tail,2.99,14.99,80,paid,33.75,3,10,17.7,,95.1,19083,"No critic score yet, so player reviews carry the quality rating."
+774861,Project Winter,9.99,,0,paid,56.06,5,8,57.4,,82.4,19078,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 2365810,Pseudoregalia,5.99,,0,paid,22.5,2,10,8.4,,96.8,19061,"No critic score yet, so player reviews carry the quality rating."
 65800,Dungeon Defenders,14.99,,0,paid,71.95,7,9,96.4,81,93.1,19012,
 462780,Darksiders Warmastered Edition,19.99,,0,paid,37.3,3,9,23.1,,88.1,18984,"No critic score yet, so player reviews carry the quality rating."
@@ -439,27 +433,30 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 954740,Terminator: Resistance,7.99,39.99,80,paid,35.33,3,9,20.1,,91.6,18801,"No critic score yet, so player reviews carry the quality rating."
 34870,Sniper: Ghost Warrior 2,0.99,9.99,90,paid,16.26,2,7,5.9,52,75.8,18789,
 493900,Dungeons 3,29.99,,0,paid,39.38,4,9,25.0,75,94.1,18731,
-605740,"Flashing Lights - Police, Firefighting, Emergency Services (EMS) Simulator",24.99,,0,paid,29.54,3,8,16.1,,79.5,18724,"No critic score yet, so player reviews carry the quality rating."
 1465460,Infection Free Zone,24.99,,0,paid,41.82,4,8,31.0,,80.7,18690,"No critic score yet, so player reviews carry the quality rating."
 1397920,Mr.Mine,,,0,free,46.67,4,9,34.6,,91.6,18679,"No critic score yet, so player reviews carry the quality rating."
 553420,TUNIC,29.99,,0,paid,34.39,3,9,19.4,85,91.0,18677,
 536220,The Walking Dead: A New Frontier,14.99,,0,paid,21.48,2,8,8.9,81,83.5,18614,
 814540,Changed,4.99,,0,paid,19.86,2,9,7.6,,86.3,18601,"No critic score yet, so player reviews carry the quality rating."
 397950,Clustertruck,14.99,,0,paid,17.84,2,9,6.1,76,93.5,18580,
+738520,Breathedge,2.49,24.99,90,paid,31.47,3,8,18.2,71,80.9,18503,
 368340,CrossCode,19.99,,0,paid,61.16,6,9,63.2,86,92.4,18485,
 232430,Gone Home,14.99,,0,paid,9.72,1,8,2.5,86,77.1,18462,
 544920,Darwin Project,,,0,free,17.44,2,8,6.4,74,81.7,18455,
 1275670,Outcore: Desktop Adventure,,,0,free,15.44,1,10,4.4,,97.4,18418,"No critic score yet, so player reviews carry the quality rating."
+707010,Will To Live Online,,,0,free,68.4,7,7,105.8,,69.3,18410,"No critic score yet, so player reviews carry the quality rating."
 918570,Century: Age of Ashes,,,0,free,21.97,2,7,9.8,,74.3,18390,"No critic score yet, so player reviews carry the quality rating."
 1361320,The Room 4: Old Sins,8.99,,0,paid,17.26,2,10,5.3,,98.5,18388,"No critic score yet, so player reviews carry the quality rating."
 65540,Gothic 1 Classic,19.99,,0,paid,50.38,5,9,41.3,81,92.6,18356,
 1382330,Persona 5 Strikers,17.99,59.99,70,paid,46.06,4,8,36.5,76,86.6,18340,
 2005010,"Warhammer 40,000: Boltgun",6.59,21.99,70,paid,24.65,2,9,10.9,75,89.5,18308,
 311340,METAL GEAR SOLID V: GROUND ZEROES,17.99,29.99,40,paid,16.75,2,8,5.8,80,84.8,18294,
+763890,Wildermyth,24.99,,0,paid,40.51,4,9,25.6,86,94.6,18283,
 498240,Batman - The Telltale Series,14.99,,0,paid,21.97,2,9,8.9,,87.7,18272,"No critic score yet, so player reviews carry the quality rating."
 312990,The Expendabros,,,0,free,7.71,1,10,1.4,,97.2,18262,"No critic score yet, so player reviews carry the quality rating."
 1139980,Travellers Rest,17.99,,0,paid,58.98,6,9,60.6,,87.9,18253,"No critic score yet, so player reviews carry the quality rating."
 969990,SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated,29.99,,0,paid,25.55,2,9,10.8,,93.9,18228,"No critic score yet, so player reviews carry the quality rating."
+775500,SCARLET NEXUS,59.99,,0,paid,36.13,4,8,23.4,78,80.3,18208,
 371970,Barony,19.99,,0,paid,40.87,4,9,26.8,,90.7,18173,"No critic score yet, so player reviews carry the quality rating."
 1895880,Ratchet & Clank: Rift Apart,23.99,59.99,60,paid,35.23,3,9,20.1,,90.7,18153,"No critic score yet, so player reviews carry the quality rating."
 405640,Pony Island,4.99,,0,paid,13.51,1,9,3.7,86,94.9,18152,
@@ -471,6 +468,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 1372110,JoJo's Bizarre Adventure: All-Star Battle R,19.59,69.99,72,paid,24.8,2,9,10.6,,90.9,17969,"No critic score yet, so player reviews carry the quality rating."
 39510,Gothic II: Gold Edition,19.99,,0,paid,64.72,6,9,72.7,79,93.9,17961,
 212480,Sonic & All-Stars Racing Transformed Collection,4.99,19.99,75,paid,21.37,2,9,8.0,,93.3,17876,"No critic score yet, so player reviews carry the quality rating."
+858810,Dawn of Man,24.99,,0,paid,47.73,4,9,38.4,,86.8,17861,"No critic score yet, so player reviews carry the quality rating."
 1880330,Sanfu,10.99,,0,paid,15.0,1,8,4.8,,82.8,17859,"No critic score yet, so player reviews carry the quality rating."
 1113120,IXION,9.79,34.99,72,paid,40.98,4,8,30.3,,78.8,17850,"No critic score yet, so player reviews carry the quality rating."
 986130,Shadows of Doubt,12.49,24.99,50,paid,38.33,4,8,25.8,,82.1,17829,"No critic score yet, so player reviews carry the quality rating."
@@ -515,7 +513,6 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 991780,Notes of Soul,29.99,,0,paid,71.01,7,7,116.2,,73.2,16710,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 239350,Spelunky,14.99,,0,paid,39.04,4,9,24.2,90,92.2,16679,
 314650,SpaceEngine,29.99,,0,paid,25.02,2,10,10.2,,96.2,16675,"No critic score yet, so player reviews carry the quality rating."
-610370,Desperados III,39.99,,0,paid,47.35,4,9,34.4,86,96.5,16653,
 288470,Fable Anniversary,10.49,34.99,70,paid,31.42,3,9,17.1,,86.0,16641,"No critic score yet, so player reviews carry the quality rating."
 977880,Eastward,24.99,,0,paid,37.28,4,8,24.1,82,83.9,16629,
 1233570,Mirror's Edge Catalyst,19.99,,0,paid,23.62,2,8,10.9,74,79.6,16577,
@@ -527,6 +524,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 1548850,Six Days in Fallujah,23.99,39.99,40,paid,19.77,2,8,8.0,,79.0,16505,"No critic score yet, so player reviews carry the quality rating."
 1102130,Florence,1.49,5.99,75,paid,5.81,1,9,1.0,,93.2,16493,"No critic score yet, so player reviews carry the quality rating."
 2310,Quake,3.99,9.99,60,paid,37.55,3,10,21.4,94,96.4,16458,
+706990,BLOCKPOST,,,0,free,18.22,2,7,7.1,,74.7,16433,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 451340,Gold Mining Simulator,19.99,,0,paid,54.32,5,7,57.9,,72.5,16414,"No critic score yet, so player reviews carry the quality rating."
 1063660,Bendy and the Dark Revival,19.99,,0,paid,21.73,2,9,8.4,,91.9,16367,"No critic score yet, so player reviews carry the quality rating."
 264200,One Finger Death Punch,4.99,,0,paid,16.6,1,10,5.0,,97.9,16344,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
@@ -535,17 +533,19 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 313340,Mountain,0.79,0.99,20,paid,43.13,4,9,30.7,,88.1,16292,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 224760,FEZ,9.99,,0,paid,24.51,2,9,10.3,91,92.6,16271,
 1267910,Melvor Idle,9.99,,0,paid,94.21,9,9,256.1,,90.0,16265,"No critic score yet, so player reviews carry the quality rating."
-617670,Zup! S,1.99,,0,paid,9.33,1,10,2.0,,96.8,16214,"No critic score yet, so player reviews carry the quality rating."
 298630,The Escapists,5.19,25.99,80,paid,18.25,2,9,6.5,71,90.2,16210,
 333420,Cossacks 3,19.99,,0,paid,39.17,4,8,26.9,,82.3,16196,"No critic score yet, so player reviews carry the quality rating."
 6860,Hitman: Blood Money,9.99,,0,paid,26.3,2,9,11.7,82,94.0,16180,
-361280,Turmoil,12.99,,0,paid,25.36,2,9,11.2,73,93.0,16170,
+361280,Turmoil,4.41,12.99,66,paid,25.36,2,9,11.2,73,93.0,16170,
 1574580,Strange Horticulture,15.99,,0,paid,23.4,2,9,9.5,83,94.4,16169,
 374280,Hired Ops,,,0,free,20.31,2,7,8.7,,67.6,16162,"No critic score yet, so player reviews carry the quality rating."
 1611600,WARNO,39.99,,0,paid,54.19,5,8,54.5,,79.7,16159,"No critic score yet, so player reviews carry the quality rating."
+780290,Gloomhaven,34.99,,0,paid,53.11,5,8,51.0,82,81.9,16142,
 1180660,Tell Me Why,,,0,free,22.49,2,8,9.7,,81.9,16125,"No critic score yet, so player reviews carry the quality rating."
 1066890,Automobilista 2,39.99,,0,paid,53.69,5,9,46.5,,91.7,16106,"No critic score yet, so player reviews carry the quality rating."
+850190,Goat Simulator 3,29.99,,0,paid,37.73,3,10,21.1,,97.8,16030,"No critic score yet, so player reviews carry the quality rating."
 784080,MechWarrior 5: Mercenaries,7.49,29.99,75,paid,72.47,7,8,111.4,73,84.8,16005,
+826630,Iron Harvest,4.49,29.99,85,paid,35.4,4,7,23.6,75,72.6,16004,
 237990,The Banner Saga,24.99,,0,paid,29.49,3,9,15.0,80,89.0,15973,
 1318690,shapez,9.99,,0,paid,37.23,3,10,21.1,,95.9,15966,"No critic score yet, so player reviews carry the quality rating."
 35700,Trine Enchanted Edition,14.99,,0,paid,19.25,2,9,6.8,80,95.6,15960,
@@ -553,7 +553,6 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 12140,Max Payne,3.49,9.99,65,paid,20.91,2,9,8.1,89,88.7,15891,
 861650,Session: Skate Sim,39.99,,0,paid,42.23,4,8,30.9,,83.2,15876,"No critic score yet, so player reviews carry the quality rating."
 313160,Farming Simulator 15,14.99,,0,paid,33.15,3,9,18.7,64,92.5,15872,
-621830,WRC 7 FIA World Rally Championship,19.99,,0,paid,25.18,2,8,11.8,,82.4,15817,"No critic score yet, so player reviews carry the quality rating."
 2634950,Tokyo Xtreme Racer,49.99,,0,paid,44.56,4,9,30.8,,93.5,15803,"No critic score yet, so player reviews carry the quality rating."
 1216710,Cyber Manhunt,9.99,,0,paid,26.25,2,9,11.6,,92.3,15722,"No critic score yet, so player reviews carry the quality rating."
 1353230,Bomb Rush Cyberfunk,39.99,,0,paid,32.88,3,10,16.3,,97.9,15719,"No critic score yet, so player reviews carry the quality rating."
@@ -568,7 +567,7 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 812810,missed messages.,,,0,free,4.7,1,10,0.7,,96.0,15555,"No critic score yet, so player reviews carry the quality rating."
 2163330,Yet Another Zombie Survivors,8.24,14.99,45,paid,46.55,4,9,34.4,,91.6,15553,"No critic score yet, so player reviews carry the quality rating."
 1093910,Tales of the Black Forest,3.99,,0,paid,17.13,2,10,5.3,,97.6,15519,"No critic score yet, so player reviews carry the quality rating."
-611790,House Party,24.99,,0,paid,28.18,3,9,14.0,,85.8,15446,"No critic score yet, so player reviews carry the quality rating."
+746850,Cloudpunk,19.99,,0,paid,24.26,2,8,10.8,73,87.4,15505,
 1239690,Retrowave,2.99,,0,paid,12.27,1,10,3.1,,95.1,15433,"No critic score yet, so player reviews carry the quality rating."
 813630,Supraland,3.99,19.99,80,paid,38.32,3,9,23.0,85,95.2,15418,
 428690,Youtubers Life,19.99,,0,paid,22.92,2,8,10.4,,77.4,15417,"No critic score yet, so player reviews carry the quality rating."
@@ -579,13 +578,13 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 1390350,Webbed,9.99,,0,paid,20.28,2,10,7.0,,97.6,15315,"No critic score yet, so player reviews carry the quality rating."
 872670,SCP: 5K,19.99,,0,paid,24.21,2,8,11.3,,79.4,15251,"No critic score yet, so player reviews carry the quality rating."
 212070,Star Conflict,,,0,free,67.88,7,7,101.9,75,72.7,15238,
-578310,BRAIN / OUT,,,0,free,71.62,7,8,108.4,,82.0,15224,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 335670,LISA: The Painful,19.99,,0,paid,34.88,3,9,19.5,77,95.4,15199,
 1283410,Tails of Iron,2.99,24.99,88,paid,28.61,3,9,14.3,81,87.8,15173,
 1253920,Rogue Legacy 2,24.99,,0,paid,49.56,5,9,39.9,88,90.8,15152,
+845070,The Awesome Adventures of Captain Spirit,,,0,free,8.82,1,9,1.9,79,92.7,15127,
 424030,War of Rights,29.99,,0,paid,50.66,5,9,42.8,,88.4,15127,"No critic score yet, so player reviews carry the quality rating."
-627690,Idle Champions of the Forgotten Realms,,,0,free,75.12,7,8,133.8,,76.9,15072,"No critic score yet, so player reviews carry the quality rating."
 1338770,Sniper Ghost Warrior Contracts 2,3.99,39.99,90,paid,31.15,3,8,17.1,,83.8,15010,"No critic score yet, so player reviews carry the quality rating."
+851100,Touhou Luna Nights,17.99,,0,paid,25.55,2,10,10.5,,97.3,14997,"No critic score yet, so player reviews carry the quality rating."
 8850,BioShock 2,19.99,,0,paid,24.23,2,9,10.4,88,88.7,14987,
 1361510,Teenage Mutant Ninja Turtles: Shredder's Revenge,24.99,,0,paid,15.93,1,9,4.9,84,94.3,14973,
 1084160,Jagged Alliance 3,44.99,,0,paid,55.81,5,9,53.7,81,88.9,14961,
@@ -594,26 +593,24 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 2666510,Rusty's Retirement,4.19,6.99,40,paid,62.31,6,10,61.0,,96.7,14869,"No critic score yet, so player reviews carry the quality rating."
 2075070,KinitoPET,5.99,,0,paid,13.16,1,9,3.6,,93.0,14780,"No critic score yet, so player reviews carry the quality rating."
 12150,Max Payne 2: The Fall of Max Payne,2.49,9.99,75,paid,19.11,2,9,6.7,86,94.4,14774,
-673880,"Warhammer 40,000: Mechanicus",2.99,29.99,90,paid,37.77,4,9,23.5,78,91.0,14645,
+858210,Nova Drift,17.99,,0,paid,31.21,3,10,15.2,,95.6,14636,"No critic score yet, so player reviews carry the quality rating."
 320300,Car Mechanic Simulator 2015,19.99,,0,paid,38.4,4,9,24.5,68,92.4,14625,Playtime is based on only a few players.
 1170880,Grimm's Hollow,,,0,free,12.39,1,10,3.1,,98.5,14620,"No critic score yet, so player reviews carry the quality rating."
 3480,Peggle Deluxe,0.99,4.99,80,paid,21.96,2,10,8.0,,97.7,14598,"No critic score yet, so player reviews carry the quality rating."
 259080,Just Cause 2: Multiplayer Mod,,,0,free,82.29,8,9,142.9,,91.6,14590,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 445220,Avorion,24.99,,0,paid,87.44,8,9,184.1,,90.0,14588,"No critic score yet, so player reviews carry the quality rating."
-607080,Psychonauts 2,59.99,,0,paid,38.75,3,9,23.2,89,95.6,14523,
+847370,Sunset Overdrive,4.99,19.99,75,paid,34.7,3,9,20.0,83,90.0,14513,
 232770,POSTAL,,,0,free,11.25,1,8,3.0,56,91.6,14510,
-601840,Griftlands,19.99,,0,paid,33.76,3,9,18.4,84,93.6,14484,
 914620,Mist Survival,10.99,,0,paid,37.03,4,8,25.3,,75.6,14394,"No critic score yet, so player reviews carry the quality rating."
 377840,FINAL FANTASY IX,6.29,20.99,70,paid,55.14,5,9,48.6,84,95.1,14375,
-688420,Bad North: Jotunn Edition,2.99,14.99,80,paid,24.75,2,9,10.3,,93.3,14354,"No critic score yet, so player reviews carry the quality rating."
-690640,Trine 4: The Nightmare Prince,29.99,,0,paid,25.13,2,9,11.3,81,88.6,14349,
+743450,Monster Prom,11.99,,0,paid,19.76,2,9,7.3,73,93.0,14340,
 204340,Serious Sam II,2.49,9.99,75,paid,24.74,2,9,11.0,74,89.9,14321,
-589780,The Red Strings Club,14.99,,0,paid,16.13,1,9,5.1,80,93.4,14319,
 383080,Sakura Clicker,,,0,free,12.91,1,8,3.8,,83.1,14311,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 10150,Prototype,5.99,19.99,70,paid,25.69,2,8,12.5,79,80.5,14294,
 1115690,"Yes, Your Grace",19.99,,0,paid,20.63,2,9,8.0,,87.1,14240,"No critic score yet, so player reviews carry the quality rating."
 415200,Motorsport Manager,19.99,,0,paid,76.39,7,9,116.9,81,91.7,14233,
 244160,Homeworld Remastered Collection,5.24,34.99,85,paid,33.82,3,9,19.3,86,87.9,14194,
+714120,Little Misfortune,19.99,,0,paid,16.0,2,9,5.3,57,92.4,14187,
 278080,DYNASTY WARRIORS 8: Xtreme Legends Complete Edition,14.99,49.99,70,paid,44.62,4,8,35.2,71,83.9,14134,
 410340,Liftoff: FPV Drone Racing,19.99,,0,paid,37.53,3,10,21.6,,95.2,14087,"No critic score yet, so player reviews carry the quality rating."
 3107330,Nodebuster,2.99,,0,paid,16.4,1,10,4.9,,97.4,14078,"No critic score yet, so player reviews carry the quality rating."
@@ -629,11 +626,11 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 1105670,The Last Spell,7.49,24.99,70,paid,58.91,5,9,59.1,82,91.4,13758,
 874260,The Forgotten City,4.99,24.99,80,paid,22.08,2,9,8.4,85,95.8,13735,
 1239080,Door Kickers 2: Task Force North,14.99,24.99,40,paid,46.54,4,9,33.6,84,96.0,13650,
-613830,CHRONO TRIGGER,7.49,14.99,50,paid,38.15,4,9,24.1,,88.2,13600,"No critic score yet, so player reviews carry the quality rating."
 867210,Songs of Conquest,29.99,,0,paid,30.95,3,9,16.7,,85.6,13566,"No critic score yet, so player reviews carry the quality rating."
 256290,Child of Light,4.49,14.99,70,paid,23.41,2,9,9.8,77,91.3,13501,
 456750,The Room Three,5.99,,0,paid,20.95,2,10,7.6,,95.3,13459,"No critic score yet, so player reviews carry the quality rating."
 1061090,Jump King,12.99,,0,paid,28.74,3,9,14.0,,89.8,13443,"No critic score yet, so player reviews carry the quality rating."
+835960,The Talos Principle 2,39.99,,0,paid,50.97,5,9,40.6,88,94.9,13432,
 882790,Fate Seeker,21.09,,0,paid,41.12,4,9,27.1,,90.7,13428,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 17300,Crysis,7.49,29.99,75,paid,23.27,2,8,10.3,91,80.0,13425,
 926990,WolfQuest: Anniversary Edition,29.99,,0,paid,59.81,5,10,54.8,,97.5,13377,"No critic score yet, so player reviews carry the quality rating."
@@ -641,7 +638,9 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 2291760,Papa's Freezeria Deluxe,5.99,,0,paid,33.8,3,10,16.9,,99.3,13356,"No critic score yet, so player reviews carry the quality rating."
 206190,Gunpoint,9.99,,0,paid,16.47,1,9,5.1,83,97.5,13333,Playtime is based on only a few players.
 1525700,Tavern Master,1.94,14.99,87,paid,32.54,3,9,17.1,,92.1,13314,"No critic score yet, so player reviews carry the quality rating."
+764790,The Messenger,3.99,19.99,80,paid,33.43,3,9,18.2,83,92.6,13283,
 2795000,The WereCleaner,,,0,free,10.57,1,10,2.3,,99.4,13277,"No critic score yet, so player reviews carry the quality rating."
+732690,FIVE NIGHTS AT FREDDY'S: HELP WANTED,29.99,,0,paid,23.22,2,10,9.0,,95.7,13158,"No critic score yet, so player reviews carry the quality rating."
 1128920,EVERSPACE 2,49.99,,0,paid,53.8,5,8,50.8,81,85.9,13132,
 1147690,NGU IDLE,,,0,free,107.93,10,10,549.4,,95.6,12999,"No critic score yet, so player reviews carry the quality rating."
 799600,Cosmoteer: Starship Architect & Commander,12.99,19.99,35,paid,62.0,6,9,62.5,,94.2,12915,"No critic score yet, so player reviews carry the quality rating."
@@ -650,423 +649,414 @@ appid,name,price,was,off,avail,fair,content,quality,H,Pc,Pu,n,notes
 420110,NEKOPARA Vol. 2,9.99,,0,paid,15.89,1,10,4.7,,96.9,12863,"No critic score yet, so player reviews carry the quality rating."
 342200,MechWarrior Online Solaris 7,,,0,free,70.82,7,8,107.1,,80.4,12837,"No critic score yet, so player reviews carry the quality rating."
 1201240,BLEACH Brave Souls,,,0,free,67.9,6,9,86.3,,87.7,12816,"No critic score yet, so player reviews carry the quality rating."
-814370,Monster Sanctuary,5.99,29.99,80,paid,53.39,5,9,47.5,81,91.2,12703,
 506610,Five Nights at Freddy's: Sister Location,7.99,,0,paid,15.51,1,8,5.1,62,90.0,12685,
 1121910,"I Love You, Colonel Sanders! A Finger Lickin’ Good Dating Simulator",,,0,free,8.76,1,9,1.9,,91.7,12681,"No critic score yet, so player reviews carry the quality rating."
 333640,Caves of Qud,29.99,,0,paid,63.1,6,9,65.2,91,95.0,12677,
 914800,Coffee Talk,12.99,,0,paid,19.94,2,9,7.3,76,94.7,12613,
-1285670,Post Void,2.99,,0,paid,10.56,1,10,2.4,,96.8,12411,"No critic score yet, so player reviews carry the quality rating."
+1285670,Post Void,2.39,2.99,20,paid,10.56,1,10,2.4,,96.8,12411,"No critic score yet, so player reviews carry the quality rating."
 242550,Rayman Legends,19.99,,0,paid,35.0,3,9,20.1,89,89.9,12389,
 400910,Rabi-Ribi,17.99,,0,paid,47.64,4,10,34.5,,95.3,12273,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 909080,Cube Escape: Paradox,,,0,free,16.51,1,10,5.0,,97.1,12258,"No critic score yet, so player reviews carry the quality rating."
 495890,Montaro,0.99,,0,paid,10.22,1,10,2.3,,95.1,12175,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-792300,The Beast Inside,24.99,,0,paid,22.57,2,8,9.9,74,82.5,12172,
+702670,Donut County,3.24,12.99,75,paid,11.1,1,9,2.8,77,92.2,12169,
 351640,Eternal Senia,,,0,free,17.41,2,10,5.4,,97.5,12063,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-790740,Tick Tock: A Tale for Two,5.99,,0,paid,9.99,1,9,2.4,,85.4,12063,"No critic score yet, so player reviews carry the quality rating."
-602520,NEKOPARA Vol. 3,9.99,,0,paid,16.97,2,10,5.2,,96.9,12021,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 306020,Bloons TD 5,9.99,,0,paid,36.84,3,9,21.0,,94.7,11986,"No critic score yet, so player reviews carry the quality rating."
 555220,Detention,11.99,,0,paid,16.35,1,9,5.1,83,95.7,11830,
 332570,Amazing Frog?,19.99,,0,paid,32.34,3,9,16.5,,94.4,11724,"No critic score yet, so player reviews carry the quality rating."
-803330,Destroy All Humans!,29.99,,0,paid,25.16,2,9,10.8,,92.3,11518,"No critic score yet, so player reviews carry the quality rating."
+846770,DYSMANTLE,19.99,,0,paid,49.85,5,9,40.2,,90.7,11622,"No critic score yet, so player reviews carry the quality rating."
+732430,Superflight,2.99,,0,paid,18.64,2,10,6.2,,96.4,11585,"No critic score yet, so player reviews carry the quality rating."
 317360,Double Action: Boogaloo,,,0,free,9.64,1,9,2.1,,93.0,11410,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-648100,Raging Loop,29.99,,0,paid,47.52,4,10,34.2,,95.7,11342,"No critic score yet, so player reviews carry the quality rating."
-589870,Learn to Fly 3,,,0,free,25.41,2,9,10.7,,94.7,11331,"No critic score yet, so player reviews carry the quality rating."
 792220,Paunch,,,0,free,3.83,1,9,0.5,,88.9,11311,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
 1369320,Virtual Cottage,,,0,free,43.82,4,10,28.3,,97.7,11105,"No critic score yet, so player reviews carry the quality rating."
-816090,Space Hulk: Deathwing Enhanced Edition,2.99,29.99,90,paid,22.58,2,7,10.4,,72.3,10939,"No critic score yet, so player reviews carry the quality rating."
 458710,Kingdom Rush Frontiers - Tower Defense,4.99,9.99,50,paid,40.1,4,10,24.1,,96.7,10880,"No critic score yet, so player reviews carry the quality rating."
-589590,Kindergarten,1.24,4.99,75,paid,19.8,2,10,6.8,,96.8,10658,"No critic score yet, so player reviews carry the quality rating."
-650700,Yume Nikki,,,0,free,15.37,1,9,4.5,,94.3,10652,"No critic score yet, so player reviews carry the quality rating."
-2124120,SULFUR,29.99,,0,paid,47.55,4,9,37.7,,87.6,10464,"No critic score yet, so player reviews carry the quality rating."
-799960,Wizard101,,,0,free,7.51,1,8,1.6,,82.1,9642,"No critic score yet, so player reviews carry the quality rating."
-2660460,Aviassembly,9.99,,0,paid,31.02,3,10,14.9,,96.6,9563,"No critic score yet, so player reviews carry the quality rating."
-807120,Iratus: Lord of the Dead,2.99,29.99,90,paid,30.86,3,8,16.8,78,85.5,8273,
-816340,Kingdom Rush Origins - Tower Defense,5.24,14.99,65,paid,32.32,3,10,16.2,,95.6,8092,"No critic score yet, so player reviews carry the quality rating."
-793460,112 Operator,24.99,,0,paid,23.21,2,9,10.0,73,88.7,7375,
-800270,Terraforming Mars,19.99,,0,paid,53.71,5,7,56.8,,70.5,7257,"No critic score yet, so player reviews carry the quality rating."
-799640,Dungeon Munchies,19.99,,0,paid,29.42,3,10,13.5,,97.2,7227,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-790820,Valkyria Chronicles 4 Complete Edition,9.99,49.99,80,paid,52.31,5,9,47.4,83,86.2,7112,
-785740,This Is the Police 2,14.99,,0,paid,34.04,3,7,21.8,66,75.2,6591,Playtime is based on only a few players.
-794600,LET IT DIE,19.99,,0,paid,55.68,6,8,60.4,,75.1,6569,"No critic score yet, so player reviews carry the quality rating."
-801480,Agent A: A puzzle in disguise,19.99,,0,paid,17.6,2,10,5.7,,95.3,6262,"No critic score yet, so player reviews carry the quality rating."
-815780,PIPE by BMX Streets,9.99,,0,paid,44.72,4,9,31.2,,93.1,6154,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-784950,CONFLICT OF NATIONS: WORLD WAR 3,,,0,free,52.64,5,7,53.2,,74.7,5995,"No critic score yet, so player reviews carry the quality rating."
-801800,Atomfall,14.99,49.99,70,paid,37.41,4,8,25.5,,77.5,5908,"No critic score yet, so player reviews carry the quality rating."
-803050,Per Aspera,29.99,,0,paid,40.77,4,8,30.5,78,75.9,5783,
-785770,Emergency Call 112 – The Fire Fighting Simulation 2,22.99,,0,paid,27.79,3,6,15.7,,61.5,5780,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-790710,World of Warplanes,,,0,free,18.87,2,7,7.7,69,69.8,5687,
-798490,Othercide,29.99,,0,paid,30.25,3,8,16.6,78,81.8,5314,
-798460,Ni no Kuni Wrath of the White Witch Remastered,49.99,,0,paid,50.7,5,8,45.4,82,83.5,5168,
-1494420,Silica,24.99,,0,paid,30.54,3,8,17.5,,76.3,4938,"No critic score yet, so player reviews carry the quality rating."
-797430,HD Poker: Texas Hold'em,,,0,free,61.3,6,8,73.1,,79.9,4886,"No critic score yet, so player reviews carry the quality rating."
-788770,Meteor 60 Seconds!,,,0,free,5.0,1,10,0.7,,96.4,4881,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-785790,WHAT THE GOLF?,19.99,,0,paid,20.45,2,9,7.6,83,93.5,4805,
-1677110,Lightyear Frontier,29.99,,0,paid,39.68,4,8,27.2,,83.8,4729,"No critic score yet, so player reviews carry the quality rating."
-814480,Mini World: Block Art,,,0,free,13.78,1,6,4.8,,59.0,4551,"No critic score yet, so player reviews carry the quality rating."
-805940,RUSSIA BATTLEGROUNDS,0.65,2.99,78,paid,9.82,1,8,2.5,,77.1,4470,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-799070,Zup! 8,1.99,,0,paid,13.87,1,10,3.8,,95.4,4461,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809140,Cliff Empire,17.99,,0,paid,61.68,6,9,68.0,,87.3,4377,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-798420,Professional Fishing,,,0,free,12.92,1,8,4.0,,76.0,4274,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-801630,UNDER NIGHT IN-BIRTH Exe:Late[cl-r],24.99,,0,paid,27.92,3,9,12.6,,94.4,3864,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-802890,Muv-Luv Alternative,39.99,,0,paid,53.6,5,9,45.6,83,95.9,3809,
-787810,Rogue Heroes: Ruins of Tasos,19.99,,0,paid,31.39,3,8,18.2,,78.1,3722,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-1211600,ZED ZONE,11.99,,0,paid,41.24,4,8,30.1,,81.2,3703,"No critic score yet, so player reviews carry the quality rating."
-794800,Clue/Cluedo: Classic Edition,4.24,16.99,75,paid,32.91,3,9,18.3,,87.4,3595,"No critic score yet, so player reviews carry the quality rating."
-803600,Disgaea 5 Complete,19.99,39.99,50,paid,64.84,6,9,76.7,,87.5,3583,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-785260,Team Sonic Racing,9.99,39.99,75,paid,20.99,2,7,9.1,,72.8,3522,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-814000,ONE PIECE ODYSSEY,9.99,39.99,75,paid,36.11,4,8,23.8,77,78.3,3510,
-801550,VAIL VR,,,0,free,17.19,2,7,6.4,,74.5,3506,"No critic score yet, so player reviews carry the quality rating."
-786520,SAO Utils: Beta,3.99,,0,paid,106.86,10,9,10769.2,,87.8,3034,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-794540,Neo Cab,2.24,14.99,85,paid,15.09,1,8,5.1,76,78.7,2902,Playtime is based on only a few players.
-789760,DEAD OR SCHOOL,9.99,24.99,60,paid,32.86,3,8,18.9,,84.2,2819,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-818320,LEGO The Incredibles,1.99,39.99,95,paid,36.01,3,9,21.1,,90.0,2623,"No critic score yet, so player reviews carry the quality rating."
-808910,STAR WARS Episode I Racer,9.99,,0,paid,16.55,2,9,5.5,,86.4,2377,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-817540,SpellForce 3 Soul Harvest,19.99,,0,paid,34.42,3,8,20.7,80,84.7,2334,Playtime is based on only a few players.
-804010,SteamWorld Quest: Hand of Gilgamech,24.99,,0,paid,29.27,3,9,14.8,,87.0,2306,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-805850,Wrecked,,,0,free,3.59,1,8,0.5,,77.7,2265,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809020,ZeroRanger,11.99,,0,paid,26.58,2,10,11.4,,96.0,2251,"No critic score yet, so player reviews carry the quality rating."
-804490,Creed: Rise to Glory,4.49,29.99,85,paid,8.97,1,7,2.2,,73.1,2238,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809230,Unity of Command II,2.99,29.99,90,paid,65.73,6,8,85.9,88,79.5,2215,Playtime is based on only a few players.
-792100,7 Billion Humans,14.99,,0,paid,26.23,2,9,11.4,,93.5,2145,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-811320,Jupiter Hell,24.99,,0,paid,35.22,3,9,20.6,78,91.7,2120,Playtime is based on only a few players.
-802880,Muv-Luv,29.99,,0,paid,47.71,4,9,37.2,76,93.4,2103,
-804270,Chex Quest HD,,,0,free,4.51,1,8,0.7,,80.0,2095,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-795420,The Darkside Detective: A Fumble in the Dark,14.99,,0,paid,21.62,2,9,8.2,84,95.8,2028,
-806140,Achievements printer,0.99,,0,paid,9.76,1,9,2.4,,85.4,2021,"No critic score yet, so player reviews carry the quality rating."
-791330,Fallen ~Makina and the City of Ruins~,14.99,,0,paid,16.53,2,8,5.6,,84.7,2013,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-790060,The Void Rains Upon Her Heart,12.99,,0,paid,46.73,4,10,31.6,,99.1,2012,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-793370,KIDS,3.99,,0,paid,3.15,1,8,0.4,,82.6,2005,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-791470,DYO,,,0,free,12.54,1,10,3.2,,96.3,1987,"No critic score yet, so player reviews carry the quality rating."
-793350,Swarmlake,4.99,,0,paid,15.22,1,9,4.5,,94.9,1943,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-804700,The House in Fata Morgana: A Requiem for Innocence,14.99,,0,paid,26.76,2,10,11.4,,97.1,1933,"No critic score yet, so player reviews carry the quality rating."
-802200,Hellbound: Survival Mode,,,0,free,10.25,1,9,2.5,,87.5,1906,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-798510,SUPER DRAGON BALL HEROES WORLD MISSION,59.99,,0,paid,17.68,2,8,6.4,,82.9,1851,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-792120,FIGHT KNIGHT,19.99,,0,paid,32.54,3,9,17.2,,91.7,1720,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-803980,Plane Mechanic Simulator,0.95,11.99,92,paid,6.12,1,6,1.3,,56.3,1688,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-817840,Max Gentlemen Sexy Business!,19.99,,0,paid,66.29,6,9,75.2,,92.8,1680,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-810670,NALOGI,1.99,,0,paid,13.96,1,8,4.4,,78.4,1652,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-3158270,Football Life Simulator,19.99,,0,paid,16.31,2,7,6.0,,68.0,1618,"No critic score yet, so player reviews carry the quality rating."
-817510,Golfing Over It with Alva Majo,4.99,,0,paid,16.22,2,7,5.8,,74.0,1606,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-797410,Headsnatchers,1.49,14.99,90,paid,7.8,1,5,2.0,,51.4,1583,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-808290,Runes of Magic,,,0,free,22.29,2,7,10.2,71,69.0,1554,Playtime is based on only a few players.
-802870,The Ditzy Demons Are in Love With Me,24.99,,0,paid,39.92,4,10,23.9,,96.4,1536,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-791930,BombTag,,,0,free,2.35,1,8,0.2,,84.1,1507,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-797400,Railroad Corporation,35.99,,0,paid,46.13,5,7,40.1,,73.5,1500,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-812040,Shortest Trip to Earth,25.99,,0,paid,49.57,5,8,45.8,,76.7,1436,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-789660,Buggos,14.99,,0,paid,26.82,3,9,12.6,,87.9,1435,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-790850,Undead Horde,16.99,,0,paid,27.69,3,9,13.4,,87.0,1397,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-798840,Panzer War : Definitive Edition,10.79,11.99,10,paid,60.6,6,8,67.5,,84.4,1388,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809890,Shining Resonance Refrain,5.99,29.99,80,paid,45.22,5,7,39.0,68,69.4,1376,Playtime is based on only a few players.
-785890,Hexologic,4.99,,0,paid,19.75,2,10,6.8,,96.1,1366,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-798290,MXGP PRO,19.99,,0,paid,20.99,2,9,8.4,,85.4,1360,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809880,Degrees of Separation,2.99,19.99,85,paid,17.87,2,8,6.7,74,80.4,1347,
-814680,Unbound: Worlds Apart,19.99,,0,paid,21.87,2,8,9.2,78,83.5,1338,Playtime is based on only a few players.
-805590,ARMORED HEAD,2.49,4.99,50,paid,16.41,1,10,4.9,,98.0,1293,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-792040,Detective Di: The Silk Rose Murders,2.52,10.99,77,paid,17.4,2,9,6.0,80,88.5,1292,Playtime is based on only a few players.
-816350,The Flood,,,0,free,26.83,3,8,13.1,,83.4,1256,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-790600,Stormbound,,,0,free,15.57,2,7,5.5,,70.1,1224,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-810040,Swords 'n Magic and Stuff,17.49,24.99,30,paid,74.9,7,9,104.2,,93.0,1195,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-3253530,PIT OF GOBLIN,7.99,,0,paid,12.57,1,8,3.6,,84.1,1172,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-788270,Exiled Kingdoms,7.99,,0,paid,54.86,5,9,49.9,,90.1,1146,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-792710,Levelhead,4.99,,0,paid,20.74,2,9,7.6,,93.9,1141,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-813540,Scheming Through The Zombie Apocalypse: The Beginning,4.99,,0,paid,33.43,3,8,20.0,,81.2,1032,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-794580,SNK HEROINES Tag Team Frenzy,7.49,49.99,85,paid,6.67,1,7,1.4,,72.6,995,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-787450,KOEWOTAYORINI / 声之寄托,,,0,free,7.44,1,9,1.5,,85.6,983,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809060,REVEIL,19.99,,0,paid,17.48,2,9,6.0,,86.9,980,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-806510,Her Lie I Tried To Believe,,,0,free,6.71,1,8,1.3,,80.9,974,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-816490,Hidden Paws,1.34,2.99,55,paid,12.78,1,8,3.7,,84.7,944,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809720,Rescue HQ - The Tycoon,19.99,,0,paid,19.07,2,8,7.5,,79.2,932,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-794860,eSail Sailing Simulator,37.99,,0,paid,25.14,2,9,10.7,,92.8,850,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-263200,Signs of Life,14.99,,0,paid,67.3,7,8,97.0,,76.2,846,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-787070,Super Ledgehop: Double Laser,0.99,,0,paid,12.67,1,10,3.2,,97.1,842,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-810660,The Office Quest,5.99,,0,paid,16.95,2,9,5.7,72,93.2,829,Playtime is based on only a few players.
-787850,Heroine Anthem Zero 2 : Scalescars Oath,9.99,19.99,50,paid,57.89,6,8,62.3,,81.8,809,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-787790,Epic Roller Coasters,,,0,free,17.42,2,7,6.7,,66.8,791,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-799240,My Free Farm 2,,,0,free,20.49,2,6,9.2,,60.7,778,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-802730,Mother Simulator,1.57,1.99,21,paid,8.39,1,8,1.9,,82.6,718,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-814200,Simple Story - Alex,0.99,,0,paid,58.39,6,6,73.0,,61.8,715,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-811870,Verlet Swing,14.99,,0,paid,12.31,1,9,3.4,,88.1,712,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-790540,THE QUIET MAN,2.99,14.99,80,paid,10.95,1,4,4.1,,37.9,707,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-787980,4D Minesweeper,,,0,free,25.62,2,9,10.9,,93.7,701,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-789100,My Little Farmies,,,0,free,14.14,1,6,5.1,,55.1,675,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-814740,Armored Battle Crew [World War 1] - Tank Warfare and Crew Management Simulator,19.99,,0,paid,22.14,3,3,14.6,,33.8,660,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-806950,Victory At Sea Pacific,39.99,,0,paid,42.35,4,6,35.4,,61.8,650,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-788690,Psychonauts in the Rhombus of Ruin,19.99,,0,paid,11.04,1,9,2.8,,86.9,648,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-798810,Natural Locomotion,9.99,,0,paid,28.55,3,8,15.2,,78.8,632,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-797390,How To Cope With Boredom and Loneliness,,,0,free,3.88,1,9,0.5,,91.5,620,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-3091340,Metal Thunder,10.99,,0,paid,13.93,1,8,4.5,,76.3,613,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-787740,Construction Simulator 2 US - Pocket Edition,1.99,9.99,80,paid,55.91,6,8,60.9,,75.4,609,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-812550,The King's Bird,19.99,,0,paid,23.26,2,7,11.0,67,69.0,603,Playtime is based on only a few players.
-814530,Death Crown,2.59,12.99,80,paid,10.63,1,9,2.6,,89.7,593,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-808080,Ultimate Racing 2D,0.99,,0,paid,6.13,1,9,1.1,,87.4,570,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-810500,PowerBeatsVR - VR Fitness,19.99,,0,paid,3.33,1,8,0.4,,84.0,562,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-792050,Beneath The Surface,,,0,free,5.17,1,9,0.8,,94.8,561,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-792030,"Just, Bearly",,,0,free,3.03,1,9,0.3,,94.0,550,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-802450,NAIRI: Tower of Shirin,9.99,,0,paid,17.18,2,8,6.0,,84.4,550,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809540,Mechs V Kaijus - Tower Defense,12.99,,0,paid,40.16,4,8,27.9,,83.7,541,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-787400,Fantasy Versus,2.37,6.99,66,paid,33.41,3,8,20.7,,76.3,536,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-787040,Perfect Heist,4.99,,0,paid,5.86,1,7,1.1,,72.7,521,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-818520,Builders of Egypt,19.99,,0,paid,7.55,1,3,2.4,,32.6,513,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-808100,Galimulator,4.99,,0,paid,8.2,1,9,1.7,,90.9,503,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-812560,CROSS†CHANNEL: Steam Edition,9.99,,0,paid,33.59,3,9,18.7,,89.3,484,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-800620,Fallen Hero: Rebirth,6.99,,0,paid,35.25,3,10,18.9,,96.4,477,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809440,Protolife,11.99,,0,paid,31.14,3,9,16.8,,86.2,470,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-811880,Close Combat: The Bloody First,39.99,,0,paid,33.67,4,5,24.3,,53.2,459,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-812160,Etherborn,16.99,,0,paid,6.66,1,7,1.4,69,73.1,457,Playtime is based on only a few players.
-804850,Pax Nova,3.74,24.99,85,paid,11.55,1,6,3.6,,56.1,453,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-788470,Stonies,,,0,free,13.41,1,5,4.8,,53.4,453,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-785480,Titanic: Adventure Out Of Time,0.89,5.99,85,paid,13.44,1,9,3.9,,87.8,452,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-799510,Squidlit,1.99,,0,paid,4.4,1,9,0.6,,90.7,441,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-813700,Sakura Sadist,9.99,,0,paid,23.52,2,8,10.3,,84.4,436,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-796790,GLAD VALAKAS SIMULATOR,0.49,0.99,51,paid,8.37,1,9,1.7,,93.9,429,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-812070,Project Nightmares Case 36: Henrietta Kedward,19.99,,0,paid,17.8,2,8,6.8,,75.8,405,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-801290,Diabolic,2.99,,0,paid,12.73,1,8,3.7,,82.7,404,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809730,FISHERY,19.99,,0,paid,11.88,1,8,3.3,,83.8,401,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-810230,Traum,,,0,free,10.26,1,9,2.4,,92.2,383,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-792660,The Operational Art of War IV,39.99,,0,paid,52.36,5,8,50.0,,80.6,381,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-786580,Gleaner Heights,9.99,,0,paid,11.05,1,7,3.1,65,72.7,374,Playtime is based on only a few players.
-799860,BREATHE,,,0,free,5.48,1,5,1.2,,48.4,366,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-785850,Valthirian Arc: Hero School Story,3.74,14.99,75,paid,13.71,1,6,4.7,,58.2,364,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-785780,OF MICE AND SAND -REVISED-,2.49,9.99,75,paid,37.76,4,8,25.6,,79.6,363,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809310,Sipho,17.99,,0,paid,50.29,5,8,44.1,,84.3,363,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-786450,Don't Bite Me Bro! +,0.99,,0,paid,2.48,1,8,0.3,,79.1,359,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-804730,Third Front: WWII,7.99,,0,paid,7.56,1,6,1.8,,60.7,359,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-785840,Moe Jigsaw,3.99,,0,paid,36.68,4,8,23.3,,83.9,353,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-818210,Indie Pogo,14.99,,0,paid,18.98,2,8,7.2,,83.5,345,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-803830,The Snowboard Game,14.99,,0,paid,2.23,1,8,0.2,,83.2,334,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-796860,Police Enforcement VR : 1-King-27,6.99,,0,paid,1.35,1,3,0.2,,30.3,327,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-811270,Impulsion,1.29,12.99,90,paid,4.8,1,8,0.8,79,86.2,326,Playtime is based on only a few players.
-799500,SurvivalZ,1.99,,0,paid,12.55,1,6,4.0,,59.8,316,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-816430,Radical Relocation,1.99,9.99,80,paid,8.81,1,7,2.1,,73.9,306,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-787510,Muv-Luv Alternative Total Eclipse Remastered,39.99,,0,paid,45.89,4,9,32.3,,94.6,294,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-803080,Bad Day,0.49,0.99,51,paid,4.02,1,7,0.6,,65.1,292,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-792570,BattleCON: Online,,,0,free,10.7,1,7,3.0,,71.4,283,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-796290,World of Tennis: Roaring ’20s,,,0,free,1.38,1,7,0.1,,73.9,283,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809250,BEKKOUAME,,,0,free,1.51,1,9,0.1,,93.0,270,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-788420,Potion Explosion,6.99,,0,paid,13.8,1,8,4.2,,85.0,266,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-791150,EV3 - Drag Racing,,,0,free,1.49,1,5,0.1,,49.8,265,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-788630,Gaia Beyond,10.49,14.99,30,paid,77.18,8,8,149.0,,75.4,264,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-812870,Sentinels of Freedom,24.99,,0,paid,32.61,3,7,20.1,,73.9,264,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809000,Art of Murder - FBI Confidential,0.99,4.99,80,paid,1.38,1,7,0.1,,73.2,254,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-794240,Spinch,14.99,,0,paid,18.96,2,7,7.8,,66.1,248,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-795040,E.Z,1.29,1.99,35,paid,13.33,1,9,3.7,,91.8,245,"No critic score yet, so player reviews carry the quality rating."
-3499520,Piano Glow,24.99,,0,paid,37.1,3,10,20.3,,98.3,241,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-785880,OVERWHELM,9.99,,0,paid,14.81,1,9,4.7,,85.4,239,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-808010,Critadel,19.99,,0,paid,21.96,2,8,9.6,,78.2,239,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-790790,Impossible Runner,,,0,free,7.64,1,6,1.8,,63.7,237,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-817020,Unholy,29.99,,0,paid,4.87,1,6,0.9,,63.0,235,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-801880,Drift Tuner 2019,1.99,,0,paid,9.82,1,5,2.9,,52.2,232,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-794960,The Sojourn,3.74,24.99,85,paid,43.47,4,7,35.4,78,71.2,229,Playtime is based on only a few players.
-813530,FPV Freerider Recharged,9.99,,0,paid,26.76,2,9,12.4,,89.0,227,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-816270,Sounds of Verity,4.99,,0,paid,17.07,2,8,6.2,,78.5,223,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-788210,The Bonfire: Forsaken Lands,7.99,,0,paid,27.05,3,8,14.0,,76.8,220,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-811070,眼中的世界 - Conviction -,14.99,,0,paid,42.38,4,8,31.8,,81.0,216,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809850,Sudoku Zenkai / 数独全卡,3.99,,0,paid,65.17,6,9,74.4,,90.6,213,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-812840,LuGame: Lunchtime Games Club!,7.99,,0,paid,21.02,2,9,7.7,,94.3,211,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-787930,American Railroads - Summit River & Pine Valley,19.99,,0,paid,28.21,3,5,18.0,,49.8,207,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-805660,Rad Rodgers - Radical Edition,19.99,,0,paid,3.08,1,7,0.4,73,63.0,200,Playtime is based on only a few players.
-815210,Tiny-Tasy Town,1.99,,0,paid,17.23,2,6,7.0,,57.8,199,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-801260,NOSTALGIC TRAIN,3.59,11.99,70,paid,11.86,1,8,3.4,,76.9,195,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-801750,Hot Shot Burn,14.99,,0,paid,20.64,2,9,7.8,,90.7,193,"No critic score yet, so player reviews carry the quality rating."
-791770,Try To Fall Asleep,11.99,,0,paid,13.09,1,9,3.6,,91.7,192,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-814300,Pigeons Attack,4.99,,0,paid,13.77,1,9,3.9,,92.1,191,"No critic score yet, so player reviews carry the quality rating."
-795510,Koihime Enbu RyoRaiRai,11.99,,0,paid,13.91,1,9,4.0,,89.5,190,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-789950,INFERNIUM,29.99,,0,paid,39.76,4,7,30.3,,65.8,190,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-796360,JQ: countries,0.49,0.99,51,paid,3.22,1,6,0.5,,64.4,188,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-785130,Clawface,,,0,free,7.22,1,9,1.4,,86.0,186,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-815450,Cardinal Cross,11.99,,0,paid,26.82,2,9,11.8,,94.0,184,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-2287150,Revenge of the Mage,9.99,,0,paid,10.9,1,8,2.9,,80.9,183,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-802050,Rag Doll Joe,,,0,free,3.76,1,8,0.5,,81.0,179,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-791750,President Trump The Way In Uganda,0.49,0.99,51,paid,35.64,3,8,23.1,,78.2,179,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-790360,WarriOrb,12.99,,0,paid,2.84,1,8,0.3,,78.8,179,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-800820,2236 A.D.,14.99,,0,paid,25.83,2,9,11.2,,92.6,176,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-803030,Seek Or Die,,,0,free,4.81,1,7,0.8,,67.2,174,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-815150,Knight Bewitched,4.99,,0,paid,23.61,2,9,9.8,,90.2,174,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-817230,Acid Spy,5.99,,0,paid,15.86,1,9,4.9,,91.9,173,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-795760,UPPERS,4.49,14.99,70,paid,5.27,1,7,0.9,60,78.9,171,Playtime is based on only a few players.
-814030,Queen's Quest 4: Sacred Truce,14.99,,0,paid,14.99,1,7,5.2,,70.4,169,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-814360,Mythic Ocean,14.99,,0,paid,9.41,1,9,2.1,84,92.3,169,Playtime is based on only a few players.
-796940,Red Embrace,4.99,,0,paid,14.24,1,9,4.0,,93.3,165,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-818500,Colorzzle,1.99,,0,paid,5.09,1,10,0.8,,95.7,163,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-816710,Gray Cat,0.99,,0,paid,12.24,1,7,3.7,,73.8,160,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-816250,JQ: dogs & cats,0.49,0.99,51,paid,2.23,1,8,0.2,,82.7,156,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-796910,Please Love My Computer Game,,,0,free,15.51,2,7,5.4,,73.5,155,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-791200,Planet Cube: Edge,4.94,14.99,67,paid,8.43,1,9,1.8,,86.5,155,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-812410,Dimension of Monster Girls,4.99,,0,paid,13.66,1,9,4.0,,88.1,151,"No critic score yet, so player reviews carry the quality rating."
-800120,Lonely Yuri,9.99,,0,paid,22.01,2,9,8.3,,94.7,151,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-794550,Grapple Force Rena,14.99,,0,paid,26.41,2,9,11.5,,93.9,147,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-788510,Aeve:Zero Gravity,0.89,2.99,70,paid,1.09,1,2,0.1,,23.8,147,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-813650,Runefall,9.99,,0,paid,53.0,5,9,46.9,,88.8,143,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-792650,Super Jigsaw Puzzle,4.99,,0,paid,18.51,2,9,6.6,,87.9,141,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-786410,An Aspie Life,,,0,free,1.5,1,7,0.1,,72.9,140,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-817460,Sea Dogs: Caribbean Tales,11.99,,0,paid,28.59,3,6,16.5,,61.9,139,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-801020,Golden Dungeons,0.99,,0,paid,2.44,1,5,0.3,,47.0,134,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-791590,Psychiatrist Simulator,3.99,,0,paid,3.87,1,4,0.8,,39.5,129,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-789380,"Sometimes to Deal with the Difficulty of Being Alive, I Need to Believe There Is a Possibility That Life Is Not Real.",0.99,,0,paid,7.27,1,9,1.5,,85.9,128,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-797620,Dissembler,4.99,,0,paid,11.71,1,9,3.0,,90.9,121,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809320,Silent Tweets,2.99,,0,paid,3.04,1,8,0.4,,80.8,120,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-804600,Trivia Vault Football Trivia,1.39,13.99,90,paid,4.86,1,6,0.9,,60.8,120,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-2437330,Novus Orbis,19.99,,0,paid,55.46,5,9,50.2,,91.5,118,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809900,Calvin Tucker's Farm Animal Racing,0.74,2.99,75,paid,3.44,1,8,0.5,,80.7,114,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-1476680,Runika: A World of Little Legends,12.99,,0,paid,31.71,3,9,17.2,,86.8,114,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-789830,[TDA03] Muv-Luv Unlimited: THE DAY AFTER - Episode 03 REMASTERED,24.99,,0,paid,27.09,2,10,11.8,,95.6,113,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-793880,MIRAGE,4.99,,0,paid,6.42,1,8,1.2,,83.9,112,"No critic score yet, so player reviews carry the quality rating."
-796900,Trivia Vault: Mixed Trivia 2,1.49,14.99,90,paid,9.84,1,6,2.7,,60.9,110,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-809240,Vandals,4.99,,0,paid,22.07,2,8,9.8,74,77.6,107,Playtime is based on only a few players.
-793830,Kharon's Crypt - Even Death May Die,14.99,,0,paid,69.69,6,10,82.3,,95.3,107,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-789260,Unmoor,7.99,,0,paid,14.57,1,8,4.8,,76.4,106,"No critic score yet, so player reviews carry the quality rating."
-803890,Police Helicopter Simulator,19.99,,0,paid,10.82,1,5,3.4,,50.9,106,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-2526880,Defender Bros,11.99,19.99,40,paid,21.56,2,9,8.7,,86.8,106,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-791240,Lumote: The Mastermote Chronicles,19.99,,0,paid,4.68,1,9,0.7,81,90.5,105,Playtime is based on only a few players.
-786370,Alien Crusader,,,0,free,1.35,1,6,0.1,,63.1,103,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-793050,UNDEAD FACTORY:Zombie Pandemic,,,0,free,64.11,7,6,98.2,,57.4,101,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-786570,The Alpha Device,,,0,free,5.56,1,7,1.1,,67.0,100,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-810640,Radiis,14.99,,0,paid,47.84,4,9,36.8,,90.9,99,"No critic score yet, so player reviews carry the quality rating."
-797200,International Space Station Tour VR,,,0,free,14.49,1,8,4.5,,84.5,97,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-790450,ANYKEY,,,0,free,4.74,1,8,0.8,,84.5,97,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-818390,The Deer,,,0,free,1.83,1,7,0.2,,68.1,94,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-816810,Unlight:SchizoChronicle,,,0,free,2.23,1,7,0.2,,68.8,93,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-789900,My Little Riding Champion,29.99,,0,paid,10.29,1,5,3.2,,48.9,90,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-803350,Fighter Royale - Last Ace Flying,,,0,free,3.38,1,7,0.5,,65.2,89,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-815260,Lords of Kingdoms,,,0,free,1.08,1,4,0.1,,42.0,88,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-807140,Marble Run 2D,5.99,,0,paid,1.25,1,7,0.1,,73.6,87,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-813450,Barbearian,2.99,9.99,70,paid,16.22,2,8,5.7,,78.2,87,"No critic score yet, so player reviews carry the quality rating."
-812090,RAW FOOTAGE,,,0,free,3.16,1,6,0.5,,59.3,86,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-815080,Hot Mars 69,0.49,0.99,51,paid,6.09,1,4,1.5,,43.5,85,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-812110,Alice in Wonderland - Hidden Objects,0.79,1.99,60,paid,12.13,1,6,3.8,,63.1,84,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-801210,Spellsword Cards: Demontide,5.99,,0,paid,25.75,3,6,13.6,,63.1,84,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-818440,Forgotten Places: Lost Circus,1.99,,0,paid,15.52,2,5,6.6,,45.2,84,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-794190,Football Russian 20!8,2.99,,0,paid,4.17,1,8,0.6,,79.8,84,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-786820,SOK MAX,4.99,,0,paid,3.86,1,9,0.5,,86.7,83,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-804000,Expendable,0.99,3.99,75,paid,15.11,1,9,4.8,,86.4,81,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-806900,Them Bombs,10.99,,0,paid,13.45,1,9,3.7,,92.5,80,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-804350,Starman,10.99,,0,paid,3.14,1,9,0.4,,87.3,79,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-806960,Dr. Cares - Amy's Pet Clinic,11.19,15.99,30,paid,42.26,4,8,32.1,,79.2,77,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-816210,The Balcony,,,0,free,7.27,1,7,1.6,,68.4,76,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-817720,Cricket Captain 2018,9.99,,0,paid,55.74,6,6,65.5,,61.1,72,"No critic score yet, so player reviews carry the quality rating."
-794950,The Frosty Leaves 寒叶下的薄冰,0.99,,0,paid,14.12,1,8,4.4,,83.3,72,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-794180,PRO FISHING SIMULATOR,9.99,,0,paid,2.07,1,6,0.2,,59.2,71,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-805400,Mahjong Solitaire,1.99,,0,paid,4.12,1,7,0.7,,70.0,70,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-808800,Star Singularity,14.99,,0,paid,22.07,2,8,9.7,,77.1,70,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-810630,Paint It Black,4.99,,0,paid,21.11,2,8,8.8,,80.9,68,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-802490,Fabulous - Angela's Wedding Disaster,13.99,19.99,30,paid,30.02,3,8,16.2,,82.4,68,"No critic score yet, so player reviews carry the quality rating."
-809050,Detective Holmes: Trap for the Hunter. Hidden objects. 探し物,4.99,,0,paid,10.71,1,8,2.9,,77.9,68,"No critic score yet, so player reviews carry the quality rating."
-793190,Daily OVR,3.99,,0,paid,33.07,3,7,20.8,,72.3,65,"No critic score yet, so player reviews carry the quality rating."
-814650,Pushover,8.99,,0,paid,3.77,1,9,0.5,,85.9,64,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-798790,PolyCube,,,0,free,76.85,7,9,126.6,,85.9,64,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-792160,Heroes Of Hellas 4: Birth Of Legend,5.99,,0,paid,68.44,6,9,80.7,,93.5,62,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-797570,Go Morse Go! Arcade Edition,1.99,,0,paid,1.81,1,10,0.1,,96.8,62,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-804970,Shoottera,0.99,,0,paid,1.47,1,4,0.2,,39.3,61,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-2540670,Terralysia,11.99,,0,paid,11.75,1,7,3.5,,71.7,60,"No critic score yet, so player reviews carry the quality rating."
-798650,Squeakers,0.99,,0,paid,16.23,1,9,5.0,,93.2,59,"No critic score yet, so player reviews carry the quality rating."
-799260,Godly Corp,0.79,7.99,90,paid,2.46,1,8,0.3,,75.9,58,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-817200,Nautical Life,3.99,,0,paid,59.13,6,8,68.4,,77.6,58,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-807060,Void Monsters: Spring City Tales,4.99,,0,paid,27.64,3,7,15.0,,70.7,58,"No critic score yet, so player reviews carry the quality rating."
-806220,Absolute Blue,,,0,free,2.95,1,7,0.4,,71.9,57,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-791400,From Village to Empire,,,0,free,7.79,1,7,1.8,,70.2,57,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-816060,Kingdom Clicker,0.99,,0,paid,16.27,2,6,6.3,,58.9,56,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-804530,Cubism,9.99,,0,paid,10.26,1,10,2.2,,100.0,56,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-2686330,NOCLIP,5.99,,0,paid,1.1,1,7,0.1,,69.6,56,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-797010,Mavi's Journey,,,0,free,3.66,1,9,0.5,,88.7,53,"No critic score yet, so player reviews carry the quality rating."
-792480,Name The Song Quiz,,,0,free,1.54,1,6,0.1,,56.9,51,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
-787710,Comrades and Barons: Solitaire of Bloody 1919,9.99,,0,paid,25.3,2,9,11.1,,89.8,49,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-801760,City Monsters,,,0,free,3.75,1,8,0.6,,75.5,49,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-818030,Alicia Quatermain 3: The Mystery of the Flaming Gold,0.8,2.99,73,paid,42.52,4,8,32.4,,79.6,49,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-800240,Ghostly Matter,0.99,9.99,90,paid,11.32,1,7,3.3,,67.3,49,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-784010,Dragonview,0.87,7.99,89,paid,7.16,1,9,1.4,,85.1,47,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-812860,Genius Calculator,0.99,,0,paid,3.38,1,5,0.6,,47.8,46,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-794650,I saw IT,0.99,,0,paid,1.89,1,4,0.2,,37.8,45,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-799110,Picrastination,9.99,,0,paid,27.7,3,9,13.2,,88.6,44,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-793940,MOAI 5: New Generation Collector’s Edition,7.99,,0,paid,52.55,5,7,54.4,,68.2,44,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-803020,Manny Boxing VR,14.99,,0,paid,2.05,1,6,0.2,,56.8,44,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-804860,Klotzen! Panzer Battles,39.99,,0,paid,46.88,5,6,44.4,,60.5,43,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-813440,DrillsVR,,,0,free,4.49,1,6,0.8,,61.9,42,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-816240,Build Wars,,,0,free,2.83,1,5,0.4,,54.8,42,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-791990,MOBA GM,,,0,free,2.8,1,6,0.4,,61.9,42,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-787970,miraclr - Divine Dating Sim,9.99,,0,paid,21.4,2,8,9.0,,81.0,42,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-804290,Training aim,0.99,,0,paid,3.28,1,7,0.5,,73.8,42,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-811130,Forever Space,,,0,free,7.63,1,9,1.6,,87.8,41,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-805150,TSA Frisky,,,0,free,3.57,1,6,0.5,,60.0,40,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-795220,Wildlife Tycoon: Venture Africa,1.99,,0,paid,19.95,2,8,7.9,,82.5,40,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-788410,Tales of Nebezem: Elemental Link,3.99,,0,paid,19.02,2,9,7.0,,87.2,39,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-806830,Horse World,9.99,,0,paid,16.35,2,7,6.0,,67.6,37,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-799060,Biotix: Phage Genesis,,,0,free,6.32,1,7,1.3,,73.0,37,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-812190,Miasma Caves,,,0,free,17.36,2,8,6.5,,75.0,36,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-796770,Toddler Simulator,0.83,1.49,44,paid,25.64,3,7,13.2,,66.7,36,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-812930,Strategic Command Classic: WWII,14.99,,0,paid,66.89,6,8,88.5,,82.9,35,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-809450,❂ Hexaluga ❂ Witch Hunter's Travelling Castle ♉,9.99,199.99,95,paid,16.64,2,3,10.2,,25.7,35,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-790210,Neon Knight: Vengeance From The Grave,,,0,free,5.56,1,7,1.1,,66.7,33,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-803280,Briquid,4.99,,0,paid,11.96,1,10,2.8,,100.0,32,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-799840,Life and Debt: A Real Life Simulator,4.99,,0,paid,21.93,2,6,10.6,,58.1,31,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-817630,Island Tribe 3,4.99,,0,paid,20.41,2,8,8.1,,83.3,30,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-804610,MONMUSU * FIGHT!,7.99,,0,paid,5.24,1,8,0.9,,76.7,30,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-790730,Nero Burning ROM - All-in-One Disc Burn Solution,34.99,49.99,30,paid,11.88,1,7,3.5,,73.3,30,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-795990,Rise - The Vieneo Province,19.99,,0,paid,15.15,2,7,5.2,,72.4,29,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-792880,Never Stop Sneakin',11.99,,0,paid,23.66,2,6,11.7,,62.1,29,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-2377020,Unbroken: The Awakening,12.99,,0,paid,25.29,2,10,10.4,,96.6,29,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-785100,Cosmic Top Secret,11.99,,0,paid,5.83,1,9,1.0,,92.9,28,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-786350,Shinobi Bad Buddies,,,0,free,33.81,3,9,18.9,,89.3,28,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-789880,Ghost Platoon,2.99,,0,paid,12.63,2,4,5.3,,35.7,28,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-788890,Tomato Jones - Episode 3,4.99,,0,paid,20.39,2,7,8.8,,67.9,28,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-806580,7th Deep,3.99,,0,paid,26.85,2,9,12.0,,92.6,27,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-2967590,Vanakatu,,,0,free,1.7,1,9,0.1,,85.2,27,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-814630,ELF,0.99,4.99,80,paid,1.25,1,4,0.1,,37.0,27,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-798240,CRYEP,11.69,12.99,10,paid,9.62,1,8,2.4,,81.5,27,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-808420,Global Soccer: A Management Game 2018,,,0,free,13.63,1,7,4.5,,66.7,27,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-786280,Armored Squad,4.99,,0,paid,29.25,3,9,14.1,,92.3,26,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-2682600,Undergod,2.99,,0,paid,10.76,1,10,2.5,,96.2,26,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-800350,Casino Blackjack,0.74,2.99,75,paid,23.33,2,8,10.5,,80.0,25,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-816630,Monkey King: Master of the Clouds | 中華大仙,4.99,,0,paid,2.42,1,7,0.3,,69.6,23,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-800650,The Last Operator,,,0,free,11.78,1,7,3.5,,69.6,23,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-814330,Skyfear,9.74,14.99,35,paid,10.3,1,10,2.3,,95.7,23,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-795950,Deathly Storm: The Edge of Life,0.79,7.99,90,paid,4.08,1,8,0.6,,82.6,23,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-818650,Evil Cogs,4.99,,0,paid,5.73,1,6,1.1,,60.9,23,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-817640,Adelantado 4 Aztec Skulls,4.99,,0,paid,20.22,2,7,8.7,,68.2,22,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-811800,MINT VR,,,0,free,1.21,1,6,0.1,,61.9,21,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-818620,Music Boy 3D,,,0,free,1.96,1,8,0.2,,75.0,20,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-2792080,Stock:Retail investors,3.99,,0,paid,9.02,1,8,2.1,,85.0,20,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
-799080,5 Star Hawaii Resort - Your Resort,8.99,,0,paid,17.41,2,6,7.1,,57.9,19,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-803750,Moon Castle,4.99,,0,paid,27.04,3,6,15.4,,57.9,19,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-800080,Rising Sun - Iron Aces,14.99,,0,paid,10.41,1,8,2.6,,83.3,18,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-799460,Broken Metal,,,0,free,1.18,1,9,0.1,,88.2,17,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-811480,Geography Quiz,9.99,,0,paid,3.26,1,6,0.5,,56.2,16,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-785940,Strategic Command Classic: Global Conflict,29.99,,0,paid,97.35,9,9,334.4,,87.5,16,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-791790,No safety,0.49,0.99,51,paid,14.51,2,1,10.6,,13.3,15,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-809360,COSMIC SNAKE 8473/3671(HAMLETs),9.99,,0,paid,9.22,1,8,2.2,,80.0,15,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-796710,web spice,1.99,,0,paid,2.83,1,6,0.4,,57.1,14,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-793480,Trick Shot,,,0,free,3.15,1,9,0.4,,92.9,14,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-784110,bLogic Blox,,,0,free,5.51,1,8,1.0,,76.9,13,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-815540,Awakening: The Skyward Castle Collector's Edition,19.99,,0,paid,24.65,2,9,10.4,,92.3,13,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-807730,Draft Day Sports: College Basketball 2018,4.99,,0,paid,22.33,2,7,10.3,,66.7,12,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-790300,Puzzle for Kids,1.99,,0,paid,4.96,1,5,1.0,,45.5,11,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-812740,The Plus Point,2.99,,0,paid,6.42,1,7,1.3,,72.7,11,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-809270,GameLibBooster,19.99,,0,paid,78.44,8,6,172.9,,63.6,11,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-816170,Spectrubes Infinity,2.99,,0,paid,6.02,1,8,1.1,,81.8,11,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-796100,Haunted Halls: Fears from Childhood Collector's Edition,19.99,,0,paid,13.2,1,9,3.7,,90.0,10,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-804780,VRでレムと異世界生活-膝枕&添寝編,19.99,,0,paid,3.91,1,9,0.5,,88.9,9,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-786090,Rite of Passage: Hide and Seek Collector's Edition,19.99,,0,paid,21.36,2,9,8.4,,88.9,9,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-796050,The Agency of Anomalies: Mind Invasion Collector's Edition,19.99,,0,paid,21.75,2,7,9.9,,66.7,9,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-815570,Witches' Legacy: Hunter and the Hunted Collector's Edition,19.99,,0,paid,18.15,2,9,6.3,,88.9,9,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-796070,PuppetShow: Return to Joyville Collector's Edition,19.99,,0,paid,25.95,2,9,11.9,,87.5,8,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-797450,Fantasy Mosaics 27: Secret Colors,6.99,,0,paid,36.72,3,10,19.6,,100.0,8,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-788200,The Little Slime,6.99,,0,paid,3.92,1,7,0.6,,71.4,7,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-795940,Fantasy Mosaics 19: Edge of the World,6.99,,0,paid,25.93,2,10,10.4,,100.0,6,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-797300,Fantasy Mosaics 21: On the Movie Set,6.99,,0,paid,20.72,2,8,8.3,,83.3,6,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-797340,Fantasy Mosaics 24: Deserted Island,6.99,,0,paid,25.88,2,10,10.4,,100.0,6,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-802780,Ball Platformer,1.99,,0,paid,13.32,1,8,4.0,,83.3,6,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-817610,Hidden Space,2.99,,0,paid,3.02,1,6,0.4,,60.0,5,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-786100,Maestro: Notes of Life Collector's Edition,19.99,,0,paid,24.87,2,10,9.7,,100.0,5,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-797310,Fantasy Mosaics 22: Summer Vacation,6.99,,0,paid,23.74,2,10,8.9,,100.0,5,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-797330,Fantasy Mosaics 23: Magic Forest,6.99,,0,paid,31.85,3,10,15.0,,100.0,5,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-815550,Surface: Alone in the Mist Collector's Edition,19.99,,0,paid,16.18,1,10,4.7,,100.0,5,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-3323460,Relictor,9.99,,0,paid,15.87,2,8,5.6,,75.0,4,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-806560,VRでエミリアと異世界生活-膝枕&添寝編,19.99,,0,paid,2.54,1,8,0.3,,75.0,4,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-797350,Fantasy Mosaics 25: Wedding Ceremony,6.99,,0,paid,24.55,2,10,9.5,,100.0,4,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-805020,Mayan Prophecies: Blood Moon Collector's Edition,19.99,,0,paid,16.61,1,10,4.9,,100.0,4,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-2173850,ASSAULT SHELL 2,11.99,,0,paid,3.66,1,3,0.8,,33.3,3,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-3214180,Isekai Survivors,4.99,,0,paid,26.79,2,10,11.0,,100.0,3,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-786070,Myths of the World: Spirit Wolf Collector's Edition,19.99,,0,paid,13.75,1,7,4.5,,66.7,3,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-1803870,The Knight of Turn,5.99,,0,paid,2.89,1,10,0.3,,100.0,2,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-816030,Alice Must Find The Key To Escape (Hidden Objects),4.99,,0,paid,3.32,1,5,0.5,,50.0,2,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-811940,Game of Drones,3.97,,0,paid,22.05,2,10,7.9,,100.0,1,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
-786060,Sea of Lies: Burning Coast Collector's Edition,19.99,,0,paid,16.86,1,10,5.0,,100.0,1,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+2124120,SULFUR,23.99,29.99,20,paid,47.55,4,9,37.7,,87.6,10464,"No critic score yet, so player reviews carry the quality rating."
+825630,STEINS;GATE 0,34.99,,0,paid,44.2,4,10,29.4,,95.9,8517,"No critic score yet, so player reviews carry the quality rating."
+829110,LEGO DC Super-Villains,5.99,39.99,85,paid,35.35,3,9,20.8,76,91.2,8245,
+820520,Deceive Inc.,1.99,19.99,90,paid,24.98,2,8,11.8,,81.1,7887,"No critic score yet, so player reviews carry the quality rating."
+839770,Phoenix Point,24.99,,0,paid,52.78,5,7,54.0,74,73.1,7210,
+848350,Katamari Damacy REROLL,29.99,,0,paid,18.42,2,9,6.4,81,93.3,6690,
+824600,HROT,19.99,,0,paid,23.0,2,10,8.8,,96.5,6533,"No critic score yet, so player reviews carry the quality rating."
+829590,CryoFall,1.99,19.99,90,paid,45.37,4,8,37.4,,78.3,6473,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+840800,Outlaws of the Old West,19.99,,0,paid,9.07,1,6,2.4,,58.8,6297,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+824550,SD GUNDAM BATTLE ALLIANCE,59.99,,0,paid,30.81,3,6,18.6,71,63.3,6123,
+844930,Fox Hime Zero,1.99,,0,paid,11.84,1,10,2.9,,97.2,6014,"No critic score yet, so player reviews carry the quality rating."
+831560,WARRIORS OROCHI 4,59.99,,0,paid,34.41,3,9,20.1,,86.5,5611,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844590,Hypnospace Outlaw,19.99,,0,paid,23.82,2,9,9.6,83,96.6,5573,
+828740,Tales of the Neon Sea,16.99,,0,paid,20.38,2,9,8.0,,85.2,5111,"No critic score yet, so player reviews carry the quality rating."
+848480,Creeper World 4,24.99,,0,paid,40.44,4,9,25.0,,94.9,4734,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+821250,Flotsam,12.49,24.99,50,paid,35.19,3,8,22.1,,81.1,4642,"No critic score yet, so player reviews carry the quality rating."
+838310,Bloodstained: Curse of the Moon,9.99,,0,paid,22.93,2,9,9.3,77,94.3,4524,Playtime is based on only a few players.
+842100,Daymare: 1998,29.99,,0,paid,20.53,2,7,8.9,62,69.0,4296,
+834740,Circle Empires,1.79,8.99,80,paid,23.15,2,9,9.6,,89.5,4177,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+821880,Idol Manager,19.99,,0,paid,23.64,2,8,10.4,73,87.4,4115,Playtime is based on only a few players.
+853770,Maximum Action,19.99,,0,paid,16.92,2,9,5.6,,89.1,3912,"No critic score yet, so player reviews carry the quality rating."
+833360,Star Valor,24.99,,0,paid,50.59,5,9,42.7,,88.3,3520,"No critic score yet, so player reviews carry the quality rating."
+840140,武侠乂 The Swordsmen X,24.99,,0,paid,21.25,2,5,11.1,,47.3,3517,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+846030,ΔV: Rings of Saturn,9.99,,0,paid,42.21,4,9,28.0,,92.5,3474,"No critic score yet, so player reviews carry the quality rating."
+846470,Moss VR,9.99,19.99,50,paid,18.16,2,9,6.2,81,95.2,3449,Playtime is based on only a few players.
+850000,Noel the Mortal Fate Complete Edition,9.89,14.99,34,paid,41.37,4,9,28.6,,87.1,3437,"No critic score yet, so player reviews carry the quality rating."
+849100,Alaskan Road Truckers,21.99,,0,paid,21.05,2,6,9.6,,62.0,3270,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+846110,The friends of Ringo Ishikawa,5.99,14.99,60,paid,25.36,2,9,11.3,,88.9,3179,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+853550,Equilinox,9.99,,0,paid,29.28,3,9,14.1,,92.5,3026,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851800,G2 Fighter / 基因特工,15.99,,0,paid,65.26,6,8,87.7,,77.9,3022,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+829660,No Time to Relax,13.99,,0,paid,22.28,2,9,8.7,,92.1,2919,"No critic score yet, so player reviews carry the quality rating."
+843390,Vertigo 2,29.99,,0,paid,27.73,2,10,12.4,,95.1,2730,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+824000,Hokko Life,19.99,,0,paid,23.83,2,6,11.8,54,66.2,2673,Playtime is based on only a few players.
+842180,Prison Simulator,19.99,,0,paid,16.27,2,9,5.4,,85.9,2538,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851890,Gal*Gun 2,7.49,29.99,75,paid,11.08,1,8,2.9,,83.1,2509,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+840010,Garden Paws,19.99,,0,paid,40.98,4,9,27.1,,90.0,2496,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+842780,NavalArt,19.99,,0,paid,52.68,5,9,45.3,,90.7,2473,"No critic score yet, so player reviews carry the quality rating."
+826940,Maid of Sker,24.99,,0,paid,15.24,2,8,5.2,69,78.7,2471,Playtime is based on only a few players.
+828070,Treasure Hunter Claire,19.99,,0,paid,19.61,2,9,7.3,,88.4,2379,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+829280,Kaze and the Wild Masks,9.99,,0,paid,26.05,2,9,11.6,82,93.8,2073,
+823950,Re:Legend,12.49,24.99,50,paid,25.26,3,5,14.0,,54.9,2027,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+840720,Sword Art Online: Lost Song,19.99,,0,paid,43.37,4,8,33.8,,79.5,2026,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+825310,Dude Simulator 2,4.99,,0,paid,1.76,1,6,0.2,,57.2,2018,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844260,Rustler (Grand Theft Horse),24.99,,0,paid,23.18,2,7,10.9,65,75.1,2015,Playtime is based on only a few players.
+836640,寄居隅怪奇事件簿 Hermitage Strange Case Files,9.99,,0,paid,25.34,2,8,12.1,,80.4,2009,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844850,Tower Hunter: Erza's Trial,1.43,17.99,92,paid,10.58,1,7,2.9,,71.1,1999,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+841190,"Honey, I Joined a Cult",21.99,,0,paid,19.12,2,7,7.8,72,72.4,1938,Playtime is based on only a few players.
+843810,A Perfect Day,19.99,,0,paid,17.69,2,8,6.3,,84.6,1834,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+852220,Accident,3.74,14.99,75,paid,12.58,1,8,3.8,,76.6,1767,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+828900,The Stillness of the Wind,1.94,12.99,85,paid,12.11,1,8,3.6,76,74.8,1751,Playtime is based on only a few players.
+843200,Alien Hominid Invasion,13.99,19.99,30,paid,23.45,2,9,9.8,,88.7,1731,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+838630,Deadliest Catch: The Game,1.19,19.99,94,paid,20.7,2,5,10.1,,52.5,1630,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+852110,RetroMaze,0.99,,0,paid,4.08,1,10,0.5,,96.1,1605,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+843260,The Bard's Tale Trilogy,4.49,14.99,70,paid,54.39,5,9,46.0,,94.9,1561,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839630,Survisland / 实境求生,14.99,,0,paid,76.56,8,6,158.9,,63.3,1552,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+850320,PHOGS!,3.74,24.99,85,paid,23.42,2,8,10.7,75,79.1,1472,Playtime is based on only a few players.
+845890,Moonbreaker,29.99,,0,paid,26.69,3,8,12.9,,83.9,1460,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+842910,The MISSING: J.J. Macfield and the Island of Memories,5.99,29.99,80,paid,22.98,2,9,9.5,,88.6,1439,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+846870,Yooka-Laylee and the Impossible Lair,29.99,,0,paid,24.3,2,8,11.2,81,80.5,1437,Playtime is based on only a few players.
+833040,Hiveswap Friendsim,1.94,12.99,85,paid,34.84,3,9,19.3,,92.5,1386,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839910,Mythgard,,,0,free,56.46,5,9,56.4,,85.4,1351,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+845880,Touhou: Scarlet Curiosity,4.49,14.99,70,paid,20.46,2,9,8.0,65,92.3,1332,Playtime is based on only a few players.
+824720,Pure Rock Crawling,14.99,,0,paid,15.71,2,8,5.2,,83.7,1328,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+853450,Nevergrind Online,7.99,15.99,50,paid,62.89,6,9,72.5,,86.0,1304,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+826600,I am not a Monster: First Contact,10.99,,0,paid,6.95,1,8,1.4,,76.3,1295,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+830820,Jets'n'Guns 2,15.99,,0,paid,31.7,3,9,16.6,,90.2,1293,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+854940,Ikenfell,5.99,19.99,70,paid,48.61,5,9,40.4,69,91.0,1245,Playtime is based on only a few players.
+855010,270 | Two Seventy US Election,,,0,free,1.63,1,8,0.1,,75.7,1127,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+835430,La-Mulana 2,24.99,,0,paid,57.23,5,8,59.2,79,85.6,1088,Playtime is based on only a few players.
+836480,恋爱模拟器 Love Simulation,1.99,,0,paid,20.63,2,5,9.8,,54.9,1052,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+830370,Monster Crown,9.99,,0,paid,20.11,2,6,9.2,,56.3,1046,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839310,Signal Simulator,14.99,,0,paid,16.83,2,8,6.0,,79.3,1029,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+828050,The Mirror Lied,,,0,free,4.51,1,9,0.7,,87.5,1010,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839200,SpedV,,,0,free,34.11,3,8,21.5,,76.7,1006,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+841770,Siralim 3,14.99,,0,paid,22.61,2,9,8.7,,94.5,988,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844660,Heart of the Woods,14.99,,0,paid,24.28,2,9,9.8,,94.7,988,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837380,DeoVR Video Player,,,0,free,7.34,1,6,1.7,,60.7,978,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+835650,Rising Lords,19.99,,0,paid,58.09,6,7,68.5,69,70.8,974,Playtime is based on only a few players.
+822930,Wolf Tails,9.99,,0,paid,10.85,1,10,2.5,,95.2,943,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837880,You Suck at Parking - Complete Edition,19.99,,0,paid,14.55,1,9,4.5,,85.1,926,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851530,Mini-Dead,,,0,free,8.74,1,9,1.8,,94.2,925,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820630,Metal Wolf Chaos XD,24.99,,0,paid,27.1,3,8,13.8,65,84.0,916,Playtime is based on only a few players.
+824190,Achievement Clicker 2019,0.49,0.99,51,paid,3.31,1,8,0.4,,82.2,914,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+846800,Diner Bros,9.99,,0,paid,64.28,6,9,72.6,,90.0,898,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820730,Adventure of a Lifetime,12.99,,0,paid,19.4,2,10,6.6,,96.5,889,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+836450,Heaven Will Be Mine,5.99,14.99,60,paid,20.07,2,9,7.3,,92.1,809,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+847360,Super Lucky's Tale,29.99,,0,paid,32.68,3,8,19.6,59,85.0,792,Playtime is based on only a few players.
+851670,LUMINES REMASTERED,4.49,14.99,70,paid,24.56,2,9,10.1,,94.7,791,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+842150,Wild West Saga: Idle Tycoon Clicker,,,0,free,1.49,1,7,0.1,,67.8,790,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+850980,GUILTY GEAR,9.99,,0,paid,16.89,2,8,6.1,,78.8,760,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+840210,Arkham Horror: Mother's Embrace,19.99,,0,paid,17.75,2,6,7.1,,62.7,718,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+819020,Zanki Zero: Last Beginning,59.99,,0,paid,35.17,3,8,22.8,,76.9,700,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851110,Idle Racing GO: Clicker Tycoon,,,0,free,90.36,10,5,636.3,,50.5,687,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+852090,Penko Park,13.99,,0,paid,16.02,1,10,4.7,,98.8,674,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+840390,Spacebase Startopia,5.99,39.99,85,paid,19.52,2,6,8.6,69,55.7,662,Playtime is based on only a few players.
+823830,Frightened Beetles,,,0,free,3.31,1,9,0.4,,92.0,626,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+824070,Objects in Space,4.99,24.99,80,paid,26.07,3,6,14.3,79,51.7,625,Playtime is based on only a few players.
+829420,Fun Hospital,,,0,free,1.91,1,6,0.2,,63.5,614,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837510,Pixel Game Maker MV,25.49,84.99,70,paid,12.1,1,7,3.6,,68.3,599,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+831660,Monobeno-HAPPY END- Deluxe,29.99,,0,paid,30.76,3,9,15.4,,92.0,598,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837610,Mary Skelter: Nightmares,24.99,,0,paid,38.3,4,8,25.4,,83.4,597,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+848050,GP Bikes,24.99,,0,paid,32.58,3,9,16.8,,93.9,587,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+848030,Roundguard,3.99,19.99,80,paid,16.24,2,8,5.6,,81.3,578,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+825730,Tzar: The Burden of the Crown,4.99,,0,paid,17.42,2,9,5.8,,90.6,566,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839870,Wilmot's Warehouse,14.99,,0,paid,23.12,2,10,8.9,,96.2,560,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+826230,CONCLUSE,,,0,free,19.52,2,8,8.0,,75.1,555,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851930,Battle Royale Tycoon,2.49,9.99,75,paid,25.58,3,7,13.0,,69.3,515,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+852910,sweet pool,19.99,,0,paid,16.78,2,9,5.4,,91.8,513,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+832360,Hotel Magnate,19.99,,0,paid,26.32,3,6,14.6,,58.5,491,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+848550,Welcome Back To 2007 Part II,4.99,,0,paid,16.62,2,6,6.7,,56.3,487,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820030,Picross Fairytale - nonogram: Red Riding Hood secret,14.99,,0,paid,81.04,8,8,177.1,,75.7,486,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844330,The Goatman,4.99,,0,paid,2.41,1,7,0.3,,66.4,482,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+831050,Dolmen,1.99,19.99,90,paid,32.96,3,6,22.2,55,59.6,478,Playtime is based on only a few players.
+823940,Virtual Battlegrounds,19.99,,0,paid,16.2,2,7,5.9,,68.4,475,"No critic score yet, so player reviews carry the quality rating."
+821500,Ria's Hook,2.99,,0,paid,2.6,1,8,0.3,,81.3,465,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+843660,Rogue Agent,,,0,free,4.86,1,8,0.8,,83.7,461,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+822540,Escape From Tethys,4.99,,0,paid,1.94,1,7,0.2,,69.6,457,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837590,Operation Thunderstorm,0.99,4.99,80,paid,12.26,1,8,3.6,,77.4,455,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+850450,Escape First,5.99,,0,paid,8.11,1,7,1.9,,66.5,442,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+835520,Dodge Show,0.99,,0,paid,24.94,2,8,11.5,,83.3,436,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+824280,Monster Jam Steel Titans,19.99,,0,paid,55.16,6,7,60.9,,68.1,432,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+850050,Achievement Idler: Red,0.99,,0,paid,10.96,1,9,2.8,,85.8,430,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+854860,Cows VS Vikings,8.99,,0,paid,11.48,1,8,3.1,,83.3,420,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+822760,Fureraba ~Friend to Lover~,13.49,29.99,55,paid,35.88,3,10,19.2,,97.8,409,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851950,Heroine of the Sniper,9.99,,0,paid,8.12,1,10,1.6,,95.0,404,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+842810,Märchen Forest: Mylne and the Forest Gift [Legacy ver.],9.99,,0,paid,1.68,1,8,0.1,,82.5,401,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+824830,Corpse Party: Blood Drive,7.99,19.99,60,paid,32.5,3,8,19.8,,75.1,397,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+828960,Blonde Driver,0.99,,0,paid,39.06,4,7,29.3,,65.6,390,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+848500,Sniper Strike: Special Ops,,,0,free,13.48,1,6,4.5,,61.3,388,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+841350,NALOGI 2,1.99,,0,paid,16.2,2,7,5.8,,74.1,375,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844920,Fortissimo FA,9.99,,0,paid,26.97,3,8,13.4,,81.5,367,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844960,Pro 11 - Football Manager Game,,,0,free,25.15,2,8,12.3,,76.0,366,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+823610,Dungeon Of Dragon Knight,11.99,,0,paid,34.56,3,8,22.0,,77.1,362,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+826540,Audio Trip,5.99,19.99,70,paid,14.42,1,9,4.3,,90.1,362,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+838270,Grandpa,3.99,,0,paid,2.1,1,5,0.3,,49.6,355,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844050,Desert Child,11.99,,0,paid,15.63,2,6,6.0,60,56.1,355,Playtime is based on only a few players.
+844380,Cave Digger VR,7.96,19.9,60,paid,9.58,1,8,2.4,,76.1,348,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+854250,FPV Freerider,5.99,,0,paid,33.15,3,9,18.3,,89.0,347,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+852300,Creature in the Well,14.99,,0,paid,18.64,2,8,7.2,82,78.9,346,Playtime is based on only a few players.
+830980,Doodle Date,0.99,1.99,50,paid,6.93,1,7,1.5,,73.2,343,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+821670,Horse Farm,,,0,free,5.68,1,6,1.2,,55.1,341,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+819190,Undead Citadel,29.99,,0,paid,6.13,1,7,1.2,,72.8,334,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+852340,King Rabbit - Puzzle,,,0,free,10.55,1,9,2.5,,92.5,332,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+853860,aMAZE Classic,1.99,,0,paid,8.15,1,8,1.8,,79.9,319,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+822990,Spinnortality | cyberpunk management sim,9.99,,0,paid,24.64,2,8,11.8,,77.1,315,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820540,Bloodroots,19.99,,0,paid,10.31,1,9,2.5,76,90.4,311,Playtime is based on only a few players.
+823580,Isoland 2 - Ashes of Time,2.99,,0,paid,12.64,1,9,3.3,,94.8,307,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851280,MindSeize,4.49,14.99,70,paid,23.51,2,7,11.0,,74.8,306,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+833140,Supaplex,14.99,,0,paid,21.02,2,10,7.7,,95.0,301,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+828580,NEKO-NIN exHeart 2,9.99,,0,paid,15.43,1,10,4.5,,95.3,300,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+826480,VR Benchmark Kanojo,,,0,free,11.29,1,8,3.2,,77.1,297,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+845250,Fish Tycoon 2: Virtual Aquarium,,,0,free,35.71,4,6,26.5,,55.9,297,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+821560,螢幕判官 Behind the Screen,1.79,8.99,80,paid,11.17,1,8,3.0,,84.4,294,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837460,Batbarian: Testament of the Primordials,14.99,,0,paid,53.09,5,8,51.1,82,81.3,289,Playtime is based on only a few players.
+840930,Bing Bong XL,0.59,0.99,40,paid,14.71,1,9,4.5,,88.5,287,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+832500,3 Minutes to Midnight - A Comedy Graphic Adventure,14.99,24.99,40,paid,29.93,3,8,15.8,81,86.4,280,Playtime is based on only a few players.
+839420,Krampus is Home,9.99,,0,paid,5.09,1,8,0.9,,80.1,276,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+838410,Tabletop Playground,4.49,14.99,70,paid,3.41,1,7,0.5,,69.2,273,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837600,The Royal Marines Commando,0.74,4.99,85,paid,9.97,1,7,2.6,,70.7,266,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820020,Alder's Blood: Definitive Edition,19.99,,0,paid,17.77,2,6,7.2,,60.4,260,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+827050,Rising Kingdoms,4.99,,0,paid,35.53,3,9,20.1,,92.2,258,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+834450,Roarr! The Adventures of Rampage Rex,2.99,,0,paid,8.94,1,4,3.0,,36.9,255,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+821610,My Sunny Resort,,,0,free,1.42,1,6,0.1,,55.3,246,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+838390,Merry Glade,0.99,,0,paid,7.48,1,9,1.4,,94.3,245,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851730,Sandmade,0.64,0.99,35,paid,8.35,1,9,1.7,,91.4,243,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844040,RUSH,19.99,,0,paid,15.34,1,8,5.2,73,81.8,242,Playtime is based on only a few players.
+853050,El Hijo - A Wild West Tale,19.99,,0,paid,22.53,2,8,9.9,76,80.6,232,Playtime is based on only a few players.
+853200,Shred! 2 - ft Sam Pilgrim,9.99,,0,paid,10.5,1,9,2.6,,85.2,230,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+834880,Acro FS,,,0,free,8.61,1,6,2.2,,57.5,226,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839560,Shrinking Pains,,,0,free,2.88,1,9,0.3,,85.4,226,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+826010,JQ: chemistry,0.49,0.99,51,paid,2.48,1,8,0.3,,79.1,225,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820910,Last Resort Island,8.99,,0,paid,27.83,3,8,13.8,,85.0,220,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844500,Draw a Stickman: EPIC 3,7.99,,0,paid,18.81,2,5,8.6,,51.4,220,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851180,Blood Harvest 3,0.59,2.99,80,paid,20.75,2,7,8.9,,74.9,219,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+846730,RUGBY 20,19.99,,0,paid,49.3,5,7,46.8,,70.6,218,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+848060,Story of a Gladiator,10.99,,0,paid,24.18,2,8,11.3,,79.3,217,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+842130,Achievement Smiles,0.49,0.99,51,paid,5.91,1,6,1.2,,62.0,216,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+834390,King's Heir: Rise to the Throne,14.99,,0,paid,15.18,1,8,5.0,,80.1,211,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+845030,Evergate,2.49,9.99,75,paid,25.12,2,9,10.6,,93.6,204,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+823600,Battle Brawlers,,,0,free,3.43,1,6,0.5,,57.8,199,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851810,Ultimate Sudoku Collection,,,0,free,13.92,1,8,4.5,,77.3,198,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+834760,Robot Wants It All,19.99,,0,paid,31.16,3,9,16.3,,89.3,196,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820610,Ages of Mages: The last keeper,11.99,,0,paid,17.92,2,8,6.7,,78.9,194,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+821320,SPAGHET,1.99,,0,paid,5.35,1,9,0.9,,88.7,194,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+843430,Righty Tighty XL,0.59,0.99,40,paid,14.26,1,9,4.0,,93.6,187,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+819630,Basketball Classics,9.99,,0,paid,4.05,1,9,0.6,,92.0,187,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+830590,Holy Potatoes! A Spy Story?!,0.99,9.99,90,paid,6.72,1,6,1.4,,64.2,187,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+821060,Desktop Mascot Engine,2.99,,0,paid,4.78,1,5,0.9,,54.6,185,"No critic score yet, so player reviews carry the quality rating."
+839080,DRAW CHILLY,4.99,,0,paid,19.25,2,8,7.6,78,80.4,184,
+821640,Floor Kids,19.9,,0,paid,11.12,1,9,2.8,,88.5,183,"No critic score yet, so player reviews carry the quality rating."
+818730,Tower climber,0.99,,0,paid,3.44,1,8,0.5,,80.2,182,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839330,Catch Me If You Can,,,0,free,2.96,1,9,0.3,,92.8,181,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+827000,Celtic Kings: Rage of War,4.99,,0,paid,29.72,3,9,15.2,82,90.1,181,Playtime is based on only a few players.
+823840,Macrotis: A Mother's Journey,9.99,,0,paid,17.76,2,9,5.9,,92.2,180,"No critic score yet, so player reviews carry the quality rating."
+843720,Dissimilated Land,11.99,,0,paid,33.19,3,6,22.1,,60.3,179,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820400,Shrouded in Sanity: Freebirth,,,0,free,11.74,1,8,3.2,,83.1,177,"No critic score yet, so player reviews carry the quality rating."
+854870,Perseverance: Part 1,,,0,free,9.77,1,8,2.4,,84.7,177,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+846200,Bastard,2.24,8.99,75,paid,20.05,2,6,9.0,,58.9,175,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837350,King of the Hat,19.99,,0,paid,21.65,2,10,7.8,,97.7,175,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+832320,Mighty Switch Force! Collection,19.99,,0,paid,3.59,1,9,0.5,,86.8,167,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+832540,Art of Murder - Hunt for the Puppeteer,0.99,4.99,80,paid,21.43,2,7,9.5,,71.5,165,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+822530,Pukan Bye Bye,0.99,,0,paid,6.88,1,7,1.5,,68.5,162,"No critic score yet, so player reviews carry the quality rating."
+840410,Mushroom Heroes,,,0,free,1.7,1,9,0.1,,85.7,161,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+821390,Achievement Lurker: Another one bites the dust,1.99,,0,paid,30.23,3,9,16.0,,85.5,159,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+854770,WTF,4.99,,0,paid,5.86,1,5,1.2,,52.8,159,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+836770,Art of Murder - Cards of Destiny,0.99,4.99,80,paid,23.15,2,7,11.0,,66.9,157,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844420,Demon's Rise - Lords of Chaos,6.99,,0,paid,35.82,3,8,22.5,,82.8,157,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+835700,Alice - Behind the Mirror,0.79,1.99,60,paid,4.39,1,8,0.7,,84.1,157,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+845210,Sim Racing Telemetry,,,0,free,45.14,4,8,37.3,,77.6,156,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+822830,Ouroboros,4.99,,0,paid,24.79,2,9,10.3,,94.2,155,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+831770,Zombie Derby,4.99,,0,paid,8.23,1,8,1.8,,83.3,150,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+841600,Aura of Worlds,10.49,14.99,30,paid,21.45,2,9,8.3,,90.7,150,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+838110,HyperParasite,17.99,,0,paid,31.59,3,8,18.4,71,81.9,149,Playtime is based on only a few players.
+827920,Bounce,4.99,,0,paid,12.16,1,6,3.9,,58.4,149,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+826740,Rise of the Slime,14.99,,0,paid,10.83,1,6,3.1,,61.2,147,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+850330,best game eu,,,0,free,2.02,1,8,0.2,,83.1,142,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+842170,Hyperspace Dogfights,9.99,,0,paid,45.25,4,9,33.1,,90.0,140,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+849210,Raccoo Venture,14.99,,0,paid,24.62,2,8,11.3,67,89.9,139,Playtime is based on only a few players.
+827610,Dead End Job,16.99,,0,paid,8.83,1,7,2.2,,72.7,139,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+844390,Deadly Flare,6.99,13.99,50,paid,4.85,1,5,0.9,,54.0,139,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+831720,EMMA The Story,0.73,0.99,26,paid,2.54,1,9,0.3,,87.6,137,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+850060,Anima: Gate of Memories - The Nameless Chronicles,19.99,,0,paid,1.28,1,8,0.1,,81.5,135,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851640,Marble Race,4.99,,0,paid,7.66,1,8,1.6,,83.6,134,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+838010,Double Cross,19.99,,0,paid,23.79,2,8,11.0,,78.4,134,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839280,Cartonfall,7.99,,0,paid,15.02,1,9,4.6,,90.2,133,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+822040,Super Volley Blast,9.99,,0,paid,17.63,2,9,5.8,,93.1,130,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+836760,Sorcery Saga: Curse of the Great Curry God,19.99,,0,paid,35.75,4,7,24.3,,68.5,130,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+836850,Tiny Tanks,9.99,,0,paid,7.7,1,7,1.8,,69.8,129,"No critic score yet, so player reviews carry the quality rating."
+839300,Legendary Eleven: Epic Football,14.99,,0,paid,17.22,2,7,6.5,,71.3,129,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839850,Lenin - The Lion,11.99,,0,paid,28.8,3,9,13.8,,91.3,127,"No critic score yet, so player reviews carry the quality rating."
+824570,Kine,14.99,,0,paid,19.53,2,10,6.7,,95.2,126,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+824760,Deathtrap Dungeon Trilogy,6.99,,0,paid,14.21,1,6,4.9,,61.8,123,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839340,SOK MIN,4.99,,0,paid,39.2,4,9,24.6,,90.9,121,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+819790,Laplace：拉普拉斯的神子,,,0,free,1.23,1,6,0.1,,64.5,121,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837900,Bitcoin Trader,0.99,,0,paid,1.27,1,5,0.1,,50.4,121,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+825550,BlueberryNOVA,1.99,3.99,50,paid,6.81,1,7,1.5,,65.3,121,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+848530,Cyberemo 2007,4.99,,0,paid,41.34,4,7,31.7,,74.8,119,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851050,Paper Dolls VR,15.99,,0,paid,1.48,1,5,0.1,,48.7,117,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+849940,Freefall Tournament,4.99,,0,paid,19.85,2,8,8.2,,75.2,113,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+851520,Trivia Vault: TV Trivia,1.39,13.99,90,paid,8.17,1,6,2.0,,58.4,113,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+827330,Skydrift Infinity,9.99,,0,paid,25.65,3,8,12.7,,77.0,113,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+849620,Trivia Vault: Celebrity Trivia,1.39,13.99,90,paid,1.99,1,6,0.2,,60.7,112,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+832720,Dungeon Brewmaster,9.99,,0,paid,10.55,1,6,3.0,,59.5,111,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+850820,祛魅·教化（祛魅1）,0.79,3.99,80,paid,63.46,6,8,83.5,,75.2,109,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+843900,Demon's Rise - War for the Deep,6.99,,0,paid,34.37,3,8,21.2,,80.7,109,"No critic score yet, so player reviews carry the quality rating."
+833270,Citrouille: Sweet Witches,0.99,9.99,90,paid,16.17,2,8,5.5,,82.4,108,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+847660,Story: Heaven & Hell,0.99,,0,paid,3.21,1,3,0.6,,32.7,107,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+845970,Trivia Vault: Movie Trivia,1.39,13.99,90,paid,8.4,1,7,2.0,,66.0,106,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+833170,Burned Land,0.89,9.99,91,paid,19.37,2,6,8.7,,55.2,105,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+823100,Peace Duke,24.99,,0,paid,3.25,1,5,0.5,,46.7,105,"No critic score yet, so player reviews carry the quality rating."
+834800,SolSeraph,14.99,,0,paid,14.45,2,6,5.3,63,51.9,104,
+836860,Art of Murder - The Secret Files,0.99,4.99,80,paid,0.9,1,2,0.1,,15.5,103,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837940,Mobile Forces,0.99,3.99,75,paid,5.13,1,8,0.8,68,92.2,102,Playtime is based on only a few players.
+846690,Lost Lands: Ice Spell Collector's Edition,9.99,,0,paid,21.59,2,9,8.1,,94.1,102,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+823420,Erinye Demo,,,0,free,5.08,1,9,0.8,,86.0,100,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+823040,Griefer,12.99,,0,paid,1.94,1,7,0.2,,69.0,100,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+845690,"Rats, Bats, and Bones",4.99,,0,paid,55.66,5,9,51.6,,89.9,99,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+840590,Hypnotic Experience - ANOIX,0.99,,0,paid,66.68,7,7,97.8,,71.6,95,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+823230,Demolition Pro Online,19.99,,0,paid,4.53,1,6,0.8,,57.4,94,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+848080,Depths of Sanity,14.99,,0,paid,24.8,2,9,10.9,,88.3,94,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+823640,Gnomes Garden Lost King,14.99,,0,paid,17.93,2,5,7.8,,52.7,93,"No critic score yet, so player reviews carry the quality rating."
+844860,Tank Operations: European Campaign,9.99,,0,paid,3.62,1,8,0.5,,81.7,93,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+832770,Age of Fear: The Undead King GOLD,10.49,29.99,65,paid,41.62,4,9,26.9,,93.5,92,"No critic score yet, so player reviews carry the quality rating."
+848930,Rising Dusk,6.99,,0,paid,26.23,3,8,12.8,,81.1,90,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+834580,東方逆妙乱 ~ Ephemeral Unnatural Balance,9.99,,0,paid,5.72,1,9,0.9,,93.3,89,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+831060,Black Jack Story,0.99,,0,paid,2.33,1,7,0.3,,68.5,89,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+845490,RESEQUENCED,4.99,,0,paid,14.14,1,7,4.8,,66.7,87,"No critic score yet, so player reviews carry the quality rating."
+843780,City Builder,0.49,4.99,90,paid,6.84,1,7,1.4,,69.0,87,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+829940,Russian World,0.49,0.99,51,paid,2.7,1,9,0.3,,88.4,86,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+846700,The Legacy: Prisoner Collector's Edition,9.99,,0,paid,17.19,2,9,5.7,,90.1,81,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+853620,Stickman in the Portal,0.49,0.99,51,paid,5.6,1,6,1.1,,60.0,80,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+846120,Hello Pollution!,4.99,,0,paid,3.78,1,2,0.9,,22.5,80,"No critic score yet, so player reviews carry the quality rating."
+846050,Silent Depth 3D Submarine Simulation,4.99,9.99,50,paid,77.27,8,6,163.3,,63.7,80,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+847530,HyperBowl,0.99,,0,paid,3.63,1,9,0.5,,87.0,77,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+836600,Alternate Jake Hunter: DAEDALUS The Awakening of Golden Jazz,4.79,39.99,88,paid,16.48,2,3,9.7,,27.3,77,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+831470,One Dollar Simulator,1.0,,0,paid,4.87,1,9,0.8,,89.5,76,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820090,Solitaire Knights,,,0,free,2.69,1,6,0.3,,58.7,75,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820040,Picross Fairytale: Legend of the Mermaid,14.99,,0,paid,72.18,8,6,142.2,,56.8,74,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+825060,Watch Over Christmas,16.99,,0,paid,5.36,1,9,0.8,,94.5,73,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837090,Chronicles of Mystery - The Tree of Life,0.99,4.99,80,paid,14.03,1,8,4.6,,75.3,73,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+847890,小黄条/YYNote,,,0,free,2.04,1,7,0.2,,70.4,71,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+834180,#CuteSnake 2,0.99,,0,paid,2.05,1,7,0.2,,73.2,71,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+824880,Charlotte,,,0,free,7.2,1,5,1.7,,54.3,70,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+828660,War Of The Zombie,12.99,,0,paid,23.35,2,7,11.1,,69.6,69,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+823700,AUTOCROSS MADNESS,3.99,,0,paid,4.19,1,5,0.8,,50.7,69,"No critic score yet, so player reviews carry the quality rating."
+837310,Telophase,,,0,free,30.84,3,8,16.9,,83.6,67,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+831120,Space Pilgrim Academy: Year 2,1.99,,0,paid,20.59,2,9,7.8,,89.4,66,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+823180,Bubble Strike,1.99,,0,paid,26.5,3,5,15.6,,52.3,65,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839670,Alice's Adventures - Hidden Object Puzzle Game,3.99,,0,paid,12.44,1,9,3.5,,86.2,65,"No critic score yet, so player reviews carry the quality rating."
+844950,Eternal Fantasy,9.99,,0,paid,10.04,1,8,2.6,,75.4,65,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837640,TapSonic World Champion VR,,,0,free,6.02,1,8,1.1,,82.8,64,"No critic score yet, so player reviews carry the quality rating."
+840580,Virtual Foosball,,,0,free,6.55,1,7,1.4,,70.3,64,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+832140,Infernal Radiation,8.99,,0,paid,31.98,3,9,17.4,,87.1,62,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+831070,The Cabinets of Doctor Arcana,9.99,,0,paid,18.38,2,9,6.3,,91.7,60,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+820210,Ashi Wash,,,0,free,1.88,1,9,0.2,,91.4,58,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+837200,NetHack: Legacy,5.99,,0,paid,31.22,3,8,17.9,,79.3,58,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+832080,Google Spotlight Stories: Back to the Moon,,,0,free,10.21,1,10,2.3,,96.4,56,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+826040,Sacred Stones,1.99,,0,paid,1.54,1,8,0.1,,80.0,55,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+847240,Zombie Commander,,,0,free,55.01,6,7,60.4,,68.5,54,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+822640,Squids Odyssey,2.99,14.99,80,paid,23.86,2,8,11.0,,78.8,52,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+832680,Darts and Friends,0.99,,0,paid,20.25,2,4,10.6,,44.2,52,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+839020,The Rig: A Starmap to Murder,,,0,free,7.72,1,8,1.7,,76.5,51,"No critic score yet, so player reviews carry the quality rating."
+819040,Ashi: Lake of Light,3.99,,0,paid,12.13,1,9,3.1,,92.2,51,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+823800,Kitty Play,0.71,2.99,76,paid,24.85,2,7,12.4,,70.6,51,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+833660,Grave Prosperity - part 1,4.99,,0,paid,12.12,1,7,3.6,,70.0,50,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+836540,Viking Brothers 2,6.99,,0,paid,18.53,2,9,6.7,,86.0,50,"No critic score yet, so player reviews carry the quality rating. Playtime is based on only a few players."
+850940,Space Colonizers Idle Clicker,2.99,,0,paid,86.52,10,4,754.5,,42.9,49,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+820510,Camp W,,,0,free,14.65,1,9,4.4,,89.8,49,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+837110,Chronicles of Mystery - Secret of the Lost Kingdom,0.99,4.99,80,paid,3.86,1,2,1.1,,18.8,48,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+837100,Chronicles of Mystery - The Legend of the Sacred Treasure,0.99,4.99,80,paid,4.65,1,3,1.2,,29.8,47,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+833990,Stonewall Penitentiary,11.99,,0,paid,20.44,2,9,7.4,,93.6,47,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+827120,Les Misérables: Cosette's Fate,1.04,2.99,65,paid,8.78,1,6,2.2,,63.0,46,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+843870,Card Games Mega Collection,6.99,,0,paid,87.28,9,6,286.1,,62.2,45,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+845200,❂ Hexaluga ❂ Weapon and Shield ☯,9.99,199.99,95,paid,15.17,2,3,8.4,,27.3,44,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+848960,Gotcha Racing 2nd,1.99,9.99,80,paid,29.72,3,6,18.3,,58.1,43,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+821820,Farmer's Fairy Tale,11.99,,0,paid,10.59,1,6,3.1,,58.1,43,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+852900,Space Captain McCallery - Episode 1: Crash Landing,,,0,free,9.45,1,8,2.3,,83.3,42,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+834170,Chameleon Video Player,,,0,free,41.65,5,5,40.0,,47.6,42,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+847560,Our Hero! First,,,0,free,19.58,2,9,6.9,,92.9,42,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+852250,Danger Room VR,,,0,free,1.51,1,8,0.1,,75.0,40,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+820880,Helping Hand,8.99,,0,paid,5.94,1,5,1.3,,52.5,40,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+821370,MLB Home Run Derby VR,29.99,,0,paid,8.87,1,7,2.2,,74.4,39,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+822470,属性与生活,0.99,,0,paid,12.87,1,6,4.2,,60.5,38,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+848430,Freakout: Calamity TV Show,0.99,9.99,90,paid,2.54,1,8,0.3,,84.2,38,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+821230,Drink 'Em,9.99,,0,paid,11.4,1,7,3.3,,73.7,38,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+833500,Thunder Rally,12.99,,0,paid,13.12,1,9,3.6,,92.1,38,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+846710,De'Vine: World of Shadows,7.99,,0,paid,12.03,1,8,3.5,,77.8,36,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+833980,Dave,1.19,3.99,70,paid,12.98,1,9,3.6,,88.9,36,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+842290,ArcBall 2,0.99,,0,paid,1.37,1,1,0.2,,11.1,36,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+847290,Community College Hero: Knowledge is Power,5.99,,0,paid,27.24,3,9,12.8,,88.6,35,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+846340,Obliteracy,,,0,free,9.69,1,9,2.3,,88.2,34,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+824770,Labirinto 2,0.99,,0,paid,7.51,1,6,1.8,,60.6,33,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+836550,Viking Brothers 3,6.99,,0,paid,21.42,2,9,8.5,,87.9,33,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+830750,Poker Simulator,4.99,,0,paid,22.3,2,6,10.8,,59.4,32,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+832470,Season Up,1.99,,0,paid,2.63,1,7,0.3,,65.6,32,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+836560,Viking Brothers 4,6.99,,0,paid,21.92,2,9,8.3,,93.5,31,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+831490,Draw Near,,,0,free,12.35,1,8,3.7,,76.7,30,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+847780,Castle of the Underdogs : Episode 1,9.99,,0,paid,15.81,2,8,5.3,,83.3,30,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+844880,VR-X Player Steam Edition,,,0,free,50.9,5,6,53.5,,60.0,30,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+832650,Royal Adventure,6.99,,0,paid,13.68,1,7,4.5,,65.5,29,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+833180,Spaceship Commander,9.99,,0,paid,11.1,1,7,3.2,,67.9,28,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+827450,InkSplosion,4.99,,0,paid,3.33,1,7,0.5,,67.9,28,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+834410,Hacker News Reader,,,0,free,1.38,1,8,0.1,,75.0,28,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+837220,Doodle Tanks,1.35,7.99,83,paid,6.96,1,5,1.6,,53.6,28,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+848340,AGE,,,0,free,3.68,1,9,0.5,,85.2,27,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+841980,Avalon Legends Solitaire 3,9.99,,0,paid,29.41,3,8,15.8,,80.8,26,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+828800,Artipic,29.9,,0,paid,16.27,2,6,6.2,,61.5,26,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+826660,Rosette and Words,2.99,4.99,40,paid,11.38,1,7,3.3,,73.1,26,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+829630,Skat Stammtisch,8.99,,0,paid,20.32,2,4,10.7,,44.0,25,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+840730,The Sandbox of God: Remastered Edition,0.99,3.99,75,paid,1.24,1,7,0.1,,68.0,25,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+853330,N.I.C.E. 2,9.99,,0,paid,3.48,1,7,0.5,,68.0,25,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+826930,The Capture Worlds,,,0,free,6.48,1,8,1.3,,76.0,25,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+832130,Negative World,,,0,free,6.99,1,8,1.4,,83.3,24,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+853220,Doors & Rooms,6.99,,0,paid,7.66,1,8,1.7,,79.2,24,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+820700,Free road,0.99,,0,paid,5.44,1,8,1.0,,79.2,24,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+825170,Porcuball,,,0,free,2.76,1,8,0.3,,75.0,24,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+823310,Alchemy Classic,4.99,,0,paid,20.39,2,7,8.8,,66.7,24,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+819510,GLBasic SDK - A Multiplatform BASIC Compiler,49.99,,0,paid,44.35,4,10,29.6,,95.8,24,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+838730,Grim Tales: The Stone Queen Collector's Edition,19.99,,0,paid,13.67,1,7,4.5,,69.6,23,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+853320,KURT - DER FUSSBALLMANAGER,11.99,,0,paid,13.91,1,7,4.6,,69.6,23,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+831250,Maxi Pool Masters VR,,,0,free,9.29,1,7,2.4,,65.2,23,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+829410,Project Myriad,,,0,free,34.2,3,8,21.5,,77.3,22,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+830620,Storm of Jigsaw Puzzles  拼图风暴,9.99,,0,paid,19.83,2,8,8.1,,77.3,22,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+837210,Doodle God: Genesis Secrets,0.95,11.99,92,paid,10.46,1,3,4.4,,28.6,21,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+838050,The Hero Project: Open Season,5.99,,0,paid,19.06,2,3,11.2,,33.3,21,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+838700,Azada: Ancient Magic,9.99,,0,paid,14.49,1,10,4.1,,95.0,20,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift."
+846660,Cicadas - The IQA Edition,3.99,,0,paid,10.94,1,4,4.1,,36.8,19,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+852450,The Stray Cat,,,0,free,4.2,1,9,0.6,,88.2,17,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+821570,Lethal Lawns: Competitive Mowing Bloodsport,4.99,,0,paid,5.68,1,9,0.9,,94.1,17,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+853410,YAPP2: Yet Another Pushing Puzzler,1.99,,0,paid,21.46,2,9,8.0,,93.8,16,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+841010,Jack and Sara: Educational game,3.99,,0,paid,2.53,1,9,0.3,,93.8,16,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+830850,Dragon's Eye,15.99,,0,paid,5.79,1,7,1.1,,73.3,15,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+844900,Director of Football,9.99,,0,paid,5.16,1,6,0.9,,64.3,14,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+844940,Have a N.I.C.E day!,9.99,,0,paid,1.6,1,7,0.1,,66.7,12,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+836690,HomestarVR,9.99,,0,paid,5.79,1,6,1.2,,58.3,12,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+848630,Dinosaur Hunter,2.99,,0,paid,3.46,1,5,0.6,,50.0,12,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+853850,LOGistICAL: Caribbean,4.99,9.99,50,paid,63.18,6,8,82.7,,75.0,12,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+841440,ShellBlast: Legacy Edition,0.99,3.99,75,paid,3.85,1,9,0.5,,90.0,10,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+845940,Brickfest,4.99,,0,paid,5.61,1,9,0.9,,90.0,10,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+847310,Doomsday on Demand,4.99,,0,paid,12.43,1,6,4.1,,55.6,9,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+839820,Match Connect Challenge,1.99,,0,paid,26.3,3,8,13.4,,75.0,8,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+840880,Camped Out!,1.99,19.95,90,paid,6.03,1,7,1.2,,71.4,7,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+821490,BattleCourt,6.99,,0,paid,17.65,2,9,6.2,,85.7,7,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+838740,Final Cut: The True Escapade Collector's Edition,19.99,,0,paid,21.66,2,7,9.7,,71.4,7,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+850880,Vegetaball,4.99,,0,paid,6.74,1,10,1.1,,100.0,7,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+852530,Atex Brawl,7.99,,0,paid,5.96,1,9,1.1,,85.7,7,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+849980,Color by Numbers - Dinosaurs,4.99,,0,paid,24.91,2,10,9.7,,100.0,6,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+826430,Twilight Phenomena: The Incredible Show Collector's Edition,19.99,,0,paid,8.64,1,2,3.4,,25.0,4,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+837260,Roller Coaster Apocalypse VR,2.99,,0,paid,1.57,1,8,0.1,,75.0,4,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+839180,Nine-Slicer,9.99,,0,paid,28.12,2,10,12.0,,100.0,2,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
+841580,Realmstone,14.99,,0,paid,28.83,3,10,12.6,,100.0,1,"No critic score yet, so player reviews carry the quality rating. Only a handful of player reviews so far, so this value may shift. Playtime is based on only a few players."
